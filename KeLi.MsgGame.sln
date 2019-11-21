@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeLi.MsgGame.App", "KeLi.MsgGame.App\KeLi.MsgGame.App.csproj", "{2071FC4C-D36B-4506-98BE-B893770F47BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2071FC4C-D36B-4506-98BE-B893770F47BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2071FC4C-D36B-4506-98BE-B893770F47BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2071FC4C-D36B-4506-98BE-B893770F47BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2071FC4C-D36B-4506-98BE-B893770F47BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17322DA9-A112-4CE7-9A1B-5E75557BC139}
+	EndGlobalSection
+EndGlobal

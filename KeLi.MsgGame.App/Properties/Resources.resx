@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Arm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Furnish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Furnish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft_YaHei" xml:space="preserve">
+    <value>Microsoft YaHei</value>
+  </data>
+  <data name="YanMie_XingYunDao" xml:space="preserve">
+    <value>湮灭*星陨刀</value>
+  </data>
+  <data name="ZhouNianQing" xml:space="preserve">
+    <value>周年庆</value>
+  </data>
+  <data name="YouLeYuan" xml:space="preserve">
+    <value>游乐园</value>
+  </data>
+  <data name="ChongZhi" xml:space="preserve">
+    <value>充值</value>
+  </data>
+  <data name="FuBen_RenWu" xml:space="preserve">
+    <value>副本任务</value>
+  </data>
+  <data name="ZhenBaoGe" xml:space="preserve">
+    <value>珍宝阁</value>
+  </data>
+  <data name="HuiGui_JiangLi" xml:space="preserve">
+    <value>回归奖励</value>
+  </data>
+  <data name="YanMie_XingYunTaoZhuang" xml:space="preserve">
+    <value>湮灭*星陨套装(5/5)</value>
+  </data>
+  <data name="YanMie_XingYunZhua" xml:space="preserve">
+    <value>湮灭*星陨爪</value>
+  </data>
+  <data name="YanMie_XingYunGong" xml:space="preserve">
+    <value>湮灭*星陨弓</value>
+  </data>
+  <data name="YanMie_XingYunQiang" xml:space="preserve">
+    <value>湮灭*星陨枪</value>
+  </data>
+  <data name="YanMie_XingYunDuiJi" xml:space="preserve">
+    <value>湮灭*星陨对戟</value>
+  </data>
+  <data name="LingLi_3950" xml:space="preserve">
+    <value>+3950.0点灵力</value>
+  </data>
+  <data name="ZhiLi_1550" xml:space="preserve">
+    <value>+1550.0点智力</value>
+  </data>
+  <data name="MinJie_1550" xml:space="preserve">
+    <value>+1550.0点敏捷</value>
+  </data>
+  <data name="LiLiang_2550" xml:space="preserve">
+    <value>+2550.0点力量</value>
+  </data>
+  <data name="ZhenYao_TengLongTaoZhuang" xml:space="preserve">
+    <value>震耀*腾龙套装(7/7)</value>
+  </data>
+  <data name="ZhenYao_TengLongYin" xml:space="preserve">
+    <value>震耀*腾龙印</value>
+  </data>
+  <data name="ZhenYao_TengLongZhanXue" xml:space="preserve">
+    <value>震耀*腾龙战靴</value>
+  </data>
+  <data name="ZhenYao_TengLongHuShou" xml:space="preserve">
+    <value>震耀*腾龙护手</value>
+  </data>
+  <data name="ZhenYao_TengLongYaoDai" xml:space="preserve">
+    <value>震耀*腾龙腰带</value>
+  </data>
+  <data name="ZhenYao_TengLongZhanKai" xml:space="preserve">
+    <value>震耀*腾龙战铠</value>
+  </data>
+  <data name="ZhenYao_TengLongXiangLian" xml:space="preserve">
+    <value>震耀*腾龙项链</value>
+  </data>
+  <data name="ZhenYao_TengLongJieZhi" xml:space="preserve">
+    <value>震耀*腾龙戒指</value>
+  </data>
+  <data name="BuKe_FenJie" xml:space="preserve">
+    <value>不可分解</value>
+  </data>
+  <data name="BuKe_DiuQi" xml:space="preserve">
+    <value>不可丢弃</value>
+  </data>
+  <data name="WuXing" xml:space="preserve">
+    <value>★★★★★</value>
+  </data>
+  <data name="YiBangDing" xml:space="preserve">
+    <value>已绑定</value>
+  </data>
+  <data name="WuQi_DanShou" xml:space="preserve">
+    <value>武器&gt;单手</value>
+  </data>
+  <data name="YanMie_XingYunDao_15" xml:space="preserve">
+    <value>湮灭*星陨刀(无情)+15</value>
+  </data>
+  <data name="PaiHangBang" xml:space="preserve">
+    <value>排行榜</value>
+  </data>
+  <data name="ZuDui" xml:space="preserve">
+    <value>组队</value>
+  </data>
+  <data name="ChengZhen" xml:space="preserve">
+    <value>城镇</value>
+  </data>
+  <data name="ZengYi_XiaoGuo" xml:space="preserve">
+    <value>增益效果</value>
+  </data>
+  <data name="XingYun" xml:space="preserve">
+    <value>幸运</value>
+  </data>
+  <data name="BangZhu" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="WanJia_LieBiao" xml:space="preserve">
+    <value>玩家列表</value>
+  </data>
+  <data name="FeiWanJia_LieBiao" xml:space="preserve">
+    <value>非玩家列表</value>
+  </data>
+  <data name="JiNeng_MiaoShu1" xml:space="preserve">
+    <value>攻击时有20%几率触发，对周围550码内的敌军造成(5550+主属性*0.15)点伤害</value>
+  </data>
+  <data name="JiNeng_MingCheng1" xml:space="preserve">
+    <value>冰封万里 Lv.7</value>
+  </data>
+  <data name="ShangCheng" xml:space="preserve">
+    <value>商城</value>
+  </data>
+  <data name="HaoYou" xml:space="preserve">
+    <value>好友</value>
+  </data>
+  <data name="ChengJiu" xml:space="preserve">
+    <value>成就</value>
+  </data>
+  <data name="GongXun" xml:space="preserve">
+    <value>功勋</value>
+  </data>
+  <data name="SheHui" xml:space="preserve">
+    <value>社会</value>
+  </data>
+  <data name="ShuiLingZhu" xml:space="preserve">
+    <value>水岭注</value>
+  </data>
+  <data name="RenWu" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="GeRen" xml:space="preserve">
+    <value>个人</value>
+  </data>
+  <data name="KaiShi_PiPei" xml:space="preserve">
+    <value>开始匹配</value>
+  </data>
+  <data name="PoJia_86" xml:space="preserve">
+    <value>+86.0点破甲</value>
+  </data>
+  <data name="LiLiang_1000" xml:space="preserve">
+    <value>+1000.0点力量</value>
+  </data>
+  <data name="XiangQianKa_MingCheng" xml:space="preserve">
+    <value>西凉战神元神卡 Lv.5</value>
+  </data>
+  <data name="WanJia_MingCheng" xml:space="preserve">
+    <value>张翼德之力</value>
+  </data>
+  <data name="WanJia_XiaoXi" xml:space="preserve">
+    <value>你好，张翼德！</value>
+  </data>
+  <data name="FangJian_LieBiao" xml:space="preserve">
+    <value>房间列表</value>
+  </data>
+  <data name="PiPei" xml:space="preserve">
+    <value>匹配</value>
+  </data>
+  <data name="ZongHe" xml:space="preserve">
+    <value>综合</value>
+  </data>
+  <data name="ChuangJian_FangJian" xml:space="preserve">
+    <value>创建房间</value>
+  </data>
+  <data name="SuoYou_DiTu" xml:space="preserve">
+    <value>&lt;所有地图&gt;</value>
+  </data>
+  <data name="CunDang" xml:space="preserve">
+    <value>存档</value>
+  </data>
+  <data name="ZhiBo" xml:space="preserve">
+    <value>直播</value>
+  </data>
+  <data name="SouSuo_FangJian" xml:space="preserve">
+    <value>搜索房间...</value>
+  </data>
+  <data name="XiangQian_JiaCheng" xml:space="preserve">
+    <value>镶嵌加成</value>
+  </data>
+  <data name="LianHua_JiaCheng" xml:space="preserve">
+    <value>炼化加成</value>
+  </data>
+  <data name="ZhuangBei_GuShi" xml:space="preserve">
+    <value>三万年前，魔界发兵百万入侵人族，人族一溃千里。就在人族惨遭灭种之时，电闪雷鸣，异象突显，流血漂橹的大地下起了雪花，人族不世出神秘强者出现了！神兵一出，冰封万里，百万神魔瞬间灰飞烟灭！</value>
+  </data>
+  <data name="ZhuangBei_ShuoMing" xml:space="preserve">
+    <value>装备附加的能力不带入竞技场</value>
+  </data>
+  <data name="ShenBingZhi" xml:space="preserve">
+    <value>神兵值:</value>
+  </data>
+  <data name="JiNeng_MingCheng2" xml:space="preserve">
+    <value>归于混沌 Lv.3</value>
+  </data>
+  <data name="JiNeng_MingCheng3" xml:space="preserve">
+    <value>富极之尊 Lv.8</value>
+  </data>
+  <data name="JiNeng_MingCheng4" xml:space="preserve">
+    <value>无情之心 Lv.9</value>
+  </data>
+  <data name="JiNeng_MiaoShu2" xml:space="preserve">
+    <value>攻击时有20%几率触发，召唤8颗陨石对周围900码内的敌军单位打击，造成(主属性*1.1)点额外伤害</value>
+  </data>
+  <data name="JiNeng_MiaoShu3" xml:space="preserve">
+    <value>游戏初始金钱提高25%</value>
+  </data>
+  <data name="JiNeng_MiaoShu4" xml:space="preserve">
+    <value>提升自身1128.1点全属性，提高13.7%倍击几率</value>
+  </data>
+  <data name="ZhuangBei_HuShou" xml:space="preserve">
+    <value>装备&gt;护手</value>
+  </data>
+  <data name="ZhenYao_TengLongHuShou_15" xml:space="preserve">
+    <value>震耀*腾龙护手(无情)+15</value>
+  </data>
+  <data name="Microsoft_YaHei" xml:space="preserve">
+      <value>Microsoft YaHei</value>
+  </data>
+  <data name="ShengMing_HuiFu" xml:space="preserve">
+      <value>生命恢复:</value>
+  </data>
+  <data name="MinJie" xml:space="preserve">
+      <value>敏捷:</value>
+  </data>
+  <data name="LiLiang" xml:space="preserve">
+      <value>力量:</value>
+  </data>
+  <data name="ZhiLi" xml:space="preserve">
+      <value>智力:</value>
+  </data>
+  <data name="ShengMing" xml:space="preserve">
+      <value>生命:</value>
+  </data>
+  <data name="FaLi" xml:space="preserve">
+      <value>法力:</value>
+  </data>
+  <data name="FaLi_HuiFu" xml:space="preserve">
+      <value>法力恢复:</value>
+  </data>
+  <data name="YiSu" xml:space="preserve">
+      <value>移速:</value>
+  </data>
+  <data name="HuJia" xml:space="preserve">
+      <value>护甲:</value>
+  </data>
+  <data name="JianRen" xml:space="preserve">
+      <value>坚韧:</value>
+  </data>
+  <data name="FaKang" xml:space="preserve">
+      <value>法抗:</value>
+  </data>
+  <data name="ZhuanHua" xml:space="preserve">
+      <value>转化:</value>
+  </data>
+  <data name="FaLeng" xml:space="preserve">
+      <value>法冷:</value>
+  </data>
+  <data name="LingLi" xml:space="preserve">
+      <value>灵力:</value>
+  </data>
+  <data name="FaChuan" xml:space="preserve">
+      <value>法穿:</value>
+  </data>
+  <data name="BaoJi" xml:space="preserve">
+      <value>暴击:</value>
+  </data>
+  <data name="BingLiang" xml:space="preserve">
+      <value>兵粮:</value>
+  </data>
+  <data name="JingYan" xml:space="preserve">
+      <value>经验:</value>
+  </data>
+  <data name="JiFen" xml:space="preserve">
+      <value>积分:</value>
+  </data>
+  <data name="ZhanDouLi" xml:space="preserve">
+      <value>战斗力:</value>
+  </data>
+  <data name="ShiBing" xml:space="preserve">
+      <value>士兵:</value>
+  </data>
+  <data name="FuZhanJi_BaoHu" xml:space="preserve">
+      <value>负战绩保护:</value>
+  </data>
+  <data name="XiXue" xml:space="preserve">
+      <value>吸血:</value>
+  </data>
+  <data name="GongSu" xml:space="preserve">
+      <value>攻速:</value>
+  </data>
+  <data name="GongJiLi" xml:space="preserve">
+      <value>攻击力:</value>
+  </data>
+  <data name="PoJia" xml:space="preserve">
+      <value>破甲:</value>
+  </data>
+  <data name="BeiJi" xml:space="preserve">
+      <value>倍击:</value>
+  </data>
+</root>
