@@ -1,2 +1,2 @@
 # MsgGame
-This is a game demo project.
+This is a game demo about chinese style.
