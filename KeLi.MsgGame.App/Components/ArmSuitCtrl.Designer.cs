@@ -30,91 +30,91 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblSuitName = new System.Windows.Forms.Label();
-            this.LblClaw = new System.Windows.Forms.Label();
-            this.LblBow = new System.Windows.Forms.Label();
-            this.LblSpear = new System.Windows.Forms.Label();
-            this.LblDoubleArm = new System.Windows.Forms.Label();
-            this.LblSingleArm = new System.Windows.Forms.Label();
+            this.lblSuitName = new System.Windows.Forms.Label();
+            this.lblClaw = new System.Windows.Forms.Label();
+            this.lblBow = new System.Windows.Forms.Label();
+            this.lblSpear = new System.Windows.Forms.Label();
+            this.lblDoubleArm = new System.Windows.Forms.Label();
+            this.lblSingleArm = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblSuitName
+            // lblSuitName
             // 
-            this.LblSuitName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSuitName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSuitName.BackColor = System.Drawing.Color.Transparent;
-            this.LblSuitName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblSuitName.Location = new System.Drawing.Point(0, 0);
-            this.LblSuitName.Name = "LblSuitName";
-            this.LblSuitName.Size = new System.Drawing.Size(120, 17);
-            this.LblSuitName.TabIndex = 30;
-            this.LblSuitName.Text = "湮灭*星陨套装(5/5)";
-            this.LblSuitName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSuitName.BackColor = System.Drawing.Color.Transparent;
+            this.lblSuitName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblSuitName.Location = new System.Drawing.Point(0, 0);
+            this.lblSuitName.Name = "lblSuitName";
+            this.lblSuitName.Size = new System.Drawing.Size(120, 17);
+            this.lblSuitName.TabIndex = 30;
+            this.lblSuitName.Text = "湮灭*星陨套装(5/5)";
+            this.lblSuitName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblClaw
+            // lblClaw
             // 
-            this.LblClaw.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblClaw.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblClaw.BackColor = System.Drawing.Color.Transparent;
-            this.LblClaw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblClaw.Location = new System.Drawing.Point(0, 85);
-            this.LblClaw.Name = "LblClaw";
-            this.LblClaw.Size = new System.Drawing.Size(120, 17);
-            this.LblClaw.TabIndex = 35;
-            this.LblClaw.Text = "湮灭*星陨爪";
-            this.LblClaw.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblClaw.BackColor = System.Drawing.Color.Transparent;
+            this.lblClaw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblClaw.Location = new System.Drawing.Point(0, 85);
+            this.lblClaw.Name = "lblClaw";
+            this.lblClaw.Size = new System.Drawing.Size(120, 17);
+            this.lblClaw.TabIndex = 35;
+            this.lblClaw.Text = "湮灭*星陨爪";
+            this.lblClaw.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblBow
+            // lblBow
             // 
-            this.LblBow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblBow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblBow.BackColor = System.Drawing.Color.Transparent;
-            this.LblBow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblBow.Location = new System.Drawing.Point(0, 68);
-            this.LblBow.Name = "LblBow";
-            this.LblBow.Size = new System.Drawing.Size(120, 17);
-            this.LblBow.TabIndex = 34;
-            this.LblBow.Text = "湮灭*星陨弓";
-            this.LblBow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblBow.BackColor = System.Drawing.Color.Transparent;
+            this.lblBow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblBow.Location = new System.Drawing.Point(0, 68);
+            this.lblBow.Name = "lblBow";
+            this.lblBow.Size = new System.Drawing.Size(120, 17);
+            this.lblBow.TabIndex = 34;
+            this.lblBow.Text = "湮灭*星陨弓";
+            this.lblBow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblSpear
+            // lblSpear
             // 
-            this.LblSpear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSpear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSpear.BackColor = System.Drawing.Color.Transparent;
-            this.LblSpear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblSpear.Location = new System.Drawing.Point(0, 51);
-            this.LblSpear.Name = "LblSpear";
-            this.LblSpear.Size = new System.Drawing.Size(120, 17);
-            this.LblSpear.TabIndex = 33;
-            this.LblSpear.Text = "湮灭*星陨枪";
-            this.LblSpear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSpear.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblSpear.Location = new System.Drawing.Point(0, 51);
+            this.lblSpear.Name = "lblSpear";
+            this.lblSpear.Size = new System.Drawing.Size(120, 17);
+            this.lblSpear.TabIndex = 33;
+            this.lblSpear.Text = "湮灭*星陨枪";
+            this.lblSpear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblDoubleArm
+            // lblDoubleArm
             // 
-            this.LblDoubleArm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblDoubleArm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblDoubleArm.BackColor = System.Drawing.Color.Transparent;
-            this.LblDoubleArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblDoubleArm.Location = new System.Drawing.Point(0, 34);
-            this.LblDoubleArm.Name = "LblDoubleArm";
-            this.LblDoubleArm.Size = new System.Drawing.Size(120, 17);
-            this.LblDoubleArm.TabIndex = 32;
-            this.LblDoubleArm.Text = "湮灭*星陨对戟";
-            this.LblDoubleArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblDoubleArm.BackColor = System.Drawing.Color.Transparent;
+            this.lblDoubleArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblDoubleArm.Location = new System.Drawing.Point(0, 34);
+            this.lblDoubleArm.Name = "lblDoubleArm";
+            this.lblDoubleArm.Size = new System.Drawing.Size(120, 17);
+            this.lblDoubleArm.TabIndex = 32;
+            this.lblDoubleArm.Text = "湮灭*星陨对戟";
+            this.lblDoubleArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblSingleArm
+            // lblSingleArm
             // 
-            this.LblSingleArm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSingleArm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSingleArm.BackColor = System.Drawing.Color.Transparent;
-            this.LblSingleArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblSingleArm.Location = new System.Drawing.Point(0, 17);
-            this.LblSingleArm.Name = "LblSingleArm";
-            this.LblSingleArm.Size = new System.Drawing.Size(120, 17);
-            this.LblSingleArm.TabIndex = 31;
-            this.LblSingleArm.Text = "湮灭*星陨刀";
-            this.LblSingleArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSingleArm.BackColor = System.Drawing.Color.Transparent;
+            this.lblSingleArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblSingleArm.Location = new System.Drawing.Point(0, 17);
+            this.lblSingleArm.Name = "lblSingleArm";
+            this.lblSingleArm.Size = new System.Drawing.Size(120, 17);
+            this.lblSingleArm.TabIndex = 31;
+            this.lblSingleArm.Text = "湮灭*星陨刀";
+            this.lblSingleArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ArmSuitCtrl
             // 
@@ -122,12 +122,12 @@ namespace KeLi.MsgGame.App.Components
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblSuitName);
-            this.Controls.Add(this.LblClaw);
-            this.Controls.Add(this.LblBow);
-            this.Controls.Add(this.LblSpear);
-            this.Controls.Add(this.LblDoubleArm);
-            this.Controls.Add(this.LblSingleArm);
+            this.Controls.Add(this.lblSuitName);
+            this.Controls.Add(this.lblClaw);
+            this.Controls.Add(this.lblBow);
+            this.Controls.Add(this.lblSpear);
+            this.Controls.Add(this.lblDoubleArm);
+            this.Controls.Add(this.lblSingleArm);
             this.Name = "ArmSuitCtrl";
             this.Size = new System.Drawing.Size(120, 102);
             this.ResumeLayout(false);
@@ -136,11 +136,11 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        public System.Windows.Forms.Label LblSuitName;
-        public System.Windows.Forms.Label LblClaw;
-        public System.Windows.Forms.Label LblBow;
-        public System.Windows.Forms.Label LblSpear;
-        public System.Windows.Forms.Label LblDoubleArm;
-        public System.Windows.Forms.Label LblSingleArm;
+        private System.Windows.Forms.Label lblSuitName;
+        private System.Windows.Forms.Label lblClaw;
+        private System.Windows.Forms.Label lblBow;
+        private System.Windows.Forms.Label lblSpear;
+        private System.Windows.Forms.Label lblDoubleArm;
+        private System.Windows.Forms.Label lblSingleArm;
     }
 }

@@ -30,164 +30,164 @@ namespace KeLi.MsgGame.App.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblMosaicTitle = new System.Windows.Forms.Label();
-            this.LblArtificeTitle = new System.Windows.Forms.Label();
-            this.LblArmStory = new System.Windows.Forms.Label();
-            this.LblDetail = new System.Windows.Forms.Label();
-            this.LblFightName = new System.Windows.Forms.Label();
-            this.BpcProperty = new KeLi.MsgGame.App.Components.BasePropertyCtrl();
-            this.FtcTitle = new KeLi.MsgGame.App.Components.FurnishTypeCtrl();
-            this.McBfwl = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.McGyhd = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.McFjzz = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.McMosaic = new KeLi.MsgGame.App.Components.MosaicCtrl();
-            this.McWqzx = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.AscXytz = new KeLi.MsgGame.App.Components.ArmSuitCtrl();
-            this.LblFightPower = new System.Windows.Forms.Label();
+            this.lblMosaicTitle = new System.Windows.Forms.Label();
+            this.lblArtificeTitle = new System.Windows.Forms.Label();
+            this.lblArmStory = new System.Windows.Forms.Label();
+            this.lblDetail = new System.Windows.Forms.Label();
+            this.lblFightName = new System.Windows.Forms.Label();
+            this.bpcProperty = new KeLi.MsgGame.App.Components.BasePropertyCtrl();
+            this.ftcTitle = new KeLi.MsgGame.App.Components.FurnishTypeCtrl();
+            this.mcBfwl = new KeLi.MsgGame.App.Components.MagicCtrl();
+            this.mcGyhd = new KeLi.MsgGame.App.Components.MagicCtrl();
+            this.mcFjzz = new KeLi.MsgGame.App.Components.MagicCtrl();
+            this.mcMosaic = new KeLi.MsgGame.App.Components.MosaicCtrl();
+            this.mcWqzx = new KeLi.MsgGame.App.Components.MagicCtrl();
+            this.ascXytz = new KeLi.MsgGame.App.Components.ArmSuitCtrl();
+            this.lblFightPower = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblMosaicTitle
+            // lblMosaicTitle
             // 
-            this.LblMosaicTitle.BackColor = System.Drawing.Color.Transparent;
-            this.LblMosaicTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.LblMosaicTitle.Location = new System.Drawing.Point(11, 472);
-            this.LblMosaicTitle.Name = "LblMosaicTitle";
-            this.LblMosaicTitle.Size = new System.Drawing.Size(69, 17);
-            this.LblMosaicTitle.TabIndex = 31;
-            this.LblMosaicTitle.Text = "镶嵌加成";
-            this.LblMosaicTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMosaicTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblMosaicTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
+            this.lblMosaicTitle.Location = new System.Drawing.Point(11, 472);
+            this.lblMosaicTitle.Name = "lblMosaicTitle";
+            this.lblMosaicTitle.Size = new System.Drawing.Size(69, 17);
+            this.lblMosaicTitle.TabIndex = 31;
+            this.lblMosaicTitle.Text = "镶嵌加成";
+            this.lblMosaicTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblArtificeTitle
+            // lblArtificeTitle
             // 
-            this.LblArtificeTitle.BackColor = System.Drawing.Color.Transparent;
-            this.LblArtificeTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.LblArtificeTitle.Location = new System.Drawing.Point(11, 552);
-            this.LblArtificeTitle.Name = "LblArtificeTitle";
-            this.LblArtificeTitle.Size = new System.Drawing.Size(69, 17);
-            this.LblArtificeTitle.TabIndex = 30;
-            this.LblArtificeTitle.Text = "炼化加成";
-            this.LblArtificeTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblArtificeTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblArtificeTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
+            this.lblArtificeTitle.Location = new System.Drawing.Point(11, 552);
+            this.lblArtificeTitle.Name = "lblArtificeTitle";
+            this.lblArtificeTitle.Size = new System.Drawing.Size(69, 17);
+            this.lblArtificeTitle.TabIndex = 30;
+            this.lblArtificeTitle.Text = "炼化加成";
+            this.lblArtificeTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblArmStory
+            // lblArmStory
             // 
-            this.LblArmStory.BackColor = System.Drawing.Color.Transparent;
-            this.LblArmStory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(132)))), ((int)(((byte)(153)))));
-            this.LblArmStory.Location = new System.Drawing.Point(11, 615);
-            this.LblArmStory.Name = "LblArmStory";
-            this.LblArmStory.Size = new System.Drawing.Size(298, 68);
-            this.LblArmStory.TabIndex = 18;
-            this.LblArmStory.Text = "三万年前，魔界发兵百万入侵人族，人族一溃千里。就在人族惨遭灭种之时，电闪雷鸣，异象突显，流血漂橹的大地下起了雪花，人族不世出神秘强者出现了！神兵一出，冰封万里，百" +
+            this.lblArmStory.BackColor = System.Drawing.Color.Transparent;
+            this.lblArmStory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(132)))), ((int)(((byte)(153)))));
+            this.lblArmStory.Location = new System.Drawing.Point(11, 615);
+            this.lblArmStory.Name = "lblArmStory";
+            this.lblArmStory.Size = new System.Drawing.Size(298, 68);
+            this.lblArmStory.TabIndex = 18;
+            this.lblArmStory.Text = "三万年前，魔界发兵百万入侵人族，人族一溃千里。就在人族惨遭灭种之时，电闪雷鸣，异象突显，流血漂橹的大地下起了雪花，人族不世出神秘强者出现了！神兵一出，冰封万里，百" +
     "万神魔瞬间灰飞烟灭！";
             // 
-            // LblDetail
+            // lblDetail
             // 
-            this.LblDetail.BackColor = System.Drawing.Color.Transparent;
-            this.LblDetail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(5)))), ((int)(((byte)(3)))));
-            this.LblDetail.Location = new System.Drawing.Point(11, 718);
-            this.LblDetail.Name = "LblDetail";
-            this.LblDetail.Size = new System.Drawing.Size(175, 17);
-            this.LblDetail.TabIndex = 32;
-            this.LblDetail.Text = "装备附加的能力不带入竞技场";
+            this.lblDetail.BackColor = System.Drawing.Color.Transparent;
+            this.lblDetail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(5)))), ((int)(((byte)(3)))));
+            this.lblDetail.Location = new System.Drawing.Point(11, 718);
+            this.lblDetail.Name = "lblDetail";
+            this.lblDetail.Size = new System.Drawing.Size(175, 17);
+            this.lblDetail.TabIndex = 32;
+            this.lblDetail.Text = "装备附加的能力不带入竞技场";
             // 
-            // LblFightName
+            // lblFightName
             // 
-            this.LblFightName.BackColor = System.Drawing.Color.Transparent;
-            this.LblFightName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.LblFightName.Location = new System.Drawing.Point(11, 689);
-            this.LblFightName.Name = "LblFightName";
-            this.LblFightName.Size = new System.Drawing.Size(50, 17);
-            this.LblFightName.TabIndex = 17;
-            this.LblFightName.Text = "神兵值:";
+            this.lblFightName.BackColor = System.Drawing.Color.Transparent;
+            this.lblFightName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
+            this.lblFightName.Location = new System.Drawing.Point(11, 689);
+            this.lblFightName.Name = "lblFightName";
+            this.lblFightName.Size = new System.Drawing.Size(50, 17);
+            this.lblFightName.TabIndex = 17;
+            this.lblFightName.Text = "神兵值:";
             // 
-            // BpcProperty
+            // bpcProperty
             // 
-            this.BpcProperty.BackColor = System.Drawing.Color.Transparent;
-            this.BpcProperty.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BpcProperty.Location = new System.Drawing.Point(11, 119);
-            this.BpcProperty.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.BpcProperty.Name = "BpcProperty";
-            this.BpcProperty.Size = new System.Drawing.Size(120, 68);
-            this.BpcProperty.TabIndex = 34;
+            this.bpcProperty.BackColor = System.Drawing.Color.Transparent;
+            this.bpcProperty.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bpcProperty.Location = new System.Drawing.Point(11, 119);
+            this.bpcProperty.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bpcProperty.Name = "bpcProperty";
+            this.bpcProperty.Size = new System.Drawing.Size(120, 68);
+            this.bpcProperty.TabIndex = 34;
             // 
-            // FtcTitle
+            // ftcTitle
             // 
-            this.FtcTitle.BackColor = System.Drawing.Color.Transparent;
-            this.FtcTitle.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.FtcTitle.Location = new System.Drawing.Point(11, 11);
-            this.FtcTitle.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
-            this.FtcTitle.Name = "FtcTitle";
-            this.FtcTitle.Size = new System.Drawing.Size(150, 102);
-            this.FtcTitle.TabIndex = 36;
+            this.ftcTitle.BackColor = System.Drawing.Color.Transparent;
+            this.ftcTitle.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ftcTitle.Location = new System.Drawing.Point(11, 11);
+            this.ftcTitle.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
+            this.ftcTitle.Name = "ftcTitle";
+            this.ftcTitle.Size = new System.Drawing.Size(150, 102);
+            this.ftcTitle.TabIndex = 36;
             // 
-            // McBfwl
+            // mcBfwl
             // 
-            this.McBfwl.BackColor = System.Drawing.Color.Transparent;
-            this.McBfwl.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.McBfwl.Location = new System.Drawing.Point(11, 301);
-            this.McBfwl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.McBfwl.Name = "McBfwl";
-            this.McBfwl.Size = new System.Drawing.Size(280, 51);
-            this.McBfwl.TabIndex = 38;
+            this.mcBfwl.BackColor = System.Drawing.Color.Transparent;
+            this.mcBfwl.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.mcBfwl.Location = new System.Drawing.Point(11, 301);
+            this.mcBfwl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mcBfwl.Name = "mcBfwl";
+            this.mcBfwl.Size = new System.Drawing.Size(280, 51);
+            this.mcBfwl.TabIndex = 38;
             // 
-            // McGyhd
+            // mcGyhd
             // 
-            this.McGyhd.BackColor = System.Drawing.Color.Transparent;
-            this.McGyhd.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.McGyhd.Location = new System.Drawing.Point(11, 358);
-            this.McGyhd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.McGyhd.Name = "McGyhd";
-            this.McGyhd.Size = new System.Drawing.Size(280, 51);
-            this.McGyhd.TabIndex = 38;
+            this.mcGyhd.BackColor = System.Drawing.Color.Transparent;
+            this.mcGyhd.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.mcGyhd.Location = new System.Drawing.Point(11, 358);
+            this.mcGyhd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mcGyhd.Name = "mcGyhd";
+            this.mcGyhd.Size = new System.Drawing.Size(280, 51);
+            this.mcGyhd.TabIndex = 38;
             // 
-            // McFjzz
+            // mcFjzz
             // 
-            this.McFjzz.BackColor = System.Drawing.Color.Transparent;
-            this.McFjzz.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.McFjzz.Location = new System.Drawing.Point(11, 415);
-            this.McFjzz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.McFjzz.Name = "McFjzz";
-            this.McFjzz.Size = new System.Drawing.Size(280, 51);
-            this.McFjzz.TabIndex = 38;
+            this.mcFjzz.BackColor = System.Drawing.Color.Transparent;
+            this.mcFjzz.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.mcFjzz.Location = new System.Drawing.Point(11, 415);
+            this.mcFjzz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mcFjzz.Name = "mcFjzz";
+            this.mcFjzz.Size = new System.Drawing.Size(280, 51);
+            this.mcFjzz.TabIndex = 38;
             // 
-            // McMosaic
+            // mcMosaic
             // 
-            this.McMosaic.BackColor = System.Drawing.Color.Transparent;
-            this.McMosaic.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.McMosaic.Location = new System.Drawing.Point(11, 495);
-            this.McMosaic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.McMosaic.Name = "McMosaic";
-            this.McMosaic.Size = new System.Drawing.Size(120, 51);
-            this.McMosaic.TabIndex = 39;
+            this.mcMosaic.BackColor = System.Drawing.Color.Transparent;
+            this.mcMosaic.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.mcMosaic.Location = new System.Drawing.Point(11, 495);
+            this.mcMosaic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mcMosaic.Name = "mcMosaic";
+            this.mcMosaic.Size = new System.Drawing.Size(120, 51);
+            this.mcMosaic.TabIndex = 39;
             // 
-            // McWqzx
+            // mcWqzx
             // 
-            this.McWqzx.BackColor = System.Drawing.Color.Transparent;
-            this.McWqzx.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.McWqzx.Location = new System.Drawing.Point(11, 575);
-            this.McWqzx.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.McWqzx.Name = "McWqzx";
-            this.McWqzx.Size = new System.Drawing.Size(280, 34);
-            this.McWqzx.TabIndex = 38;
+            this.mcWqzx.BackColor = System.Drawing.Color.Transparent;
+            this.mcWqzx.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.mcWqzx.Location = new System.Drawing.Point(11, 575);
+            this.mcWqzx.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mcWqzx.Name = "mcWqzx";
+            this.mcWqzx.Size = new System.Drawing.Size(280, 34);
+            this.mcWqzx.TabIndex = 38;
             // 
-            // AscXytz
+            // ascXytz
             // 
-            this.AscXytz.BackColor = System.Drawing.Color.Transparent;
-            this.AscXytz.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.AscXytz.Location = new System.Drawing.Point(11, 193);
-            this.AscXytz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.AscXytz.Name = "AscXytz";
-            this.AscXytz.Size = new System.Drawing.Size(115, 102);
-            this.AscXytz.TabIndex = 40;
+            this.ascXytz.BackColor = System.Drawing.Color.Transparent;
+            this.ascXytz.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ascXytz.Location = new System.Drawing.Point(11, 193);
+            this.ascXytz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ascXytz.Name = "ascXytz";
+            this.ascXytz.Size = new System.Drawing.Size(115, 102);
+            this.ascXytz.TabIndex = 40;
             // 
-            // LblFightPower
+            // lblFightPower
             // 
-            this.LblFightPower.BackColor = System.Drawing.Color.Transparent;
-            this.LblFightPower.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.LblFightPower.Location = new System.Drawing.Point(61, 689);
-            this.LblFightPower.Name = "LblFightPower";
-            this.LblFightPower.Size = new System.Drawing.Size(50, 17);
-            this.LblFightPower.TabIndex = 17;
-            this.LblFightPower.Text = "351300";
+            this.lblFightPower.BackColor = System.Drawing.Color.Transparent;
+            this.lblFightPower.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
+            this.lblFightPower.Location = new System.Drawing.Point(61, 689);
+            this.lblFightPower.Name = "lblFightPower";
+            this.lblFightPower.Size = new System.Drawing.Size(50, 17);
+            this.lblFightPower.TabIndex = 17;
+            this.lblFightPower.Text = "351300";
             // 
             // ArmPropertyForm
             // 
@@ -195,20 +195,20 @@ namespace KeLi.MsgGame.App.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(320, 750);
-            this.Controls.Add(this.AscXytz);
-            this.Controls.Add(this.McMosaic);
-            this.Controls.Add(this.McWqzx);
-            this.Controls.Add(this.McFjzz);
-            this.Controls.Add(this.McGyhd);
-            this.Controls.Add(this.McBfwl);
-            this.Controls.Add(this.FtcTitle);
-            this.Controls.Add(this.BpcProperty);
-            this.Controls.Add(this.LblMosaicTitle);
-            this.Controls.Add(this.LblArtificeTitle);
-            this.Controls.Add(this.LblArmStory);
-            this.Controls.Add(this.LblDetail);
-            this.Controls.Add(this.LblFightPower);
-            this.Controls.Add(this.LblFightName);
+            this.Controls.Add(this.ascXytz);
+            this.Controls.Add(this.mcMosaic);
+            this.Controls.Add(this.mcWqzx);
+            this.Controls.Add(this.mcFjzz);
+            this.Controls.Add(this.mcGyhd);
+            this.Controls.Add(this.mcBfwl);
+            this.Controls.Add(this.ftcTitle);
+            this.Controls.Add(this.bpcProperty);
+            this.Controls.Add(this.lblMosaicTitle);
+            this.Controls.Add(this.lblArtificeTitle);
+            this.Controls.Add(this.lblArmStory);
+            this.Controls.Add(this.lblDetail);
+            this.Controls.Add(this.lblFightPower);
+            this.Controls.Add(this.lblFightName);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "ArmPropertyForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -217,19 +217,19 @@ namespace KeLi.MsgGame.App.Forms
         }
 
         #endregion
-        private System.Windows.Forms.Label LblMosaicTitle;
-        private System.Windows.Forms.Label LblArtificeTitle;
-        private System.Windows.Forms.Label LblArmStory;
-        private System.Windows.Forms.Label LblDetail;
-        private System.Windows.Forms.Label LblFightName;
-        private Components.BasePropertyCtrl BpcProperty;
-        private Components.FurnishTypeCtrl FtcTitle;
-        private Components.MagicCtrl McBfwl;
-        private Components.MagicCtrl McGyhd;
-        private Components.MagicCtrl McFjzz;
-        private Components.MosaicCtrl McMosaic;
-        private Components.MagicCtrl McWqzx;
-        private Components.ArmSuitCtrl AscXytz;
-        private System.Windows.Forms.Label LblFightPower;
+        private System.Windows.Forms.Label lblMosaicTitle;
+        private System.Windows.Forms.Label lblArtificeTitle;
+        private System.Windows.Forms.Label lblArmStory;
+        private System.Windows.Forms.Label lblDetail;
+        private System.Windows.Forms.Label lblFightName;
+        private Components.BasePropertyCtrl bpcProperty;
+        private Components.FurnishTypeCtrl ftcTitle;
+        private Components.MagicCtrl mcBfwl;
+        private Components.MagicCtrl mcGyhd;
+        private Components.MagicCtrl mcFjzz;
+        private Components.MosaicCtrl mcMosaic;
+        private Components.MagicCtrl mcWqzx;
+        private Components.ArmSuitCtrl ascXytz;
+        private System.Windows.Forms.Label lblFightPower;
     }
 }

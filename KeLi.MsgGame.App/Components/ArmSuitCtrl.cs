@@ -54,5 +54,34 @@ namespace KeLi.MsgGame.App.Components
         {
             InitializeComponent();
         }
+
+        public void SetSuitName(string suitName)
+        {
+            lblSuitName.Text = suitName;
+        }
+
+        public void SetSingleArm(string singleArm)
+        {
+            lblSingleArm.Text = singleArm;
+        }
+
+        public void SetDoubleArm(string doubleArm)
+        {
+            lblDoubleArm.Text = doubleArm;
+        }
+
+        public void SetSpear(string spear)
+        {
+            lblSpear.Text = spear;
+        }
+        public void SetBow(string bow)
+        {
+            lblBow.Text = bow;
+        }
+
+        public void SetClaw(string claw)
+        {
+            lblClaw.Text = claw;
+        }
     }
 }

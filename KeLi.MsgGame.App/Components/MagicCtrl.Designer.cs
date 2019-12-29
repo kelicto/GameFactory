@@ -30,32 +30,32 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblMagicDetail = new System.Windows.Forms.Label();
-            this.LblMagicName = new System.Windows.Forms.Label();
+            this.lblMagicDetail = new System.Windows.Forms.Label();
+            this.lblMagicName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblMagicDetail
+            // lblMagicDetail
             // 
-            this.LblMagicDetail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblMagicDetail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblMagicDetail.BackColor = System.Drawing.Color.Transparent;
-            this.LblMagicDetail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
-            this.LblMagicDetail.Location = new System.Drawing.Point(0, 17);
-            this.LblMagicDetail.Name = "LblMagicDetail";
-            this.LblMagicDetail.Size = new System.Drawing.Size(280, 35);
-            this.LblMagicDetail.TabIndex = 14;
-            this.LblMagicDetail.Text = "攻击时有20%几率触发，对周围550码内的敌军造成(5550+主属性*0.15)点伤害";
+            this.lblMagicDetail.BackColor = System.Drawing.Color.Transparent;
+            this.lblMagicDetail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
+            this.lblMagicDetail.Location = new System.Drawing.Point(0, 17);
+            this.lblMagicDetail.Name = "lblMagicDetail";
+            this.lblMagicDetail.Size = new System.Drawing.Size(280, 35);
+            this.lblMagicDetail.TabIndex = 14;
+            this.lblMagicDetail.Text = "攻击时有20%几率触发，对周围550码内的敌军造成(5550+主属性*0.15)点伤害";
             // 
-            // LblMagicName
+            // lblMagicName
             // 
-            this.LblMagicName.BackColor = System.Drawing.Color.Transparent;
-            this.LblMagicName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(98)))), ((int)(((byte)(182)))));
-            this.LblMagicName.Location = new System.Drawing.Point(0, 0);
-            this.LblMagicName.Name = "LblMagicName";
-            this.LblMagicName.Size = new System.Drawing.Size(88, 17);
-            this.LblMagicName.TabIndex = 13;
-            this.LblMagicName.Text = "冰封万里 Lv.7";
-            this.LblMagicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMagicName.BackColor = System.Drawing.Color.Transparent;
+            this.lblMagicName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(98)))), ((int)(((byte)(182)))));
+            this.lblMagicName.Location = new System.Drawing.Point(0, 0);
+            this.lblMagicName.Name = "lblMagicName";
+            this.lblMagicName.Size = new System.Drawing.Size(88, 17);
+            this.lblMagicName.TabIndex = 13;
+            this.lblMagicName.Text = "冰封万里 Lv.7";
+            this.lblMagicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // MagicCtrl
             // 
@@ -63,8 +63,8 @@ namespace KeLi.MsgGame.App.Components
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblMagicDetail);
-            this.Controls.Add(this.LblMagicName);
+            this.Controls.Add(this.lblMagicDetail);
+            this.Controls.Add(this.lblMagicName);
             this.Name = "MagicCtrl";
             this.Size = new System.Drawing.Size(280, 51);
             this.ResumeLayout(false);
@@ -72,7 +72,8 @@ namespace KeLi.MsgGame.App.Components
         }
 
         #endregion
-        public System.Windows.Forms.Label LblMagicName;
-        public System.Windows.Forms.Label LblMagicDetail;
+
+        private System.Windows.Forms.Label lblMagicName;
+        private System.Windows.Forms.Label lblMagicDetail;
     }
 }

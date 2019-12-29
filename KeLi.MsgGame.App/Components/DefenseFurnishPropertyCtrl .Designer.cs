@@ -30,101 +30,101 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblHuJiaValue = new System.Windows.Forms.Label();
-            this.LblHuJiaProp = new System.Windows.Forms.Label();
-            this.LblJianRenProp = new System.Windows.Forms.Label();
-            this.LblJianRenValue = new System.Windows.Forms.Label();
-            this.LblFaKangProp = new System.Windows.Forms.Label();
-            this.LblFaKangValue = new System.Windows.Forms.Label();
+            this.lblHuJiaValue = new System.Windows.Forms.Label();
+            this.lblHuJiaProp = new System.Windows.Forms.Label();
+            this.lblJianRenProp = new System.Windows.Forms.Label();
+            this.lblJianRenValue = new System.Windows.Forms.Label();
+            this.lblFaKangProp = new System.Windows.Forms.Label();
+            this.lblFaKangValue = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblHuJiaValue
+            // lblHuJiaValue
             // 
-            this.LblHuJiaValue.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblHuJiaValue.BackColor = System.Drawing.Color.Transparent;
-            this.LblHuJiaValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LblHuJiaValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.LblHuJiaValue.Location = new System.Drawing.Point(162, 0);
-            this.LblHuJiaValue.Name = "LblHuJiaValue";
-            this.LblHuJiaValue.Size = new System.Drawing.Size(60, 22);
-            this.LblHuJiaValue.TabIndex = 18;
-            this.LblHuJiaValue.Text = "820";
-            this.LblHuJiaValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblHuJiaValue.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblHuJiaValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblHuJiaValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblHuJiaValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.lblHuJiaValue.Location = new System.Drawing.Point(162, 0);
+            this.lblHuJiaValue.Name = "lblHuJiaValue";
+            this.lblHuJiaValue.Size = new System.Drawing.Size(60, 22);
+            this.lblHuJiaValue.TabIndex = 18;
+            this.lblHuJiaValue.Text = "820";
+            this.lblHuJiaValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblHuJiaProp
+            // lblHuJiaProp
             // 
-            this.LblHuJiaProp.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblHuJiaProp.BackColor = System.Drawing.Color.Transparent;
-            this.LblHuJiaProp.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LblHuJiaProp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.LblHuJiaProp.Location = new System.Drawing.Point(122, 0);
-            this.LblHuJiaProp.Name = "LblHuJiaProp";
-            this.LblHuJiaProp.Size = new System.Drawing.Size(38, 22);
-            this.LblHuJiaProp.TabIndex = 19;
-            this.LblHuJiaProp.Text = "护甲:";
-            this.LblHuJiaProp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblHuJiaProp.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.lblHuJiaProp.BackColor = System.Drawing.Color.Transparent;
+            this.lblHuJiaProp.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblHuJiaProp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.lblHuJiaProp.Location = new System.Drawing.Point(122, 0);
+            this.lblHuJiaProp.Name = "lblHuJiaProp";
+            this.lblHuJiaProp.Size = new System.Drawing.Size(38, 22);
+            this.lblHuJiaProp.TabIndex = 19;
+            this.lblHuJiaProp.Text = "护甲:";
+            this.lblHuJiaProp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblJianRenProp
+            // lblJianRenProp
             // 
-            this.LblJianRenProp.BackColor = System.Drawing.Color.Transparent;
-            this.LblJianRenProp.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LblJianRenProp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.LblJianRenProp.Location = new System.Drawing.Point(0, 0);
-            this.LblJianRenProp.Name = "LblJianRenProp";
-            this.LblJianRenProp.Size = new System.Drawing.Size(38, 22);
-            this.LblJianRenProp.TabIndex = 19;
-            this.LblJianRenProp.Text = "坚韧:";
-            this.LblJianRenProp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblJianRenProp.BackColor = System.Drawing.Color.Transparent;
+            this.lblJianRenProp.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblJianRenProp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.lblJianRenProp.Location = new System.Drawing.Point(0, 0);
+            this.lblJianRenProp.Name = "lblJianRenProp";
+            this.lblJianRenProp.Size = new System.Drawing.Size(38, 22);
+            this.lblJianRenProp.TabIndex = 19;
+            this.lblJianRenProp.Text = "坚韧:";
+            this.lblJianRenProp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblJianRenValue
+            // lblJianRenValue
             // 
-            this.LblJianRenValue.BackColor = System.Drawing.Color.Transparent;
-            this.LblJianRenValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LblJianRenValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.LblJianRenValue.Location = new System.Drawing.Point(40, 0);
-            this.LblJianRenValue.Name = "LblJianRenValue";
-            this.LblJianRenValue.Size = new System.Drawing.Size(60, 22);
-            this.LblJianRenValue.TabIndex = 18;
-            this.LblJianRenValue.Text = "523";
-            this.LblJianRenValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblJianRenValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblJianRenValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblJianRenValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.lblJianRenValue.Location = new System.Drawing.Point(40, 0);
+            this.lblJianRenValue.Name = "lblJianRenValue";
+            this.lblJianRenValue.Size = new System.Drawing.Size(60, 22);
+            this.lblJianRenValue.TabIndex = 18;
+            this.lblJianRenValue.Text = "523";
+            this.lblJianRenValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblFaKangProp
+            // lblFaKangProp
             // 
-            this.LblFaKangProp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFaKangProp.BackColor = System.Drawing.Color.Transparent;
-            this.LblFaKangProp.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LblFaKangProp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.LblFaKangProp.Location = new System.Drawing.Point(250, 0);
-            this.LblFaKangProp.Name = "LblFaKangProp";
-            this.LblFaKangProp.Size = new System.Drawing.Size(38, 22);
-            this.LblFaKangProp.TabIndex = 19;
-            this.LblFaKangProp.Text = "法抗:";
-            this.LblFaKangProp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFaKangProp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblFaKangProp.BackColor = System.Drawing.Color.Transparent;
+            this.lblFaKangProp.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblFaKangProp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.lblFaKangProp.Location = new System.Drawing.Point(250, 0);
+            this.lblFaKangProp.Name = "lblFaKangProp";
+            this.lblFaKangProp.Size = new System.Drawing.Size(38, 22);
+            this.lblFaKangProp.TabIndex = 19;
+            this.lblFaKangProp.Text = "法抗:";
+            this.lblFaKangProp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblFaKangValue
+            // lblFaKangValue
             // 
-            this.LblFaKangValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFaKangValue.BackColor = System.Drawing.Color.Transparent;
-            this.LblFaKangValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LblFaKangValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.LblFaKangValue.Location = new System.Drawing.Point(290, 0);
-            this.LblFaKangValue.Name = "LblFaKangValue";
-            this.LblFaKangValue.Size = new System.Drawing.Size(60, 22);
-            this.LblFaKangValue.TabIndex = 18;
-            this.LblFaKangValue.Text = "510";
-            this.LblFaKangValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFaKangValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblFaKangValue.BackColor = System.Drawing.Color.Transparent;
+            this.lblFaKangValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblFaKangValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.lblFaKangValue.Location = new System.Drawing.Point(290, 0);
+            this.lblFaKangValue.Name = "lblFaKangValue";
+            this.lblFaKangValue.Size = new System.Drawing.Size(60, 22);
+            this.lblFaKangValue.TabIndex = 18;
+            this.lblFaKangValue.Text = "510";
+            this.lblFaKangValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DefenseFurnishPropertyCtrl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblJianRenValue);
-            this.Controls.Add(this.LblJianRenProp);
-            this.Controls.Add(this.LblFaKangValue);
-            this.Controls.Add(this.LblFaKangProp);
-            this.Controls.Add(this.LblHuJiaValue);
-            this.Controls.Add(this.LblHuJiaProp);
+            this.Controls.Add(this.lblJianRenValue);
+            this.Controls.Add(this.lblJianRenProp);
+            this.Controls.Add(this.lblFaKangValue);
+            this.Controls.Add(this.lblFaKangProp);
+            this.Controls.Add(this.lblHuJiaValue);
+            this.Controls.Add(this.lblHuJiaProp);
             this.Name = "DefenseFurnishPropertyCtrl";
             this.Size = new System.Drawing.Size(352, 22);
             this.ResumeLayout(false);
@@ -132,11 +132,12 @@ namespace KeLi.MsgGame.App.Components
         }
 
         #endregion
-        private System.Windows.Forms.Label LblHuJiaValue;
-        private System.Windows.Forms.Label LblHuJiaProp;
-        private System.Windows.Forms.Label LblJianRenProp;
-        private System.Windows.Forms.Label LblJianRenValue;
-        private System.Windows.Forms.Label LblFaKangProp;
-        private System.Windows.Forms.Label LblFaKangValue;
+
+        private System.Windows.Forms.Label lblHuJiaValue;
+        private System.Windows.Forms.Label lblHuJiaProp;
+        private System.Windows.Forms.Label lblJianRenProp;
+        private System.Windows.Forms.Label lblJianRenValue;
+        private System.Windows.Forms.Label lblFaKangProp;
+        private System.Windows.Forms.Label lblFaKangValue;
     }
 }

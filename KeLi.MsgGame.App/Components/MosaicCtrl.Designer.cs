@@ -30,49 +30,49 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblSecondProperty = new System.Windows.Forms.Label();
-            this.LblFirstProperty = new System.Windows.Forms.Label();
-            this.LblMosaicName = new System.Windows.Forms.Label();
+            this.lblSecondProperty = new System.Windows.Forms.Label();
+            this.lblFirstProperty = new System.Windows.Forms.Label();
+            this.lblMosaicName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblSecondProperty
+            // lblSecondProperty
             // 
-            this.LblSecondProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSecondProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSecondProperty.BackColor = System.Drawing.Color.Transparent;
-            this.LblSecondProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
-            this.LblSecondProperty.Location = new System.Drawing.Point(0, 34);
-            this.LblSecondProperty.Name = "LblSecondProperty";
-            this.LblSecondProperty.Size = new System.Drawing.Size(120, 17);
-            this.LblSecondProperty.TabIndex = 24;
-            this.LblSecondProperty.Text = "+86.0点破甲";
-            this.LblSecondProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSecondProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblSecondProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
+            this.lblSecondProperty.Location = new System.Drawing.Point(0, 34);
+            this.lblSecondProperty.Name = "lblSecondProperty";
+            this.lblSecondProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblSecondProperty.TabIndex = 24;
+            this.lblSecondProperty.Text = "+86.0点破甲";
+            this.lblSecondProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblFirstProperty
+            // lblFirstProperty
             // 
-            this.LblFirstProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblFirstProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFirstProperty.BackColor = System.Drawing.Color.Transparent;
-            this.LblFirstProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
-            this.LblFirstProperty.Location = new System.Drawing.Point(0, 17);
-            this.LblFirstProperty.Name = "LblFirstProperty";
-            this.LblFirstProperty.Size = new System.Drawing.Size(120, 17);
-            this.LblFirstProperty.TabIndex = 23;
-            this.LblFirstProperty.Text = "+1000.0点力量";
-            this.LblFirstProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFirstProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblFirstProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
+            this.lblFirstProperty.Location = new System.Drawing.Point(0, 17);
+            this.lblFirstProperty.Name = "lblFirstProperty";
+            this.lblFirstProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblFirstProperty.TabIndex = 23;
+            this.lblFirstProperty.Text = "+1000.0点力量";
+            this.lblFirstProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblMosaicName
+            // lblMosaicName
             // 
-            this.LblMosaicName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblMosaicName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblMosaicName.BackColor = System.Drawing.Color.Transparent;
-            this.LblMosaicName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(98)))), ((int)(((byte)(182)))));
-            this.LblMosaicName.Location = new System.Drawing.Point(0, 0);
-            this.LblMosaicName.Name = "LblMosaicName";
-            this.LblMosaicName.Size = new System.Drawing.Size(120, 17);
-            this.LblMosaicName.TabIndex = 22;
-            this.LblMosaicName.Text = "西凉战神元神卡 Lv.5";
-            this.LblMosaicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMosaicName.BackColor = System.Drawing.Color.Transparent;
+            this.lblMosaicName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(98)))), ((int)(((byte)(182)))));
+            this.lblMosaicName.Location = new System.Drawing.Point(0, 0);
+            this.lblMosaicName.Name = "lblMosaicName";
+            this.lblMosaicName.Size = new System.Drawing.Size(120, 17);
+            this.lblMosaicName.TabIndex = 22;
+            this.lblMosaicName.Text = "西凉战神元神卡 Lv.5";
+            this.lblMosaicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // MosaicCtrl
             // 
@@ -80,9 +80,9 @@ namespace KeLi.MsgGame.App.Components
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblSecondProperty);
-            this.Controls.Add(this.LblFirstProperty);
-            this.Controls.Add(this.LblMosaicName);
+            this.Controls.Add(this.lblSecondProperty);
+            this.Controls.Add(this.lblFirstProperty);
+            this.Controls.Add(this.lblMosaicName);
             this.Name = "MosaicCtrl";
             this.Size = new System.Drawing.Size(120, 51);
             this.ResumeLayout(false);
@@ -91,8 +91,8 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        public System.Windows.Forms.Label LblSecondProperty;
-        public System.Windows.Forms.Label LblFirstProperty;
-        public System.Windows.Forms.Label LblMosaicName;
+        private System.Windows.Forms.Label lblMosaicName;
+        private System.Windows.Forms.Label lblFirstProperty;
+        private System.Windows.Forms.Label lblSecondProperty;
     }
 }

@@ -54,5 +54,45 @@ namespace KeLi.MsgGame.App.Components
         {
             InitializeComponent();
         }
+
+        public void SetSuitName(string suitName)
+        {
+            lblSuitName.Text = suitName;
+        }
+
+        public void SetMark(string mark)
+        {
+            lblMark.Text = mark;
+        }
+
+        public void SetShoe(string shoe)
+        {
+            lblShoe.Text = shoe;
+        }
+
+        public void SetHandguard(string handguard)
+        {
+            lblHandguard.Text = handguard;
+        }
+
+        public void SetBelt(string belt)
+        {
+            lblBelt.Text = belt;
+        }
+
+        public void SetCloth(string cloth)
+        {
+            lblCloth.Text = cloth;
+        }
+
+        public void SetNecklace(string necklace)
+        {
+            lblNecklace.Text = necklace;
+        }
+
+        public void SetRing(string ring)
+        {
+            lblRing.Text = ring;
+        }
     }
 }

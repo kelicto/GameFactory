@@ -30,91 +30,91 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblCanSplit = new System.Windows.Forms.Label();
-            this.LblCanDiscard = new System.Windows.Forms.Label();
-            this.LblEnhance = new System.Windows.Forms.Label();
-            this.LblIsBinding = new System.Windows.Forms.Label();
-            this.LblFurnishType = new System.Windows.Forms.Label();
-            this.LblFurnishName = new System.Windows.Forms.Label();
+            this.lblCanSplit = new System.Windows.Forms.Label();
+            this.lblCanDiscard = new System.Windows.Forms.Label();
+            this.lblEnhance = new System.Windows.Forms.Label();
+            this.lblIsBinding = new System.Windows.Forms.Label();
+            this.lblFurnishType = new System.Windows.Forms.Label();
+            this.lblFurnishName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblCanSplit
+            // lblCanSplit
             // 
-            this.LblCanSplit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblCanSplit.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblCanSplit.BackColor = System.Drawing.Color.Transparent;
-            this.LblCanSplit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
-            this.LblCanSplit.Location = new System.Drawing.Point(0, 85);
-            this.LblCanSplit.Name = "LblCanSplit";
-            this.LblCanSplit.Size = new System.Drawing.Size(150, 17);
-            this.LblCanSplit.TabIndex = 38;
-            this.LblCanSplit.Text = "不可分解";
-            this.LblCanSplit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCanSplit.BackColor = System.Drawing.Color.Transparent;
+            this.lblCanSplit.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
+            this.lblCanSplit.Location = new System.Drawing.Point(0, 85);
+            this.lblCanSplit.Name = "lblCanSplit";
+            this.lblCanSplit.Size = new System.Drawing.Size(150, 17);
+            this.lblCanSplit.TabIndex = 38;
+            this.lblCanSplit.Text = "不可分解";
+            this.lblCanSplit.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblCanDiscard
+            // lblCanDiscard
             // 
-            this.LblCanDiscard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblCanDiscard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblCanDiscard.BackColor = System.Drawing.Color.Transparent;
-            this.LblCanDiscard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
-            this.LblCanDiscard.Location = new System.Drawing.Point(0, 68);
-            this.LblCanDiscard.Name = "LblCanDiscard";
-            this.LblCanDiscard.Size = new System.Drawing.Size(150, 17);
-            this.LblCanDiscard.TabIndex = 37;
-            this.LblCanDiscard.Text = "不可丢弃";
-            this.LblCanDiscard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCanDiscard.BackColor = System.Drawing.Color.Transparent;
+            this.lblCanDiscard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
+            this.lblCanDiscard.Location = new System.Drawing.Point(0, 68);
+            this.lblCanDiscard.Name = "lblCanDiscard";
+            this.lblCanDiscard.Size = new System.Drawing.Size(150, 17);
+            this.lblCanDiscard.TabIndex = 37;
+            this.lblCanDiscard.Text = "不可丢弃";
+            this.lblCanDiscard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblEnhance
+            // lblEnhance
             // 
-            this.LblEnhance.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblEnhance.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblEnhance.BackColor = System.Drawing.Color.Transparent;
-            this.LblEnhance.ForeColor = System.Drawing.Color.Purple;
-            this.LblEnhance.Location = new System.Drawing.Point(0, 51);
-            this.LblEnhance.Name = "LblEnhance";
-            this.LblEnhance.Size = new System.Drawing.Size(150, 17);
-            this.LblEnhance.TabIndex = 36;
-            this.LblEnhance.Text = "★★★★★";
-            this.LblEnhance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblEnhance.BackColor = System.Drawing.Color.Transparent;
+            this.lblEnhance.ForeColor = System.Drawing.Color.Purple;
+            this.lblEnhance.Location = new System.Drawing.Point(0, 51);
+            this.lblEnhance.Name = "lblEnhance";
+            this.lblEnhance.Size = new System.Drawing.Size(150, 17);
+            this.lblEnhance.TabIndex = 36;
+            this.lblEnhance.Text = "★★★★★";
+            this.lblEnhance.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblIsBinding
+            // lblIsBinding
             // 
-            this.LblIsBinding.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblIsBinding.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblIsBinding.BackColor = System.Drawing.Color.Transparent;
-            this.LblIsBinding.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
-            this.LblIsBinding.Location = new System.Drawing.Point(0, 34);
-            this.LblIsBinding.Name = "LblIsBinding";
-            this.LblIsBinding.Size = new System.Drawing.Size(150, 17);
-            this.LblIsBinding.TabIndex = 35;
-            this.LblIsBinding.Text = "已绑定";
-            this.LblIsBinding.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblIsBinding.BackColor = System.Drawing.Color.Transparent;
+            this.lblIsBinding.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
+            this.lblIsBinding.Location = new System.Drawing.Point(0, 34);
+            this.lblIsBinding.Name = "lblIsBinding";
+            this.lblIsBinding.Size = new System.Drawing.Size(150, 17);
+            this.lblIsBinding.TabIndex = 35;
+            this.lblIsBinding.Text = "已绑定";
+            this.lblIsBinding.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblFurnishType
+            // lblFurnishType
             // 
-            this.LblFurnishType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblFurnishType.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFurnishType.BackColor = System.Drawing.Color.Transparent;
-            this.LblFurnishType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
-            this.LblFurnishType.Location = new System.Drawing.Point(0, 17);
-            this.LblFurnishType.Name = "LblFurnishType";
-            this.LblFurnishType.Size = new System.Drawing.Size(150, 17);
-            this.LblFurnishType.TabIndex = 34;
-            this.LblFurnishType.Text = "武器>单手";
-            this.LblFurnishType.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFurnishType.BackColor = System.Drawing.Color.Transparent;
+            this.lblFurnishType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
+            this.lblFurnishType.Location = new System.Drawing.Point(0, 17);
+            this.lblFurnishType.Name = "lblFurnishType";
+            this.lblFurnishType.Size = new System.Drawing.Size(150, 17);
+            this.lblFurnishType.TabIndex = 34;
+            this.lblFurnishType.Text = "武器>单手";
+            this.lblFurnishType.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblFurnishName
+            // lblFurnishName
             // 
-            this.LblFurnishName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblFurnishName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFurnishName.BackColor = System.Drawing.Color.Transparent;
-            this.LblFurnishName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(100)))), ((int)(((byte)(70)))));
-            this.LblFurnishName.Location = new System.Drawing.Point(0, 0);
-            this.LblFurnishName.Name = "LblFurnishName";
-            this.LblFurnishName.Size = new System.Drawing.Size(150, 17);
-            this.LblFurnishName.TabIndex = 40;
-            this.LblFurnishName.Text = "湮灭*星陨刀(无情)+15";
-            this.LblFurnishName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFurnishName.BackColor = System.Drawing.Color.Transparent;
+            this.lblFurnishName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(100)))), ((int)(((byte)(70)))));
+            this.lblFurnishName.Location = new System.Drawing.Point(0, 0);
+            this.lblFurnishName.Name = "lblFurnishName";
+            this.lblFurnishName.Size = new System.Drawing.Size(150, 17);
+            this.lblFurnishName.TabIndex = 40;
+            this.lblFurnishName.Text = "湮灭*星陨刀(无情)+15";
+            this.lblFurnishName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FurnishTypeCtrl
             // 
@@ -122,12 +122,12 @@ namespace KeLi.MsgGame.App.Components
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblCanSplit);
-            this.Controls.Add(this.LblCanDiscard);
-            this.Controls.Add(this.LblEnhance);
-            this.Controls.Add(this.LblIsBinding);
-            this.Controls.Add(this.LblFurnishType);
-            this.Controls.Add(this.LblFurnishName);
+            this.Controls.Add(this.lblCanSplit);
+            this.Controls.Add(this.lblCanDiscard);
+            this.Controls.Add(this.lblEnhance);
+            this.Controls.Add(this.lblIsBinding);
+            this.Controls.Add(this.lblFurnishType);
+            this.Controls.Add(this.lblFurnishName);
             this.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.Name = "FurnishTypeCtrl";
             this.Size = new System.Drawing.Size(150, 102);
@@ -137,11 +137,11 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        public System.Windows.Forms.Label LblCanSplit;
-        public System.Windows.Forms.Label LblCanDiscard;
-        public System.Windows.Forms.Label LblEnhance;
-        public System.Windows.Forms.Label LblIsBinding;
-        public System.Windows.Forms.Label LblFurnishType;
-        public System.Windows.Forms.Label LblFurnishName;
+        private System.Windows.Forms.Label lblCanSplit;
+        private System.Windows.Forms.Label lblCanDiscard;
+        private System.Windows.Forms.Label lblEnhance;
+        private System.Windows.Forms.Label lblIsBinding;
+        private System.Windows.Forms.Label lblFurnishType;
+        private System.Windows.Forms.Label lblFurnishName;
     }
 }

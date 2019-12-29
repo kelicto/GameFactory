@@ -59,41 +59,43 @@ namespace KeLi.MsgGame.App.Forms
             InitializeComponent();
             BackgroundImage = new Bitmap(Resources.Arm);
 
-            FtcTitle.LblFurnishName.Text = Resources.YanMie_XingYunDao_15;
-            FtcTitle.LblFurnishType.Text = Resources.WuQi_DanShou;
-            FtcTitle.LblIsBinding.Text = Resources.YiBangDing;
-            FtcTitle.LblEnhance.Text = Resources.WuXing;
-            FtcTitle.LblCanDiscard.Text = Resources.BuKe_DiuQi;
-            FtcTitle.LblCanSplit.Text = Resources.BuKe_FenJie;
+            ftcTitle.SetFurnishName(Resources.YanMie_XingYunDao_15);
+            ftcTitle.SetFurnishType(Resources.WuQi_DanShou);
+            ftcTitle.SetIsBinding(Resources.YiBangDing);
+            ftcTitle.SetEnhance(Resources.WuXing);
+            ftcTitle.SetCanDiscard(Resources.BuKe_DiuQi);
+            ftcTitle.SetCanSplit(Resources.BuKe_FenJie);
 
-            BpcProperty.LblFirstProperty.Text = Resources.LiLiang_2550;
-            BpcProperty.LblSecondProperty.Text = Resources.MinJie_1550;
-            BpcProperty.LblThirdProperty.Text = Resources.ZhiLi_1550;
-            BpcProperty.LblFourthProperty.Text = Resources.LingLi_3950;
+            bpcProperty.SetFirstProperty(Resources.LiLiang_2550);
+            bpcProperty.SetSecondProperty(Resources.MinJie_1550);
+            bpcProperty.SetThirdProperty(Resources.ZhiLi_1550);
+            bpcProperty.SetFourthProperty(Resources.LingLi_3950);
 
-            AscXytz.LblSuitName.Text = Resources.YanMie_XingYunTaoZhuang;
-            AscXytz.LblSingleArm.Text = Resources.YanMie_XingYunDao;
-            AscXytz.LblDoubleArm.Text = Resources.YanMie_XingYunDuiJi;
-            AscXytz.LblSpear.Text = Resources.YanMie_XingYunQiang;
-            AscXytz.LblBow.Text = Resources.YanMie_XingYunGong;
-            AscXytz.LblClaw.Text = Resources.YanMie_XingYunZhua;
+            ascXytz.SetSuitName(Resources.YanMie_XingYunTaoZhuang);
+            ascXytz.SetSingleArm(Resources.YanMie_XingYunDao);
+            ascXytz.SetDoubleArm(Resources.YanMie_XingYunDuiJi);
+            ascXytz.SetSpear(Resources.YanMie_XingYunQiang);
+            ascXytz.SetBow(Resources.YanMie_XingYunGong);
+            ascXytz.SetClaw(Resources.YanMie_XingYunZhua);
 
-            McBfwl.LblMagicName.Text = Resources.JiNeng_MingCheng1;
-            McBfwl.LblMagicDetail.Text = Resources.JiNeng_MiaoShu1;
-            McGyhd.LblMagicName.Text = Resources.JiNeng_MingCheng2;
-            McGyhd.LblMagicDetail.Text = Resources.JiNeng_MiaoShu2;
-            McFjzz.LblMagicName.Text = Resources.JiNeng_MingCheng3;
-            McFjzz.LblMagicDetail.Text = Resources.JiNeng_MiaoShu3;
+            mcBfwl.SetMagicName(Resources.JiNeng_MingCheng1);
+            mcBfwl.SetMagicDetail(Resources.JiNeng_MiaoShu1);
 
-            McMosaic.LblMosaicName.Text = Resources.XiangQianKa_MingCheng;
-            McMosaic.LblFirstProperty.Text = Resources.LiLiang_1000;
-            McMosaic.LblSecondProperty.Text = Resources.PoJia_86;
+            mcGyhd.SetMagicName(Resources.JiNeng_MingCheng2);
+            mcGyhd.SetMagicDetail(Resources.JiNeng_MiaoShu2);
 
-            McWqzx.LblMagicName.Text = Resources.JiNeng_MingCheng4;
-            McWqzx.LblMagicDetail.Text = Resources.JiNeng_MiaoShu4;
+            mcFjzz.SetMagicName(Resources.JiNeng_MingCheng3);
+            mcFjzz.SetMagicDetail(Resources.JiNeng_MiaoShu3);
 
-            LblArmStory.Text = Resources.ZhuangBei_GuShi;
-            LblFightPower.Text = "351300";
+            mcMosaic.SetMosaicName(Resources.XiangQianKa_MingCheng);
+            mcMosaic.SetFirstProperty(Resources.LiLiang_1000);
+            mcMosaic.SetSecondProperty(Resources.PoJia_86);
+
+            mcWqzx.SetMagicName(Resources.JiNeng_MingCheng4);
+            mcWqzx.SetMagicDetail(Resources.JiNeng_MiaoShu4);
+
+            lblArmStory.Text = Resources.ZhuangBei_GuShi;
+            lblFightPower.Text = "351300";
         }
     }
 }

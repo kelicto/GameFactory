@@ -30,119 +30,119 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblSuitName = new System.Windows.Forms.Label();
-            this.LblMark = new System.Windows.Forms.Label();
-            this.LblShoe = new System.Windows.Forms.Label();
-            this.LblHandguard = new System.Windows.Forms.Label();
-            this.LblBelt = new System.Windows.Forms.Label();
-            this.LblCloth = new System.Windows.Forms.Label();
-            this.LblNecklace = new System.Windows.Forms.Label();
-            this.LblRing = new System.Windows.Forms.Label();
+            this.lblSuitName = new System.Windows.Forms.Label();
+            this.lblMark = new System.Windows.Forms.Label();
+            this.lblShoe = new System.Windows.Forms.Label();
+            this.lblHandguard = new System.Windows.Forms.Label();
+            this.lblBelt = new System.Windows.Forms.Label();
+            this.lblCloth = new System.Windows.Forms.Label();
+            this.lblNecklace = new System.Windows.Forms.Label();
+            this.lblRing = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblSuitName
+            // lblSuitName
             // 
-            this.LblSuitName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSuitName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSuitName.BackColor = System.Drawing.Color.Transparent;
-            this.LblSuitName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblSuitName.Location = new System.Drawing.Point(0, 0);
-            this.LblSuitName.Name = "LblSuitName";
-            this.LblSuitName.Size = new System.Drawing.Size(120, 17);
-            this.LblSuitName.TabIndex = 63;
-            this.LblSuitName.Text = "震耀*腾龙套装(7/7)";
-            this.LblSuitName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSuitName.BackColor = System.Drawing.Color.Transparent;
+            this.lblSuitName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblSuitName.Location = new System.Drawing.Point(0, 0);
+            this.lblSuitName.Name = "lblSuitName";
+            this.lblSuitName.Size = new System.Drawing.Size(120, 17);
+            this.lblSuitName.TabIndex = 63;
+            this.lblSuitName.Text = "震耀*腾龙套装(7/7)";
+            this.lblSuitName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblMark
+            // lblMark
             // 
-            this.LblMark.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblMark.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblMark.BackColor = System.Drawing.Color.Transparent;
-            this.LblMark.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblMark.Location = new System.Drawing.Point(0, 119);
-            this.LblMark.Name = "LblMark";
-            this.LblMark.Size = new System.Drawing.Size(120, 17);
-            this.LblMark.TabIndex = 68;
-            this.LblMark.Text = "震耀*腾龙印";
-            this.LblMark.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMark.BackColor = System.Drawing.Color.Transparent;
+            this.lblMark.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblMark.Location = new System.Drawing.Point(0, 119);
+            this.lblMark.Name = "lblMark";
+            this.lblMark.Size = new System.Drawing.Size(120, 17);
+            this.lblMark.TabIndex = 68;
+            this.lblMark.Text = "震耀*腾龙印";
+            this.lblMark.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblShoe
+            // lblShoe
             // 
-            this.LblShoe.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblShoe.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblShoe.BackColor = System.Drawing.Color.Transparent;
-            this.LblShoe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblShoe.Location = new System.Drawing.Point(0, 102);
-            this.LblShoe.Name = "LblShoe";
-            this.LblShoe.Size = new System.Drawing.Size(120, 17);
-            this.LblShoe.TabIndex = 69;
-            this.LblShoe.Text = "震耀*腾龙战靴";
-            this.LblShoe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblShoe.BackColor = System.Drawing.Color.Transparent;
+            this.lblShoe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblShoe.Location = new System.Drawing.Point(0, 102);
+            this.lblShoe.Name = "lblShoe";
+            this.lblShoe.Size = new System.Drawing.Size(120, 17);
+            this.lblShoe.TabIndex = 69;
+            this.lblShoe.Text = "震耀*腾龙战靴";
+            this.lblShoe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblHandguard
+            // lblHandguard
             // 
-            this.LblHandguard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblHandguard.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblHandguard.BackColor = System.Drawing.Color.Transparent;
-            this.LblHandguard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblHandguard.Location = new System.Drawing.Point(0, 85);
-            this.LblHandguard.Name = "LblHandguard";
-            this.LblHandguard.Size = new System.Drawing.Size(120, 17);
-            this.LblHandguard.TabIndex = 70;
-            this.LblHandguard.Text = "震耀*腾龙护手";
-            this.LblHandguard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblHandguard.BackColor = System.Drawing.Color.Transparent;
+            this.lblHandguard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblHandguard.Location = new System.Drawing.Point(0, 85);
+            this.lblHandguard.Name = "lblHandguard";
+            this.lblHandguard.Size = new System.Drawing.Size(120, 17);
+            this.lblHandguard.TabIndex = 70;
+            this.lblHandguard.Text = "震耀*腾龙护手";
+            this.lblHandguard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblBelt
+            // lblBelt
             // 
-            this.LblBelt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblBelt.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblBelt.BackColor = System.Drawing.Color.Transparent;
-            this.LblBelt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblBelt.Location = new System.Drawing.Point(0, 68);
-            this.LblBelt.Name = "LblBelt";
-            this.LblBelt.Size = new System.Drawing.Size(120, 17);
-            this.LblBelt.TabIndex = 67;
-            this.LblBelt.Text = "震耀*腾龙腰带";
-            this.LblBelt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblBelt.BackColor = System.Drawing.Color.Transparent;
+            this.lblBelt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblBelt.Location = new System.Drawing.Point(0, 68);
+            this.lblBelt.Name = "lblBelt";
+            this.lblBelt.Size = new System.Drawing.Size(120, 17);
+            this.lblBelt.TabIndex = 67;
+            this.lblBelt.Text = "震耀*腾龙腰带";
+            this.lblBelt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblCloth
+            // lblCloth
             // 
-            this.LblCloth.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblCloth.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblCloth.BackColor = System.Drawing.Color.Transparent;
-            this.LblCloth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblCloth.Location = new System.Drawing.Point(0, 51);
-            this.LblCloth.Name = "LblCloth";
-            this.LblCloth.Size = new System.Drawing.Size(120, 17);
-            this.LblCloth.TabIndex = 66;
-            this.LblCloth.Text = "震耀*腾龙战铠";
-            this.LblCloth.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblCloth.BackColor = System.Drawing.Color.Transparent;
+            this.lblCloth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblCloth.Location = new System.Drawing.Point(0, 51);
+            this.lblCloth.Name = "lblCloth";
+            this.lblCloth.Size = new System.Drawing.Size(120, 17);
+            this.lblCloth.TabIndex = 66;
+            this.lblCloth.Text = "震耀*腾龙战铠";
+            this.lblCloth.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblNecklace
+            // lblNecklace
             // 
-            this.LblNecklace.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblNecklace.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblNecklace.BackColor = System.Drawing.Color.Transparent;
-            this.LblNecklace.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblNecklace.Location = new System.Drawing.Point(0, 34);
-            this.LblNecklace.Name = "LblNecklace";
-            this.LblNecklace.Size = new System.Drawing.Size(120, 17);
-            this.LblNecklace.TabIndex = 65;
-            this.LblNecklace.Text = "震耀*腾龙项链";
-            this.LblNecklace.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblNecklace.BackColor = System.Drawing.Color.Transparent;
+            this.lblNecklace.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblNecklace.Location = new System.Drawing.Point(0, 34);
+            this.lblNecklace.Name = "lblNecklace";
+            this.lblNecklace.Size = new System.Drawing.Size(120, 17);
+            this.lblNecklace.TabIndex = 65;
+            this.lblNecklace.Text = "震耀*腾龙项链";
+            this.lblNecklace.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblRing
+            // lblRing
             // 
-            this.LblRing.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblRing.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblRing.BackColor = System.Drawing.Color.Transparent;
-            this.LblRing.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.LblRing.Location = new System.Drawing.Point(0, 17);
-            this.LblRing.Name = "LblRing";
-            this.LblRing.Size = new System.Drawing.Size(120, 17);
-            this.LblRing.TabIndex = 64;
-            this.LblRing.Text = "震耀*腾龙戒指";
-            this.LblRing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblRing.BackColor = System.Drawing.Color.Transparent;
+            this.lblRing.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblRing.Location = new System.Drawing.Point(0, 17);
+            this.lblRing.Name = "lblRing";
+            this.lblRing.Size = new System.Drawing.Size(120, 17);
+            this.lblRing.TabIndex = 64;
+            this.lblRing.Text = "震耀*腾龙戒指";
+            this.lblRing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FurnishSuitCtrl
             // 
@@ -150,14 +150,14 @@ namespace KeLi.MsgGame.App.Components
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblSuitName);
-            this.Controls.Add(this.LblMark);
-            this.Controls.Add(this.LblShoe);
-            this.Controls.Add(this.LblHandguard);
-            this.Controls.Add(this.LblBelt);
-            this.Controls.Add(this.LblCloth);
-            this.Controls.Add(this.LblNecklace);
-            this.Controls.Add(this.LblRing);
+            this.Controls.Add(this.lblSuitName);
+            this.Controls.Add(this.lblMark);
+            this.Controls.Add(this.lblShoe);
+            this.Controls.Add(this.lblHandguard);
+            this.Controls.Add(this.lblBelt);
+            this.Controls.Add(this.lblCloth);
+            this.Controls.Add(this.lblNecklace);
+            this.Controls.Add(this.lblRing);
             this.Name = "FurnishSuitCtrl";
             this.Size = new System.Drawing.Size(120, 136);
             this.ResumeLayout(false);
@@ -166,13 +166,13 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        public System.Windows.Forms.Label LblSuitName;
-        public System.Windows.Forms.Label LblMark;
-        public System.Windows.Forms.Label LblShoe;
-        public System.Windows.Forms.Label LblHandguard;
-        public System.Windows.Forms.Label LblBelt;
-        public System.Windows.Forms.Label LblCloth;
-        public System.Windows.Forms.Label LblNecklace;
-        public System.Windows.Forms.Label LblRing;
+        private System.Windows.Forms.Label lblSuitName;
+        private System.Windows.Forms.Label lblMark;
+        private System.Windows.Forms.Label lblShoe;
+        private System.Windows.Forms.Label lblHandguard;
+        private System.Windows.Forms.Label lblBelt;
+        private System.Windows.Forms.Label lblCloth;
+        private System.Windows.Forms.Label lblNecklace;
+        private System.Windows.Forms.Label lblRing;
     }
 }

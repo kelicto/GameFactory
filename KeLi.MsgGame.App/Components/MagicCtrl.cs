@@ -54,5 +54,15 @@ namespace KeLi.MsgGame.App.Components
         {
             InitializeComponent();
         }
+
+        public void SetMagicName(string magicName)
+        {
+            lblMagicName.Text = magicName;
+        }
+
+        public void SetMagicDetail(string magicDetail)
+        {
+            lblMagicDetail.Text = magicDetail;
+        }
     }
 }

@@ -30,114 +30,114 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblTop = new System.Windows.Forms.Label();
-            this.LblGroup = new System.Windows.Forms.Label();
-            this.LblTown = new System.Windows.Forms.Label();
-            this.LblBuff = new System.Windows.Forms.Label();
-            this.LblLucky = new System.Windows.Forms.Label();
-            this.LblHelp = new System.Windows.Forms.Label();
-            this.LblGamer = new System.Windows.Forms.Label();
-            this.LblNpc = new System.Windows.Forms.Label();
-            this.LblPagePosition = new System.Windows.Forms.Label();
+            this.lblTop = new System.Windows.Forms.Label();
+            this.lblGroup = new System.Windows.Forms.Label();
+            this.lblTown = new System.Windows.Forms.Label();
+            this.lblBuff = new System.Windows.Forms.Label();
+            this.lblLucky = new System.Windows.Forms.Label();
+            this.lblHelp = new System.Windows.Forms.Label();
+            this.lblGamer = new System.Windows.Forms.Label();
+            this.lblNpc = new System.Windows.Forms.Label();
+            this.lblPagePosition = new System.Windows.Forms.Label();
             this.PnlContent = new System.Windows.Forms.Panel();
-            this.LblNext = new System.Windows.Forms.Label();
-            this.LblLast = new System.Windows.Forms.Label();
+            this.lblNext = new System.Windows.Forms.Label();
+            this.lblLast = new System.Windows.Forms.Label();
             this.PnlTitle = new System.Windows.Forms.Panel();
             this.PnlPage = new System.Windows.Forms.Panel();
             this.PnlTitle.SuspendLayout();
             this.PnlPage.SuspendLayout();
             this.SuspendLayout();
             // 
-            // LblTop
+            // lblTop
             // 
-            this.LblTop.BackColor = System.Drawing.Color.Transparent;
-            this.LblTop.Location = new System.Drawing.Point(0, 0);
-            this.LblTop.Name = "LblTop";
-            this.LblTop.Size = new System.Drawing.Size(60, 32);
-            this.LblTop.TabIndex = 0;
-            this.LblTop.Text = "排行榜";
-            this.LblTop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTop.BackColor = System.Drawing.Color.Transparent;
+            this.lblTop.Location = new System.Drawing.Point(0, 0);
+            this.lblTop.Name = "lblTop";
+            this.lblTop.Size = new System.Drawing.Size(60, 32);
+            this.lblTop.TabIndex = 0;
+            this.lblTop.Text = "排行榜";
+            this.lblTop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblGroup
+            // lblGroup
             // 
-            this.LblGroup.BackColor = System.Drawing.Color.Transparent;
-            this.LblGroup.Location = new System.Drawing.Point(60, 0);
-            this.LblGroup.Name = "LblGroup";
-            this.LblGroup.Size = new System.Drawing.Size(60, 32);
-            this.LblGroup.TabIndex = 1;
-            this.LblGroup.Text = "组队";
-            this.LblGroup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGroup.BackColor = System.Drawing.Color.Transparent;
+            this.lblGroup.Location = new System.Drawing.Point(60, 0);
+            this.lblGroup.Name = "lblGroup";
+            this.lblGroup.Size = new System.Drawing.Size(60, 32);
+            this.lblGroup.TabIndex = 1;
+            this.lblGroup.Text = "组队";
+            this.lblGroup.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblTown
+            // lblTown
             // 
-            this.LblTown.BackColor = System.Drawing.Color.Transparent;
-            this.LblTown.Location = new System.Drawing.Point(120, 0);
-            this.LblTown.Name = "LblTown";
-            this.LblTown.Size = new System.Drawing.Size(60, 32);
-            this.LblTown.TabIndex = 2;
-            this.LblTown.Text = "城镇";
-            this.LblTown.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTown.BackColor = System.Drawing.Color.Transparent;
+            this.lblTown.Location = new System.Drawing.Point(120, 0);
+            this.lblTown.Name = "lblTown";
+            this.lblTown.Size = new System.Drawing.Size(60, 32);
+            this.lblTown.TabIndex = 2;
+            this.lblTown.Text = "城镇";
+            this.lblTown.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblBuff
+            // lblBuff
             // 
-            this.LblBuff.BackColor = System.Drawing.Color.Transparent;
-            this.LblBuff.Location = new System.Drawing.Point(180, 0);
-            this.LblBuff.Name = "LblBuff";
-            this.LblBuff.Size = new System.Drawing.Size(60, 32);
-            this.LblBuff.TabIndex = 3;
-            this.LblBuff.Text = "增益效果";
-            this.LblBuff.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBuff.BackColor = System.Drawing.Color.Transparent;
+            this.lblBuff.Location = new System.Drawing.Point(180, 0);
+            this.lblBuff.Name = "lblBuff";
+            this.lblBuff.Size = new System.Drawing.Size(60, 32);
+            this.lblBuff.TabIndex = 3;
+            this.lblBuff.Text = "增益效果";
+            this.lblBuff.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblLucky
+            // lblLucky
             // 
-            this.LblLucky.BackColor = System.Drawing.Color.Transparent;
-            this.LblLucky.Location = new System.Drawing.Point(240, 0);
-            this.LblLucky.Name = "LblLucky";
-            this.LblLucky.Size = new System.Drawing.Size(60, 32);
-            this.LblLucky.TabIndex = 4;
-            this.LblLucky.Text = "幸运";
-            this.LblLucky.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLucky.BackColor = System.Drawing.Color.Transparent;
+            this.lblLucky.Location = new System.Drawing.Point(240, 0);
+            this.lblLucky.Name = "lblLucky";
+            this.lblLucky.Size = new System.Drawing.Size(60, 32);
+            this.lblLucky.TabIndex = 4;
+            this.lblLucky.Text = "幸运";
+            this.lblLucky.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblHelp
+            // lblHelp
             // 
-            this.LblHelp.BackColor = System.Drawing.Color.Transparent;
-            this.LblHelp.Location = new System.Drawing.Point(300, 0);
-            this.LblHelp.Name = "LblHelp";
-            this.LblHelp.Size = new System.Drawing.Size(60, 32);
-            this.LblHelp.TabIndex = 5;
-            this.LblHelp.Text = "帮助";
-            this.LblHelp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblHelp.BackColor = System.Drawing.Color.Transparent;
+            this.lblHelp.Location = new System.Drawing.Point(300, 0);
+            this.lblHelp.Name = "lblHelp";
+            this.lblHelp.Size = new System.Drawing.Size(60, 32);
+            this.lblHelp.TabIndex = 5;
+            this.lblHelp.Text = "帮助";
+            this.lblHelp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblGamer
+            // lblGamer
             // 
-            this.LblGamer.BackColor = System.Drawing.Color.Transparent;
-            this.LblGamer.Location = new System.Drawing.Point(0, 32);
-            this.LblGamer.Name = "LblGamer";
-            this.LblGamer.Size = new System.Drawing.Size(180, 32);
-            this.LblGamer.TabIndex = 6;
-            this.LblGamer.Text = "玩家列表";
-            this.LblGamer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGamer.BackColor = System.Drawing.Color.Transparent;
+            this.lblGamer.Location = new System.Drawing.Point(0, 32);
+            this.lblGamer.Name = "lblGamer";
+            this.lblGamer.Size = new System.Drawing.Size(180, 32);
+            this.lblGamer.TabIndex = 6;
+            this.lblGamer.Text = "玩家列表";
+            this.lblGamer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblNpc
+            // lblNpc
             // 
-            this.LblNpc.BackColor = System.Drawing.Color.Transparent;
-            this.LblNpc.Location = new System.Drawing.Point(180, 32);
-            this.LblNpc.Name = "LblNpc";
-            this.LblNpc.Size = new System.Drawing.Size(180, 32);
-            this.LblNpc.TabIndex = 7;
-            this.LblNpc.Text = "非玩家列表";
-            this.LblNpc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNpc.BackColor = System.Drawing.Color.Transparent;
+            this.lblNpc.Location = new System.Drawing.Point(180, 32);
+            this.lblNpc.Name = "lblNpc";
+            this.lblNpc.Size = new System.Drawing.Size(180, 32);
+            this.lblNpc.TabIndex = 7;
+            this.lblNpc.Text = "非玩家列表";
+            this.lblNpc.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblPagePosition
+            // lblPagePosition
             // 
-            this.LblPagePosition.BackColor = System.Drawing.Color.Transparent;
-            this.LblPagePosition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblPagePosition.Location = new System.Drawing.Point(150, 6);
-            this.LblPagePosition.Name = "LblPagePosition";
-            this.LblPagePosition.Size = new System.Drawing.Size(59, 32);
-            this.LblPagePosition.TabIndex = 8;
-            this.LblPagePosition.Text = "1/100";
-            this.LblPagePosition.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPagePosition.BackColor = System.Drawing.Color.Transparent;
+            this.lblPagePosition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPagePosition.Location = new System.Drawing.Point(150, 6);
+            this.lblPagePosition.Name = "lblPagePosition";
+            this.lblPagePosition.Size = new System.Drawing.Size(59, 32);
+            this.lblPagePosition.TabIndex = 8;
+            this.lblPagePosition.Text = "1/100";
+            this.lblPagePosition.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PnlContent
             // 
@@ -147,38 +147,38 @@ namespace KeLi.MsgGame.App.Components
             this.PnlContent.Size = new System.Drawing.Size(360, 316);
             this.PnlContent.TabIndex = 9;
             // 
-            // LblNext
+            // lblNext
             // 
-            this.LblNext.BackColor = System.Drawing.Color.Transparent;
-            this.LblNext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblNext.Location = new System.Drawing.Point(215, 6);
-            this.LblNext.Name = "LblNext";
-            this.LblNext.Size = new System.Drawing.Size(32, 32);
-            this.LblNext.TabIndex = 10;
-            this.LblNext.Text = ">";
-            this.LblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNext.BackColor = System.Drawing.Color.Transparent;
+            this.lblNext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNext.Location = new System.Drawing.Point(215, 6);
+            this.lblNext.Name = "lblNext";
+            this.lblNext.Size = new System.Drawing.Size(32, 32);
+            this.lblNext.TabIndex = 10;
+            this.lblNext.Text = ">";
+            this.lblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblLast
+            // lblLast
             // 
-            this.LblLast.BackColor = System.Drawing.Color.Transparent;
-            this.LblLast.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblLast.Location = new System.Drawing.Point(112, 6);
-            this.LblLast.Name = "LblLast";
-            this.LblLast.Size = new System.Drawing.Size(32, 32);
-            this.LblLast.TabIndex = 11;
-            this.LblLast.Text = "<";
-            this.LblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLast.BackColor = System.Drawing.Color.Transparent;
+            this.lblLast.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblLast.Location = new System.Drawing.Point(112, 6);
+            this.lblLast.Name = "lblLast";
+            this.lblLast.Size = new System.Drawing.Size(32, 32);
+            this.lblLast.TabIndex = 11;
+            this.lblLast.Text = "<";
+            this.lblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PnlTitle
             // 
-            this.PnlTitle.Controls.Add(this.LblTop);
-            this.PnlTitle.Controls.Add(this.LblGroup);
-            this.PnlTitle.Controls.Add(this.LblTown);
-            this.PnlTitle.Controls.Add(this.LblBuff);
-            this.PnlTitle.Controls.Add(this.LblLucky);
-            this.PnlTitle.Controls.Add(this.LblNpc);
-            this.PnlTitle.Controls.Add(this.LblHelp);
-            this.PnlTitle.Controls.Add(this.LblGamer);
+            this.PnlTitle.Controls.Add(this.lblTop);
+            this.PnlTitle.Controls.Add(this.lblGroup);
+            this.PnlTitle.Controls.Add(this.lblTown);
+            this.PnlTitle.Controls.Add(this.lblBuff);
+            this.PnlTitle.Controls.Add(this.lblLucky);
+            this.PnlTitle.Controls.Add(this.lblNpc);
+            this.PnlTitle.Controls.Add(this.lblHelp);
+            this.PnlTitle.Controls.Add(this.lblGamer);
             this.PnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlTitle.Location = new System.Drawing.Point(0, 0);
             this.PnlTitle.Name = "PnlTitle";
@@ -187,9 +187,9 @@ namespace KeLi.MsgGame.App.Components
             // 
             // PnlPage
             // 
-            this.PnlPage.Controls.Add(this.LblLast);
-            this.PnlPage.Controls.Add(this.LblPagePosition);
-            this.PnlPage.Controls.Add(this.LblNext);
+            this.PnlPage.Controls.Add(this.lblLast);
+            this.PnlPage.Controls.Add(this.lblPagePosition);
+            this.PnlPage.Controls.Add(this.lblNext);
             this.PnlPage.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PnlPage.Location = new System.Drawing.Point(0, 381);
             this.PnlPage.Name = "PnlPage";
@@ -214,18 +214,18 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        private System.Windows.Forms.Label LblTop;
-        private System.Windows.Forms.Label LblGroup;
-        private System.Windows.Forms.Label LblTown;
-        private System.Windows.Forms.Label LblBuff;
-        private System.Windows.Forms.Label LblLucky;
-        private System.Windows.Forms.Label LblHelp;
-        private System.Windows.Forms.Label LblGamer;
-        private System.Windows.Forms.Label LblNpc;
-        private System.Windows.Forms.Label LblPagePosition;
+        private System.Windows.Forms.Label lblTop;
+        private System.Windows.Forms.Label lblGroup;
+        private System.Windows.Forms.Label lblTown;
+        private System.Windows.Forms.Label lblBuff;
+        private System.Windows.Forms.Label lblLucky;
+        private System.Windows.Forms.Label lblHelp;
+        private System.Windows.Forms.Label lblGamer;
+        private System.Windows.Forms.Label lblNpc;
+        private System.Windows.Forms.Label lblPagePosition;
         private System.Windows.Forms.Panel PnlContent;
-        private System.Windows.Forms.Label LblNext;
-        private System.Windows.Forms.Label LblLast;
+        private System.Windows.Forms.Label lblNext;
+        private System.Windows.Forms.Label lblLast;
         private System.Windows.Forms.Panel PnlTitle;
         private System.Windows.Forms.Panel PnlPage;
     }

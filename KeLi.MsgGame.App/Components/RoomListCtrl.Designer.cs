@@ -30,37 +30,37 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblRoomList = new System.Windows.Forms.Label();
+            this.lblRoomList = new System.Windows.Forms.Label();
             this.PnlContent = new System.Windows.Forms.Panel();
             this.PnlPage = new System.Windows.Forms.Panel();
-            this.LblMatch = new System.Windows.Forms.Label();
-            this.LblAll = new System.Windows.Forms.Label();
-            this.LblLast = new System.Windows.Forms.Label();
-            this.LblCreateRoom = new System.Windows.Forms.Label();
-            this.LblPagePosition = new System.Windows.Forms.Label();
-            this.LblNext = new System.Windows.Forms.Label();
-            this.LblMapName = new System.Windows.Forms.Label();
-            this.LblRecord = new System.Windows.Forms.Label();
-            this.LblFlee = new System.Windows.Forms.Label();
-            this.LblGaming = new System.Windows.Forms.Label();
-            this.LblPerson = new System.Windows.Forms.Label();
-            this.LblLive = new System.Windows.Forms.Label();
+            this.lblMatch = new System.Windows.Forms.Label();
+            this.lblAll = new System.Windows.Forms.Label();
+            this.lblLast = new System.Windows.Forms.Label();
+            this.lblCreateRoom = new System.Windows.Forms.Label();
+            this.lblPagePosition = new System.Windows.Forms.Label();
+            this.lblNext = new System.Windows.Forms.Label();
+            this.lblMapName = new System.Windows.Forms.Label();
+            this.lblRecord = new System.Windows.Forms.Label();
+            this.lblFlee = new System.Windows.Forms.Label();
+            this.lblGaming = new System.Windows.Forms.Label();
+            this.lblPerson = new System.Windows.Forms.Label();
+            this.lblLive = new System.Windows.Forms.Label();
             this.PnlTitle = new System.Windows.Forms.Panel();
-            this.LblSelectMap = new System.Windows.Forms.Label();
-            this.LblSearchRoom = new System.Windows.Forms.Label();
+            this.lblSelectMap = new System.Windows.Forms.Label();
+            this.lblSearchRoom = new System.Windows.Forms.Label();
             this.PnlPage.SuspendLayout();
             this.PnlTitle.SuspendLayout();
             this.SuspendLayout();
             // 
-            // LblRoomList
+            // lblRoomList
             // 
-            this.LblRoomList.BackColor = System.Drawing.Color.Transparent;
-            this.LblRoomList.Location = new System.Drawing.Point(0, 0);
-            this.LblRoomList.Name = "LblRoomList";
-            this.LblRoomList.Size = new System.Drawing.Size(240, 32);
-            this.LblRoomList.TabIndex = 8;
-            this.LblRoomList.Text = "房间列表";
-            this.LblRoomList.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblRoomList.BackColor = System.Drawing.Color.Transparent;
+            this.lblRoomList.Location = new System.Drawing.Point(0, 0);
+            this.lblRoomList.Name = "lblRoomList";
+            this.lblRoomList.Size = new System.Drawing.Size(240, 32);
+            this.lblRoomList.TabIndex = 8;
+            this.lblRoomList.Text = "房间列表";
+            this.lblRoomList.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PnlContent
             // 
@@ -72,184 +72,184 @@ namespace KeLi.MsgGame.App.Components
             // 
             // PnlPage
             // 
-            this.PnlPage.Controls.Add(this.LblMatch);
-            this.PnlPage.Controls.Add(this.LblAll);
-            this.PnlPage.Controls.Add(this.LblLast);
-            this.PnlPage.Controls.Add(this.LblCreateRoom);
-            this.PnlPage.Controls.Add(this.LblPagePosition);
-            this.PnlPage.Controls.Add(this.LblNext);
+            this.PnlPage.Controls.Add(this.lblMatch);
+            this.PnlPage.Controls.Add(this.lblAll);
+            this.PnlPage.Controls.Add(this.lblLast);
+            this.PnlPage.Controls.Add(this.lblCreateRoom);
+            this.PnlPage.Controls.Add(this.lblPagePosition);
+            this.PnlPage.Controls.Add(this.lblNext);
             this.PnlPage.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PnlPage.Location = new System.Drawing.Point(0, 342);
             this.PnlPage.Name = "PnlPage";
             this.PnlPage.Size = new System.Drawing.Size(360, 44);
             this.PnlPage.TabIndex = 14;
             // 
-            // LblMatch
+            // lblMatch
             // 
-            this.LblMatch.BackColor = System.Drawing.Color.Transparent;
-            this.LblMatch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblMatch.Location = new System.Drawing.Point(50, 6);
-            this.LblMatch.Name = "LblMatch";
-            this.LblMatch.Size = new System.Drawing.Size(38, 32);
-            this.LblMatch.TabIndex = 12;
-            this.LblMatch.Text = "匹配";
-            this.LblMatch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMatch.BackColor = System.Drawing.Color.Transparent;
+            this.lblMatch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblMatch.Location = new System.Drawing.Point(50, 6);
+            this.lblMatch.Name = "lblMatch";
+            this.lblMatch.Size = new System.Drawing.Size(38, 32);
+            this.lblMatch.TabIndex = 12;
+            this.lblMatch.Text = "匹配";
+            this.lblMatch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblAll
+            // lblAll
             // 
-            this.LblAll.BackColor = System.Drawing.Color.Transparent;
-            this.LblAll.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblAll.Location = new System.Drawing.Point(6, 6);
-            this.LblAll.Name = "LblAll";
-            this.LblAll.Size = new System.Drawing.Size(38, 32);
-            this.LblAll.TabIndex = 12;
-            this.LblAll.Text = "综合";
-            this.LblAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAll.BackColor = System.Drawing.Color.Transparent;
+            this.lblAll.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblAll.Location = new System.Drawing.Point(6, 6);
+            this.lblAll.Name = "lblAll";
+            this.lblAll.Size = new System.Drawing.Size(38, 32);
+            this.lblAll.TabIndex = 12;
+            this.lblAll.Text = "综合";
+            this.lblAll.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblLast
+            // lblLast
             // 
-            this.LblLast.BackColor = System.Drawing.Color.Transparent;
-            this.LblLast.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblLast.Location = new System.Drawing.Point(113, 6);
-            this.LblLast.Name = "LblLast";
-            this.LblLast.Size = new System.Drawing.Size(32, 32);
-            this.LblLast.TabIndex = 11;
-            this.LblLast.Text = "<";
-            this.LblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLast.BackColor = System.Drawing.Color.Transparent;
+            this.lblLast.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblLast.Location = new System.Drawing.Point(113, 6);
+            this.lblLast.Name = "lblLast";
+            this.lblLast.Size = new System.Drawing.Size(32, 32);
+            this.lblLast.TabIndex = 11;
+            this.lblLast.Text = "<";
+            this.lblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblCreateRoom
+            // lblCreateRoom
             // 
-            this.LblCreateRoom.BackColor = System.Drawing.Color.Transparent;
-            this.LblCreateRoom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblCreateRoom.Location = new System.Drawing.Point(294, 6);
-            this.LblCreateRoom.Name = "LblCreateRoom";
-            this.LblCreateRoom.Size = new System.Drawing.Size(60, 32);
-            this.LblCreateRoom.TabIndex = 8;
-            this.LblCreateRoom.Text = "创建房间";
-            this.LblCreateRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCreateRoom.BackColor = System.Drawing.Color.Transparent;
+            this.lblCreateRoom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblCreateRoom.Location = new System.Drawing.Point(294, 6);
+            this.lblCreateRoom.Name = "lblCreateRoom";
+            this.lblCreateRoom.Size = new System.Drawing.Size(60, 32);
+            this.lblCreateRoom.TabIndex = 8;
+            this.lblCreateRoom.Text = "创建房间";
+            this.lblCreateRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblPagePosition
+            // lblPagePosition
             // 
-            this.LblPagePosition.BackColor = System.Drawing.Color.Transparent;
-            this.LblPagePosition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblPagePosition.Location = new System.Drawing.Point(151, 6);
-            this.LblPagePosition.Name = "LblPagePosition";
-            this.LblPagePosition.Size = new System.Drawing.Size(59, 32);
-            this.LblPagePosition.TabIndex = 8;
-            this.LblPagePosition.Text = "1/100";
-            this.LblPagePosition.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPagePosition.BackColor = System.Drawing.Color.Transparent;
+            this.lblPagePosition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPagePosition.Location = new System.Drawing.Point(151, 6);
+            this.lblPagePosition.Name = "lblPagePosition";
+            this.lblPagePosition.Size = new System.Drawing.Size(59, 32);
+            this.lblPagePosition.TabIndex = 8;
+            this.lblPagePosition.Text = "1/100";
+            this.lblPagePosition.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblNext
+            // lblNext
             // 
-            this.LblNext.BackColor = System.Drawing.Color.Transparent;
-            this.LblNext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.LblNext.Location = new System.Drawing.Point(216, 6);
-            this.LblNext.Name = "LblNext";
-            this.LblNext.Size = new System.Drawing.Size(32, 32);
-            this.LblNext.TabIndex = 10;
-            this.LblNext.Text = ">";
-            this.LblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNext.BackColor = System.Drawing.Color.Transparent;
+            this.lblNext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNext.Location = new System.Drawing.Point(216, 6);
+            this.lblNext.Name = "lblNext";
+            this.lblNext.Size = new System.Drawing.Size(32, 32);
+            this.lblNext.TabIndex = 10;
+            this.lblNext.Text = ">";
+            this.lblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblMapName
+            // lblMapName
             // 
-            this.LblMapName.BackColor = System.Drawing.Color.Transparent;
-            this.LblMapName.Location = new System.Drawing.Point(0, 32);
-            this.LblMapName.Name = "LblMapName";
-            this.LblMapName.Size = new System.Drawing.Size(112, 32);
-            this.LblMapName.TabIndex = 8;
-            this.LblMapName.Text = "<所有地图>";
-            this.LblMapName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMapName.BackColor = System.Drawing.Color.Transparent;
+            this.lblMapName.Location = new System.Drawing.Point(0, 32);
+            this.lblMapName.Name = "lblMapName";
+            this.lblMapName.Size = new System.Drawing.Size(112, 32);
+            this.lblMapName.TabIndex = 8;
+            this.lblMapName.Text = "<所有地图>";
+            this.lblMapName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblRecord
+            // lblRecord
             // 
-            this.LblRecord.BackColor = System.Drawing.Color.Transparent;
-            this.LblRecord.Location = new System.Drawing.Point(240, 0);
-            this.LblRecord.Name = "LblRecord";
-            this.LblRecord.Size = new System.Drawing.Size(60, 32);
-            this.LblRecord.TabIndex = 9;
-            this.LblRecord.Text = "存档";
-            this.LblRecord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblRecord.BackColor = System.Drawing.Color.Transparent;
+            this.lblRecord.Location = new System.Drawing.Point(240, 0);
+            this.lblRecord.Name = "lblRecord";
+            this.lblRecord.Size = new System.Drawing.Size(60, 32);
+            this.lblRecord.TabIndex = 9;
+            this.lblRecord.Text = "存档";
+            this.lblRecord.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblFlee
+            // lblFlee
             // 
-            this.LblFlee.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.LblFlee.BackColor = System.Drawing.Color.Transparent;
-            this.LblFlee.Location = new System.Drawing.Point(328, 32);
-            this.LblFlee.Name = "LblFlee";
-            this.LblFlee.Size = new System.Drawing.Size(32, 32);
-            this.LblFlee.TabIndex = 9;
-            this.LblFlee.Text = "$";
-            this.LblFlee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFlee.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblFlee.BackColor = System.Drawing.Color.Transparent;
+            this.lblFlee.Location = new System.Drawing.Point(328, 32);
+            this.lblFlee.Name = "lblFlee";
+            this.lblFlee.Size = new System.Drawing.Size(32, 32);
+            this.lblFlee.TabIndex = 9;
+            this.lblFlee.Text = "$";
+            this.lblFlee.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblGaming
+            // lblGaming
             // 
-            this.LblGaming.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.LblGaming.BackColor = System.Drawing.Color.Transparent;
-            this.LblGaming.Location = new System.Drawing.Point(296, 32);
-            this.LblGaming.Name = "LblGaming";
-            this.LblGaming.Size = new System.Drawing.Size(32, 32);
-            this.LblGaming.TabIndex = 9;
-            this.LblGaming.Text = "$";
-            this.LblGaming.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGaming.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblGaming.BackColor = System.Drawing.Color.Transparent;
+            this.lblGaming.Location = new System.Drawing.Point(296, 32);
+            this.lblGaming.Name = "lblGaming";
+            this.lblGaming.Size = new System.Drawing.Size(32, 32);
+            this.lblGaming.TabIndex = 9;
+            this.lblGaming.Text = "$";
+            this.lblGaming.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblPerson
+            // lblPerson
             // 
-            this.LblPerson.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.LblPerson.BackColor = System.Drawing.Color.Transparent;
-            this.LblPerson.Location = new System.Drawing.Point(264, 32);
-            this.LblPerson.Name = "LblPerson";
-            this.LblPerson.Size = new System.Drawing.Size(32, 32);
-            this.LblPerson.TabIndex = 9;
-            this.LblPerson.Text = "$";
-            this.LblPerson.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPerson.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblPerson.BackColor = System.Drawing.Color.Transparent;
+            this.lblPerson.Location = new System.Drawing.Point(264, 32);
+            this.lblPerson.Name = "lblPerson";
+            this.lblPerson.Size = new System.Drawing.Size(32, 32);
+            this.lblPerson.TabIndex = 9;
+            this.lblPerson.Text = "$";
+            this.lblPerson.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblLive
+            // lblLive
             // 
-            this.LblLive.BackColor = System.Drawing.Color.Transparent;
-            this.LblLive.Location = new System.Drawing.Point(300, 0);
-            this.LblLive.Name = "LblLive";
-            this.LblLive.Size = new System.Drawing.Size(60, 32);
-            this.LblLive.TabIndex = 10;
-            this.LblLive.Text = "直播";
-            this.LblLive.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLive.BackColor = System.Drawing.Color.Transparent;
+            this.lblLive.Location = new System.Drawing.Point(300, 0);
+            this.lblLive.Name = "lblLive";
+            this.lblLive.Size = new System.Drawing.Size(60, 32);
+            this.lblLive.TabIndex = 10;
+            this.lblLive.Text = "直播";
+            this.lblLive.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // PnlTitle
             // 
-            this.PnlTitle.Controls.Add(this.LblLive);
-            this.PnlTitle.Controls.Add(this.LblPerson);
-            this.PnlTitle.Controls.Add(this.LblGaming);
-            this.PnlTitle.Controls.Add(this.LblFlee);
-            this.PnlTitle.Controls.Add(this.LblSelectMap);
-            this.PnlTitle.Controls.Add(this.LblRecord);
-            this.PnlTitle.Controls.Add(this.LblSearchRoom);
-            this.PnlTitle.Controls.Add(this.LblMapName);
-            this.PnlTitle.Controls.Add(this.LblRoomList);
+            this.PnlTitle.Controls.Add(this.lblLive);
+            this.PnlTitle.Controls.Add(this.lblPerson);
+            this.PnlTitle.Controls.Add(this.lblGaming);
+            this.PnlTitle.Controls.Add(this.lblFlee);
+            this.PnlTitle.Controls.Add(this.lblSelectMap);
+            this.PnlTitle.Controls.Add(this.lblRecord);
+            this.PnlTitle.Controls.Add(this.lblSearchRoom);
+            this.PnlTitle.Controls.Add(this.lblMapName);
+            this.PnlTitle.Controls.Add(this.lblRoomList);
             this.PnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlTitle.Location = new System.Drawing.Point(0, 0);
             this.PnlTitle.Name = "PnlTitle";
             this.PnlTitle.Size = new System.Drawing.Size(360, 65);
             this.PnlTitle.TabIndex = 0;
             // 
-            // LblSelectMap
+            // lblSelectMap
             // 
-            this.LblSelectMap.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.LblSelectMap.BackColor = System.Drawing.Color.Transparent;
-            this.LblSelectMap.Location = new System.Drawing.Point(112, 32);
-            this.LblSelectMap.Name = "LblSelectMap";
-            this.LblSelectMap.Size = new System.Drawing.Size(32, 32);
-            this.LblSelectMap.TabIndex = 9;
-            this.LblSelectMap.Text = "v";
-            this.LblSelectMap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSelectMap.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblSelectMap.BackColor = System.Drawing.Color.Transparent;
+            this.lblSelectMap.Location = new System.Drawing.Point(112, 32);
+            this.lblSelectMap.Name = "lblSelectMap";
+            this.lblSelectMap.Size = new System.Drawing.Size(32, 32);
+            this.lblSelectMap.TabIndex = 9;
+            this.lblSelectMap.Text = "v";
+            this.lblSelectMap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblSearchRoom
+            // lblSearchRoom
             // 
-            this.LblSearchRoom.BackColor = System.Drawing.Color.Transparent;
-            this.LblSearchRoom.Location = new System.Drawing.Point(144, 32);
-            this.LblSearchRoom.Name = "LblSearchRoom";
-            this.LblSearchRoom.Size = new System.Drawing.Size(120, 32);
-            this.LblSearchRoom.TabIndex = 8;
-            this.LblSearchRoom.Text = "搜索房间...";
-            this.LblSearchRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSearchRoom.BackColor = System.Drawing.Color.Transparent;
+            this.lblSearchRoom.Location = new System.Drawing.Point(144, 32);
+            this.lblSearchRoom.Name = "lblSearchRoom";
+            this.lblSearchRoom.Size = new System.Drawing.Size(120, 32);
+            this.lblSearchRoom.TabIndex = 8;
+            this.lblSearchRoom.Text = "搜索房间...";
+            this.lblSearchRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RoomListCtrl
             // 
@@ -268,23 +268,24 @@ namespace KeLi.MsgGame.App.Components
         }
 
         #endregion
-        private System.Windows.Forms.Label LblRoomList;
+
+        private System.Windows.Forms.Label lblRoomList;
         private System.Windows.Forms.Panel PnlContent;
         private System.Windows.Forms.Panel PnlPage;
-        private System.Windows.Forms.Label LblLast;
-        private System.Windows.Forms.Label LblPagePosition;
-        private System.Windows.Forms.Label LblNext;
-        private System.Windows.Forms.Label LblMatch;
-        private System.Windows.Forms.Label LblAll;
-        private System.Windows.Forms.Label LblCreateRoom;
-        private System.Windows.Forms.Label LblMapName;
-        private System.Windows.Forms.Label LblRecord;
-        private System.Windows.Forms.Label LblFlee;
-        private System.Windows.Forms.Label LblGaming;
-        private System.Windows.Forms.Label LblPerson;
-        private System.Windows.Forms.Label LblLive;
+        private System.Windows.Forms.Label lblLast;
+        private System.Windows.Forms.Label lblPagePosition;
+        private System.Windows.Forms.Label lblNext;
+        private System.Windows.Forms.Label lblMatch;
+        private System.Windows.Forms.Label lblAll;
+        private System.Windows.Forms.Label lblCreateRoom;
+        private System.Windows.Forms.Label lblMapName;
+        private System.Windows.Forms.Label lblRecord;
+        private System.Windows.Forms.Label lblFlee;
+        private System.Windows.Forms.Label lblGaming;
+        private System.Windows.Forms.Label lblPerson;
+        private System.Windows.Forms.Label lblLive;
         private System.Windows.Forms.Panel PnlTitle;
-        private System.Windows.Forms.Label LblSelectMap;
-        private System.Windows.Forms.Label LblSearchRoom;
+        private System.Windows.Forms.Label lblSelectMap;
+        private System.Windows.Forms.Label lblSearchRoom;
     }
 }

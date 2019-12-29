@@ -54,5 +54,20 @@ namespace KeLi.MsgGame.App.Components
         {
             InitializeComponent();
         }
+
+        public void SetMosaicName(string mosaicName)
+        {
+            lblMosaicName.Text = mosaicName;
+        }
+
+        public void SetFirstProperty(string firstProperty)
+        {
+            lblFirstProperty.Text = firstProperty;
+        }
+
+        public void SetSecondProperty(string secondProperty)
+        {
+            lblSecondProperty.Text = secondProperty;
+        }
     }
 }

@@ -54,5 +54,35 @@ namespace KeLi.MsgGame.App.Components
         {
             InitializeComponent();
         }
+
+        public void SetFurnishName(string furnishName)
+        {
+            lblFurnishName.Text = furnishName;
+        }
+
+        public void SetFurnishType(string furnishType)
+        {
+            lblFurnishType.Text = furnishType;
+        }
+
+        public void SetIsBinding(string isBinding)
+        {
+            lblIsBinding.Text = isBinding;
+        }
+
+        public void SetEnhance(string enhance)
+        {
+            lblEnhance.Text = enhance;
+        }
+
+        public void SetCanDiscard(string canDiscard)
+        {
+            lblCanDiscard.Text = canDiscard;
+        }
+
+        public void SetCanSplit(string canSplit)
+        {
+            lblCanSplit.Text = canSplit;
+        }
     }
 }

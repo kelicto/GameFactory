@@ -30,73 +30,73 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblFourthProperty = new System.Windows.Forms.Label();
-            this.LblThirdProperty = new System.Windows.Forms.Label();
-            this.LblSecondProperty = new System.Windows.Forms.Label();
-            this.LblFirstProperty = new System.Windows.Forms.Label();
+            this.lblFourthProperty = new System.Windows.Forms.Label();
+            this.lblThirdProperty = new System.Windows.Forms.Label();
+            this.lblSecondProperty = new System.Windows.Forms.Label();
+            this.lblFirstProperty = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblFourthProperty
+            // lblFourthProperty
             // 
-            this.LblFourthProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblFourthProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFourthProperty.BackColor = System.Drawing.Color.Transparent;
-            this.LblFourthProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
-            this.LblFourthProperty.Location = new System.Drawing.Point(0, 51);
-            this.LblFourthProperty.Name = "LblFourthProperty";
-            this.LblFourthProperty.Size = new System.Drawing.Size(120, 17);
-            this.LblFourthProperty.TabIndex = 61;
-            this.LblFourthProperty.Text = "+3950.0点灵力";
-            this.LblFourthProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFourthProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblFourthProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
+            this.lblFourthProperty.Location = new System.Drawing.Point(0, 51);
+            this.lblFourthProperty.Name = "lblFourthProperty";
+            this.lblFourthProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblFourthProperty.TabIndex = 61;
+            this.lblFourthProperty.Text = "+3950.0点灵力";
+            this.lblFourthProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblThirdProperty
+            // lblThirdProperty
             // 
-            this.LblThirdProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblThirdProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblThirdProperty.BackColor = System.Drawing.Color.Transparent;
-            this.LblThirdProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
-            this.LblThirdProperty.Location = new System.Drawing.Point(0, 34);
-            this.LblThirdProperty.Name = "LblThirdProperty";
-            this.LblThirdProperty.Size = new System.Drawing.Size(120, 17);
-            this.LblThirdProperty.TabIndex = 60;
-            this.LblThirdProperty.Text = "+1550.0点智力";
-            this.LblThirdProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblThirdProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblThirdProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
+            this.lblThirdProperty.Location = new System.Drawing.Point(0, 34);
+            this.lblThirdProperty.Name = "lblThirdProperty";
+            this.lblThirdProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblThirdProperty.TabIndex = 60;
+            this.lblThirdProperty.Text = "+1550.0点智力";
+            this.lblThirdProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblSecondProperty
+            // lblSecondProperty
             // 
-            this.LblSecondProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSecondProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSecondProperty.BackColor = System.Drawing.Color.Transparent;
-            this.LblSecondProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
-            this.LblSecondProperty.Location = new System.Drawing.Point(0, 17);
-            this.LblSecondProperty.Name = "LblSecondProperty";
-            this.LblSecondProperty.Size = new System.Drawing.Size(120, 17);
-            this.LblSecondProperty.TabIndex = 59;
-            this.LblSecondProperty.Text = "+1550.0点敏捷";
-            this.LblSecondProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSecondProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblSecondProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
+            this.lblSecondProperty.Location = new System.Drawing.Point(0, 17);
+            this.lblSecondProperty.Name = "lblSecondProperty";
+            this.lblSecondProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblSecondProperty.TabIndex = 59;
+            this.lblSecondProperty.Text = "+1550.0点敏捷";
+            this.lblSecondProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // LblFirstProperty
+            // lblFirstProperty
             // 
-            this.LblFirstProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblFirstProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFirstProperty.BackColor = System.Drawing.Color.Transparent;
-            this.LblFirstProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
-            this.LblFirstProperty.Location = new System.Drawing.Point(0, 0);
-            this.LblFirstProperty.Name = "LblFirstProperty";
-            this.LblFirstProperty.Size = new System.Drawing.Size(120, 17);
-            this.LblFirstProperty.TabIndex = 58;
-            this.LblFirstProperty.Text = "+2550.0点力量";
-            this.LblFirstProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblFirstProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblFirstProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
+            this.lblFirstProperty.Location = new System.Drawing.Point(0, 0);
+            this.lblFirstProperty.Name = "lblFirstProperty";
+            this.lblFirstProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblFirstProperty.TabIndex = 58;
+            this.lblFirstProperty.Text = "+2550.0点力量";
+            this.lblFirstProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // BasePropertyCtrl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblFourthProperty);
-            this.Controls.Add(this.LblThirdProperty);
-            this.Controls.Add(this.LblSecondProperty);
-            this.Controls.Add(this.LblFirstProperty);
+            this.Controls.Add(this.lblFourthProperty);
+            this.Controls.Add(this.lblThirdProperty);
+            this.Controls.Add(this.lblSecondProperty);
+            this.Controls.Add(this.lblFirstProperty);
             this.Name = "BasePropertyCtrl";
             this.Size = new System.Drawing.Size(120, 68);
             this.ResumeLayout(false);
@@ -105,9 +105,9 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        public System.Windows.Forms.Label LblFourthProperty;
-        public System.Windows.Forms.Label LblThirdProperty;
-        public System.Windows.Forms.Label LblSecondProperty;
-        public System.Windows.Forms.Label LblFirstProperty;
+        private System.Windows.Forms.Label lblFourthProperty;
+        private System.Windows.Forms.Label lblThirdProperty;
+        private System.Windows.Forms.Label lblSecondProperty;
+        private System.Windows.Forms.Label lblFirstProperty;
     }
 }

@@ -54,5 +54,25 @@ namespace KeLi.MsgGame.App.Components
         {
             InitializeComponent();
         }
+
+        public void SetFirstProperty(string firstProperty)
+        {
+            lblFirstProperty.Text = firstProperty;
+        }
+
+        public void SetSecondProperty(string secondProperty)
+        {
+            lblSecondProperty.Text = secondProperty;
+        }
+
+        public void SetThirdProperty(string thirdProperty)
+        {
+            lblThirdProperty.Text = thirdProperty;
+        }
+
+        public void SetFourthProperty(string fourthProperty)
+        {
+            lblFourthProperty.Text = fourthProperty;
+        }
     }
 }

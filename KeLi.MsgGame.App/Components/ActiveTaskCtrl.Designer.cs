@@ -30,103 +30,103 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblLast = new System.Windows.Forms.Label();
-            this.LblAnniversary = new System.Windows.Forms.Label();
-            this.LblGameParty = new System.Windows.Forms.Label();
-            this.LblRecharge = new System.Windows.Forms.Label();
-            this.LblCopyTask = new System.Windows.Forms.Label();
-            this.LblTreasureRoom = new System.Windows.Forms.Label();
-            this.LblReturnReward = new System.Windows.Forms.Label();
-            this.LblNext = new System.Windows.Forms.Label();
+            this.lblLast = new System.Windows.Forms.Label();
+            this.lblAnniversary = new System.Windows.Forms.Label();
+            this.lblGameParty = new System.Windows.Forms.Label();
+            this.lblRecharge = new System.Windows.Forms.Label();
+            this.lblCopyTask = new System.Windows.Forms.Label();
+            this.lblTreasureRoom = new System.Windows.Forms.Label();
+            this.lblReturnReward = new System.Windows.Forms.Label();
+            this.lblNext = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblLast
+            // lblLast
             // 
-            this.LblLast.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblLast.BackColor = System.Drawing.Color.Transparent;
-            this.LblLast.Location = new System.Drawing.Point(-2, -2);
-            this.LblLast.Name = "LblLast";
-            this.LblLast.Size = new System.Drawing.Size(50, 50);
-            this.LblLast.TabIndex = 18;
-            this.LblLast.Text = "^";
-            this.LblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLast.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblLast.BackColor = System.Drawing.Color.Transparent;
+            this.lblLast.Location = new System.Drawing.Point(-2, -2);
+            this.lblLast.Name = "lblLast";
+            this.lblLast.Size = new System.Drawing.Size(50, 50);
+            this.lblLast.TabIndex = 18;
+            this.lblLast.Text = "^";
+            this.lblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblAnniversary
+            // lblAnniversary
             // 
-            this.LblAnniversary.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblAnniversary.BackColor = System.Drawing.Color.Transparent;
-            this.LblAnniversary.Location = new System.Drawing.Point(-2, 48);
-            this.LblAnniversary.Name = "LblAnniversary";
-            this.LblAnniversary.Size = new System.Drawing.Size(50, 50);
-            this.LblAnniversary.TabIndex = 18;
-            this.LblAnniversary.Text = "周年庆";
-            this.LblAnniversary.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAnniversary.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAnniversary.BackColor = System.Drawing.Color.Transparent;
+            this.lblAnniversary.Location = new System.Drawing.Point(-2, 48);
+            this.lblAnniversary.Name = "lblAnniversary";
+            this.lblAnniversary.Size = new System.Drawing.Size(50, 50);
+            this.lblAnniversary.TabIndex = 18;
+            this.lblAnniversary.Text = "周年庆";
+            this.lblAnniversary.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblGameParty
+            // lblGameParty
             // 
-            this.LblGameParty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblGameParty.BackColor = System.Drawing.Color.Transparent;
-            this.LblGameParty.Location = new System.Drawing.Point(-2, 98);
-            this.LblGameParty.Name = "LblGameParty";
-            this.LblGameParty.Size = new System.Drawing.Size(50, 50);
-            this.LblGameParty.TabIndex = 18;
-            this.LblGameParty.Text = "游乐园";
-            this.LblGameParty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGameParty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblGameParty.BackColor = System.Drawing.Color.Transparent;
+            this.lblGameParty.Location = new System.Drawing.Point(-2, 98);
+            this.lblGameParty.Name = "lblGameParty";
+            this.lblGameParty.Size = new System.Drawing.Size(50, 50);
+            this.lblGameParty.TabIndex = 18;
+            this.lblGameParty.Text = "游乐园";
+            this.lblGameParty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblRecharge
+            // lblRecharge
             // 
-            this.LblRecharge.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblRecharge.BackColor = System.Drawing.Color.Transparent;
-            this.LblRecharge.Location = new System.Drawing.Point(-2, 148);
-            this.LblRecharge.Name = "LblRecharge";
-            this.LblRecharge.Size = new System.Drawing.Size(50, 50);
-            this.LblRecharge.TabIndex = 18;
-            this.LblRecharge.Text = "充值";
-            this.LblRecharge.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblRecharge.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRecharge.BackColor = System.Drawing.Color.Transparent;
+            this.lblRecharge.Location = new System.Drawing.Point(-2, 148);
+            this.lblRecharge.Name = "lblRecharge";
+            this.lblRecharge.Size = new System.Drawing.Size(50, 50);
+            this.lblRecharge.TabIndex = 18;
+            this.lblRecharge.Text = "充值";
+            this.lblRecharge.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblCopyTask
+            // lblCopyTask
             // 
-            this.LblCopyTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblCopyTask.BackColor = System.Drawing.Color.Transparent;
-            this.LblCopyTask.Location = new System.Drawing.Point(-2, 198);
-            this.LblCopyTask.Name = "LblCopyTask";
-            this.LblCopyTask.Size = new System.Drawing.Size(50, 50);
-            this.LblCopyTask.TabIndex = 18;
-            this.LblCopyTask.Text = "副本任务";
-            this.LblCopyTask.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCopyTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblCopyTask.BackColor = System.Drawing.Color.Transparent;
+            this.lblCopyTask.Location = new System.Drawing.Point(-2, 198);
+            this.lblCopyTask.Name = "lblCopyTask";
+            this.lblCopyTask.Size = new System.Drawing.Size(50, 50);
+            this.lblCopyTask.TabIndex = 18;
+            this.lblCopyTask.Text = "副本任务";
+            this.lblCopyTask.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblTreasureRoom
+            // lblTreasureRoom
             // 
-            this.LblTreasureRoom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblTreasureRoom.BackColor = System.Drawing.Color.Transparent;
-            this.LblTreasureRoom.Location = new System.Drawing.Point(-2, 248);
-            this.LblTreasureRoom.Name = "LblTreasureRoom";
-            this.LblTreasureRoom.Size = new System.Drawing.Size(50, 50);
-            this.LblTreasureRoom.TabIndex = 18;
-            this.LblTreasureRoom.Text = "珍宝阁";
-            this.LblTreasureRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTreasureRoom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTreasureRoom.BackColor = System.Drawing.Color.Transparent;
+            this.lblTreasureRoom.Location = new System.Drawing.Point(-2, 248);
+            this.lblTreasureRoom.Name = "lblTreasureRoom";
+            this.lblTreasureRoom.Size = new System.Drawing.Size(50, 50);
+            this.lblTreasureRoom.TabIndex = 18;
+            this.lblTreasureRoom.Text = "珍宝阁";
+            this.lblTreasureRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblReturnReward
+            // lblReturnReward
             // 
-            this.LblReturnReward.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblReturnReward.BackColor = System.Drawing.Color.Transparent;
-            this.LblReturnReward.Location = new System.Drawing.Point(-2, 298);
-            this.LblReturnReward.Name = "LblReturnReward";
-            this.LblReturnReward.Size = new System.Drawing.Size(50, 50);
-            this.LblReturnReward.TabIndex = 18;
-            this.LblReturnReward.Text = "回归奖励";
-            this.LblReturnReward.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblReturnReward.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblReturnReward.BackColor = System.Drawing.Color.Transparent;
+            this.lblReturnReward.Location = new System.Drawing.Point(-2, 298);
+            this.lblReturnReward.Name = "lblReturnReward";
+            this.lblReturnReward.Size = new System.Drawing.Size(50, 50);
+            this.lblReturnReward.TabIndex = 18;
+            this.lblReturnReward.Text = "回归奖励";
+            this.lblReturnReward.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblNext
+            // lblNext
             // 
-            this.LblNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblNext.BackColor = System.Drawing.Color.Transparent;
-            this.LblNext.Location = new System.Drawing.Point(-2, 348);
-            this.LblNext.Name = "LblNext";
-            this.LblNext.Size = new System.Drawing.Size(50, 50);
-            this.LblNext.TabIndex = 18;
-            this.LblNext.Text = "v";
-            this.LblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblNext.BackColor = System.Drawing.Color.Transparent;
+            this.lblNext.Location = new System.Drawing.Point(-2, 348);
+            this.lblNext.Name = "lblNext";
+            this.lblNext.Size = new System.Drawing.Size(50, 50);
+            this.lblNext.TabIndex = 18;
+            this.lblNext.Text = "v";
+            this.lblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ActiveTaskCtrl
             // 
@@ -134,14 +134,14 @@ namespace KeLi.MsgGame.App.Components
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblNext);
-            this.Controls.Add(this.LblTreasureRoom);
-            this.Controls.Add(this.LblRecharge);
-            this.Controls.Add(this.LblReturnReward);
-            this.Controls.Add(this.LblCopyTask);
-            this.Controls.Add(this.LblGameParty);
-            this.Controls.Add(this.LblAnniversary);
-            this.Controls.Add(this.LblLast);
+            this.Controls.Add(this.lblNext);
+            this.Controls.Add(this.lblTreasureRoom);
+            this.Controls.Add(this.lblRecharge);
+            this.Controls.Add(this.lblReturnReward);
+            this.Controls.Add(this.lblCopyTask);
+            this.Controls.Add(this.lblGameParty);
+            this.Controls.Add(this.lblAnniversary);
+            this.Controls.Add(this.lblLast);
             this.Name = "ActiveTaskCtrl";
             this.Size = new System.Drawing.Size(50, 400);
             this.ResumeLayout(false);
@@ -150,13 +150,13 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        private System.Windows.Forms.Label LblLast;
-        private System.Windows.Forms.Label LblAnniversary;
-        private System.Windows.Forms.Label LblGameParty;
-        private System.Windows.Forms.Label LblRecharge;
-        private System.Windows.Forms.Label LblCopyTask;
-        private System.Windows.Forms.Label LblTreasureRoom;
-        private System.Windows.Forms.Label LblReturnReward;
-        private System.Windows.Forms.Label LblNext;
+        private System.Windows.Forms.Label lblLast;
+        private System.Windows.Forms.Label lblAnniversary;
+        private System.Windows.Forms.Label lblGameParty;
+        private System.Windows.Forms.Label lblRecharge;
+        private System.Windows.Forms.Label lblCopyTask;
+        private System.Windows.Forms.Label lblTreasureRoom;
+        private System.Windows.Forms.Label lblReturnReward;
+        private System.Windows.Forms.Label lblNext;
     }
 }

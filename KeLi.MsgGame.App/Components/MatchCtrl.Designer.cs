@@ -30,55 +30,55 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblMatch = new System.Windows.Forms.Label();
-            this.LblLeft = new System.Windows.Forms.Label();
-            this.LblRight = new System.Windows.Forms.Label();
+            this.lblMatch = new System.Windows.Forms.Label();
+            this.lblLeft = new System.Windows.Forms.Label();
+            this.lblRight = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblMatch
+            // lblMatch
             // 
-            this.LblMatch.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.LblMatch.BackColor = System.Drawing.Color.Transparent;
-            this.LblMatch.Location = new System.Drawing.Point(32, 0);
-            this.LblMatch.Name = "LblMatch";
-            this.LblMatch.Size = new System.Drawing.Size(100, 100);
-            this.LblMatch.TabIndex = 12;
-            this.LblMatch.Text = "开始匹配";
-            this.LblMatch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblMatch.Click += new System.EventHandler(this.LblMatch_Click);
+            this.lblMatch.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.lblMatch.BackColor = System.Drawing.Color.Transparent;
+            this.lblMatch.Location = new System.Drawing.Point(32, 0);
+            this.lblMatch.Name = "lblMatch";
+            this.lblMatch.Size = new System.Drawing.Size(100, 100);
+            this.lblMatch.TabIndex = 12;
+            this.lblMatch.Text = "开始匹配";
+            this.lblMatch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMatch.Click += new System.EventHandler(this.lblMatch_Click);
             // 
-            // LblLeft
+            // lblLeft
             // 
-            this.LblLeft.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.LblLeft.BackColor = System.Drawing.Color.Transparent;
-            this.LblLeft.Location = new System.Drawing.Point(0, 68);
-            this.LblLeft.Name = "LblLeft";
-            this.LblLeft.Size = new System.Drawing.Size(32, 32);
-            this.LblLeft.TabIndex = 13;
-            this.LblLeft.Text = "v";
-            this.LblLeft.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblLeft.Click += new System.EventHandler(this.LblLeft_Click);
+            this.lblLeft.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lblLeft.BackColor = System.Drawing.Color.Transparent;
+            this.lblLeft.Location = new System.Drawing.Point(0, 68);
+            this.lblLeft.Name = "lblLeft";
+            this.lblLeft.Size = new System.Drawing.Size(32, 32);
+            this.lblLeft.TabIndex = 13;
+            this.lblLeft.Text = "v";
+            this.lblLeft.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLeft.Click += new System.EventHandler(this.lblLeft_Click);
             // 
-            // LblRight
+            // lblRight
             // 
-            this.LblRight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblRight.BackColor = System.Drawing.Color.Transparent;
-            this.LblRight.Location = new System.Drawing.Point(132, 68);
-            this.LblRight.Name = "LblRight";
-            this.LblRight.Size = new System.Drawing.Size(32, 32);
-            this.LblRight.TabIndex = 13;
-            this.LblRight.Text = "v";
-            this.LblRight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.LblRight.Click += new System.EventHandler(this.LblRight_Click);
+            this.lblRight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblRight.BackColor = System.Drawing.Color.Transparent;
+            this.lblRight.Location = new System.Drawing.Point(132, 68);
+            this.lblRight.Name = "lblRight";
+            this.lblRight.Size = new System.Drawing.Size(32, 32);
+            this.lblRight.TabIndex = 13;
+            this.lblRight.Text = "v";
+            this.lblRight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblRight.Click += new System.EventHandler(this.lblRight_Click);
             // 
             // MatchCtrl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblRight);
-            this.Controls.Add(this.LblLeft);
-            this.Controls.Add(this.LblMatch);
+            this.Controls.Add(this.lblRight);
+            this.Controls.Add(this.lblLeft);
+            this.Controls.Add(this.lblMatch);
             this.Name = "MatchCtrl";
             this.Size = new System.Drawing.Size(170, 100);
             this.ResumeLayout(false);
@@ -87,8 +87,8 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        private System.Windows.Forms.Label LblMatch;
-        private System.Windows.Forms.Label LblLeft;
-        private System.Windows.Forms.Label LblRight;
+        private System.Windows.Forms.Label lblMatch;
+        private System.Windows.Forms.Label lblLeft;
+        private System.Windows.Forms.Label lblRight;
     }
 }

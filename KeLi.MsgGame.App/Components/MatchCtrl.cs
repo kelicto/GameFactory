@@ -57,18 +57,18 @@ namespace KeLi.MsgGame.App.Components
             InitializeComponent();
         }
 
-        private void LblMatch_Click(object sender, System.EventArgs e)
+        private void lblMatch_Click(object sender, System.EventArgs e)
         {
             new ArmPropertyForm().Show();
             new FurnishPropertyForm().Show();
             new HeroPropertyForm().Show();
         }
 
-        private void LblLeft_Click(object sender, System.EventArgs e)
+        private void lblLeft_Click(object sender, System.EventArgs e)
         {
         }
 
-        private void LblRight_Click(object sender, System.EventArgs e)
+        private void lblRight_Click(object sender, System.EventArgs e)
         {
         }
     }

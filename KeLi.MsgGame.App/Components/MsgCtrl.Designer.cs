@@ -30,119 +30,119 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblExpression = new System.Windows.Forms.Label();
-            this.LblSetting = new System.Windows.Forms.Label();
-            this.LblChat = new System.Windows.Forms.Label();
-            this.LblRadio = new System.Windows.Forms.Label();
-            this.LblLast = new System.Windows.Forms.Label();
-            this.LblNext = new System.Windows.Forms.Label();
-            this.LblBottom = new System.Windows.Forms.Label();
-            this.LblGamer = new System.Windows.Forms.Label();
-            this.LblSend = new System.Windows.Forms.Label();
-            this.LblMin = new System.Windows.Forms.Label();
+            this.lblExpression = new System.Windows.Forms.Label();
+            this.lblSetting = new System.Windows.Forms.Label();
+            this.lblChat = new System.Windows.Forms.Label();
+            this.lblRadio = new System.Windows.Forms.Label();
+            this.lblLast = new System.Windows.Forms.Label();
+            this.lblNext = new System.Windows.Forms.Label();
+            this.lblBottom = new System.Windows.Forms.Label();
+            this.lblGamer = new System.Windows.Forms.Label();
+            this.lblSend = new System.Windows.Forms.Label();
+            this.lblMin = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblExpression
+            // lblExpression
             // 
-            this.LblExpression.BackColor = System.Drawing.Color.Transparent;
-            this.LblExpression.Location = new System.Drawing.Point(0, 0);
-            this.LblExpression.Name = "LblExpression";
-            this.LblExpression.Size = new System.Drawing.Size(32, 32);
-            this.LblExpression.TabIndex = 10;
-            this.LblExpression.Text = "v";
-            this.LblExpression.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblExpression.BackColor = System.Drawing.Color.Transparent;
+            this.lblExpression.Location = new System.Drawing.Point(0, 0);
+            this.lblExpression.Name = "lblExpression";
+            this.lblExpression.Size = new System.Drawing.Size(32, 32);
+            this.lblExpression.TabIndex = 10;
+            this.lblExpression.Text = "v";
+            this.lblExpression.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblSetting
+            // lblSetting
             // 
-            this.LblSetting.BackColor = System.Drawing.Color.Transparent;
-            this.LblSetting.Location = new System.Drawing.Point(0, 32);
-            this.LblSetting.Name = "LblSetting";
-            this.LblSetting.Size = new System.Drawing.Size(32, 32);
-            this.LblSetting.TabIndex = 11;
-            this.LblSetting.Text = "v";
-            this.LblSetting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSetting.BackColor = System.Drawing.Color.Transparent;
+            this.lblSetting.Location = new System.Drawing.Point(0, 32);
+            this.lblSetting.Name = "lblSetting";
+            this.lblSetting.Size = new System.Drawing.Size(32, 32);
+            this.lblSetting.TabIndex = 11;
+            this.lblSetting.Text = "v";
+            this.lblSetting.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblChat
+            // lblChat
             // 
-            this.LblChat.BackColor = System.Drawing.Color.Transparent;
-            this.LblChat.Location = new System.Drawing.Point(0, 64);
-            this.LblChat.Name = "LblChat";
-            this.LblChat.Size = new System.Drawing.Size(32, 32);
-            this.LblChat.TabIndex = 11;
-            this.LblChat.Text = "v";
-            this.LblChat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblChat.BackColor = System.Drawing.Color.Transparent;
+            this.lblChat.Location = new System.Drawing.Point(0, 64);
+            this.lblChat.Name = "lblChat";
+            this.lblChat.Size = new System.Drawing.Size(32, 32);
+            this.lblChat.TabIndex = 11;
+            this.lblChat.Text = "v";
+            this.lblChat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblRadio
+            // lblRadio
             // 
-            this.LblRadio.BackColor = System.Drawing.Color.Transparent;
-            this.LblRadio.Location = new System.Drawing.Point(0, 96);
-            this.LblRadio.Name = "LblRadio";
-            this.LblRadio.Size = new System.Drawing.Size(32, 32);
-            this.LblRadio.TabIndex = 11;
-            this.LblRadio.Text = "v";
-            this.LblRadio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblRadio.BackColor = System.Drawing.Color.Transparent;
+            this.lblRadio.Location = new System.Drawing.Point(0, 96);
+            this.lblRadio.Name = "lblRadio";
+            this.lblRadio.Size = new System.Drawing.Size(32, 32);
+            this.lblRadio.TabIndex = 11;
+            this.lblRadio.Text = "v";
+            this.lblRadio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblLast
+            // lblLast
             // 
-            this.LblLast.BackColor = System.Drawing.Color.Transparent;
-            this.LblLast.Location = new System.Drawing.Point(0, 128);
-            this.LblLast.Name = "LblLast";
-            this.LblLast.Size = new System.Drawing.Size(32, 32);
-            this.LblLast.TabIndex = 11;
-            this.LblLast.Text = "^";
-            this.LblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblLast.BackColor = System.Drawing.Color.Transparent;
+            this.lblLast.Location = new System.Drawing.Point(0, 128);
+            this.lblLast.Name = "lblLast";
+            this.lblLast.Size = new System.Drawing.Size(32, 32);
+            this.lblLast.TabIndex = 11;
+            this.lblLast.Text = "^";
+            this.lblLast.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblNext
+            // lblNext
             // 
-            this.LblNext.BackColor = System.Drawing.Color.Transparent;
-            this.LblNext.Location = new System.Drawing.Point(0, 160);
-            this.LblNext.Name = "LblNext";
-            this.LblNext.Size = new System.Drawing.Size(32, 32);
-            this.LblNext.TabIndex = 11;
-            this.LblNext.Text = "v";
-            this.LblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNext.BackColor = System.Drawing.Color.Transparent;
+            this.lblNext.Location = new System.Drawing.Point(0, 160);
+            this.lblNext.Name = "lblNext";
+            this.lblNext.Size = new System.Drawing.Size(32, 32);
+            this.lblNext.TabIndex = 11;
+            this.lblNext.Text = "v";
+            this.lblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblBottom
+            // lblBottom
             // 
-            this.LblBottom.BackColor = System.Drawing.Color.Transparent;
-            this.LblBottom.Location = new System.Drawing.Point(0, 192);
-            this.LblBottom.Name = "LblBottom";
-            this.LblBottom.Size = new System.Drawing.Size(32, 32);
-            this.LblBottom.TabIndex = 11;
-            this.LblBottom.Text = "B";
-            this.LblBottom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBottom.BackColor = System.Drawing.Color.Transparent;
+            this.lblBottom.Location = new System.Drawing.Point(0, 192);
+            this.lblBottom.Name = "lblBottom";
+            this.lblBottom.Size = new System.Drawing.Size(32, 32);
+            this.lblBottom.TabIndex = 11;
+            this.lblBottom.Text = "B";
+            this.lblBottom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblGamer
+            // lblGamer
             // 
-            this.LblGamer.BackColor = System.Drawing.Color.Transparent;
-            this.LblGamer.Location = new System.Drawing.Point(32, 224);
-            this.LblGamer.Name = "LblGamer";
-            this.LblGamer.Size = new System.Drawing.Size(70, 32);
-            this.LblGamer.TabIndex = 12;
-            this.LblGamer.Text = "张翼德之力";
-            this.LblGamer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblGamer.BackColor = System.Drawing.Color.Transparent;
+            this.lblGamer.Location = new System.Drawing.Point(32, 224);
+            this.lblGamer.Name = "lblGamer";
+            this.lblGamer.Size = new System.Drawing.Size(70, 32);
+            this.lblGamer.TabIndex = 12;
+            this.lblGamer.Text = "张翼德之力";
+            this.lblGamer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblSend
+            // lblSend
             // 
-            this.LblSend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSend.BackColor = System.Drawing.Color.Transparent;
-            this.LblSend.Location = new System.Drawing.Point(328, 224);
-            this.LblSend.Name = "LblSend";
-            this.LblSend.Size = new System.Drawing.Size(32, 32);
-            this.LblSend.TabIndex = 11;
-            this.LblSend.Text = "v";
-            this.LblSend.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblSend.BackColor = System.Drawing.Color.Transparent;
+            this.lblSend.Location = new System.Drawing.Point(328, 224);
+            this.lblSend.Name = "lblSend";
+            this.lblSend.Size = new System.Drawing.Size(32, 32);
+            this.lblSend.TabIndex = 11;
+            this.lblSend.Text = "v";
+            this.lblSend.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblMin
+            // lblMin
             // 
-            this.LblMin.BackColor = System.Drawing.Color.Transparent;
-            this.LblMin.Location = new System.Drawing.Point(0, 224);
-            this.LblMin.Name = "LblMin";
-            this.LblMin.Size = new System.Drawing.Size(32, 32);
-            this.LblMin.TabIndex = 11;
-            this.LblMin.Text = "-";
-            this.LblMin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblMin.BackColor = System.Drawing.Color.Transparent;
+            this.lblMin.Location = new System.Drawing.Point(0, 224);
+            this.lblMin.Name = "lblMin";
+            this.lblMin.Size = new System.Drawing.Size(32, 32);
+            this.lblMin.TabIndex = 11;
+            this.lblMin.Text = "-";
+            this.lblMin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
@@ -161,16 +161,16 @@ namespace KeLi.MsgGame.App.Components
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.LblGamer);
-            this.Controls.Add(this.LblSend);
-            this.Controls.Add(this.LblMin);
-            this.Controls.Add(this.LblBottom);
-            this.Controls.Add(this.LblNext);
-            this.Controls.Add(this.LblLast);
-            this.Controls.Add(this.LblRadio);
-            this.Controls.Add(this.LblChat);
-            this.Controls.Add(this.LblSetting);
-            this.Controls.Add(this.LblExpression);
+            this.Controls.Add(this.lblGamer);
+            this.Controls.Add(this.lblSend);
+            this.Controls.Add(this.lblMin);
+            this.Controls.Add(this.lblBottom);
+            this.Controls.Add(this.lblNext);
+            this.Controls.Add(this.lblLast);
+            this.Controls.Add(this.lblRadio);
+            this.Controls.Add(this.lblChat);
+            this.Controls.Add(this.lblSetting);
+            this.Controls.Add(this.lblExpression);
             this.Name = "MsgCtrl";
             this.Size = new System.Drawing.Size(360, 256);
             this.ResumeLayout(false);
@@ -179,16 +179,16 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        private System.Windows.Forms.Label LblExpression;
-        private System.Windows.Forms.Label LblSetting;
-        private System.Windows.Forms.Label LblChat;
-        private System.Windows.Forms.Label LblRadio;
-        private System.Windows.Forms.Label LblLast;
-        private System.Windows.Forms.Label LblNext;
-        private System.Windows.Forms.Label LblBottom;
-        private System.Windows.Forms.Label LblGamer;
-        private System.Windows.Forms.Label LblSend;
-        private System.Windows.Forms.Label LblMin;
+        private System.Windows.Forms.Label lblExpression;
+        private System.Windows.Forms.Label lblSetting;
+        private System.Windows.Forms.Label lblChat;
+        private System.Windows.Forms.Label lblRadio;
+        private System.Windows.Forms.Label lblLast;
+        private System.Windows.Forms.Label lblNext;
+        private System.Windows.Forms.Label lblBottom;
+        private System.Windows.Forms.Label lblGamer;
+        private System.Windows.Forms.Label lblSend;
+        private System.Windows.Forms.Label lblMin;
         private System.Windows.Forms.Label label1;
     }
 }

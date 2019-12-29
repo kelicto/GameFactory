@@ -30,117 +30,117 @@ namespace KeLi.MsgGame.App.Components
         /// </summary>
         private void InitializeComponent()
         {
-            this.LblPerson = new System.Windows.Forms.Label();
-            this.LblTask = new System.Windows.Forms.Label();
-            this.LblCollection = new System.Windows.Forms.Label();
-            this.LblSociety = new System.Windows.Forms.Label();
-            this.LblFeat = new System.Windows.Forms.Label();
-            this.LblAchievement = new System.Windows.Forms.Label();
-            this.LblFriend = new System.Windows.Forms.Label();
-            this.LblShop = new System.Windows.Forms.Label();
+            this.lblPerson = new System.Windows.Forms.Label();
+            this.lblTask = new System.Windows.Forms.Label();
+            this.lblCollection = new System.Windows.Forms.Label();
+            this.lblSociety = new System.Windows.Forms.Label();
+            this.lblFeat = new System.Windows.Forms.Label();
+            this.lblAchievement = new System.Windows.Forms.Label();
+            this.lblFriend = new System.Windows.Forms.Label();
+            this.lblShop = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // LblPerson
+            // lblPerson
             // 
-            this.LblPerson.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblPerson.BackColor = System.Drawing.Color.Transparent;
-            this.LblPerson.Location = new System.Drawing.Point(0, 50);
-            this.LblPerson.Name = "LblPerson";
-            this.LblPerson.Size = new System.Drawing.Size(50, 50);
-            this.LblPerson.TabIndex = 13;
-            this.LblPerson.Text = "个人";
-            this.LblPerson.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblPerson.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPerson.BackColor = System.Drawing.Color.Transparent;
+            this.lblPerson.Location = new System.Drawing.Point(0, 50);
+            this.lblPerson.Name = "lblPerson";
+            this.lblPerson.Size = new System.Drawing.Size(50, 50);
+            this.lblPerson.TabIndex = 13;
+            this.lblPerson.Text = "个人";
+            this.lblPerson.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblTask
+            // lblTask
             // 
-            this.LblTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblTask.BackColor = System.Drawing.Color.Transparent;
-            this.LblTask.Location = new System.Drawing.Point(50, 50);
-            this.LblTask.Name = "LblTask";
-            this.LblTask.Size = new System.Drawing.Size(50, 50);
-            this.LblTask.TabIndex = 14;
-            this.LblTask.Text = "任务";
-            this.LblTask.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblTask.BackColor = System.Drawing.Color.Transparent;
+            this.lblTask.Location = new System.Drawing.Point(50, 50);
+            this.lblTask.Name = "lblTask";
+            this.lblTask.Size = new System.Drawing.Size(50, 50);
+            this.lblTask.TabIndex = 14;
+            this.lblTask.Text = "任务";
+            this.lblTask.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblCollection
+            // lblCollection
             // 
-            this.LblCollection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblCollection.BackColor = System.Drawing.Color.Transparent;
-            this.LblCollection.Location = new System.Drawing.Point(100, 50);
-            this.LblCollection.Name = "LblCollection";
-            this.LblCollection.Size = new System.Drawing.Size(50, 50);
-            this.LblCollection.TabIndex = 15;
-            this.LblCollection.Text = "水岭注";
-            this.LblCollection.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblCollection.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblCollection.BackColor = System.Drawing.Color.Transparent;
+            this.lblCollection.Location = new System.Drawing.Point(100, 50);
+            this.lblCollection.Name = "lblCollection";
+            this.lblCollection.Size = new System.Drawing.Size(50, 50);
+            this.lblCollection.TabIndex = 15;
+            this.lblCollection.Text = "水岭注";
+            this.lblCollection.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblSociety
+            // lblSociety
             // 
-            this.LblSociety.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblSociety.BackColor = System.Drawing.Color.Transparent;
-            this.LblSociety.Location = new System.Drawing.Point(150, 50);
-            this.LblSociety.Name = "LblSociety";
-            this.LblSociety.Size = new System.Drawing.Size(50, 50);
-            this.LblSociety.TabIndex = 16;
-            this.LblSociety.Text = "社会";
-            this.LblSociety.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblSociety.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblSociety.BackColor = System.Drawing.Color.Transparent;
+            this.lblSociety.Location = new System.Drawing.Point(150, 50);
+            this.lblSociety.Name = "lblSociety";
+            this.lblSociety.Size = new System.Drawing.Size(50, 50);
+            this.lblSociety.TabIndex = 16;
+            this.lblSociety.Text = "社会";
+            this.lblSociety.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblFeat
+            // lblFeat
             // 
-            this.LblFeat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFeat.BackColor = System.Drawing.Color.Transparent;
-            this.LblFeat.Location = new System.Drawing.Point(200, 50);
-            this.LblFeat.Name = "LblFeat";
-            this.LblFeat.Size = new System.Drawing.Size(50, 50);
-            this.LblFeat.TabIndex = 17;
-            this.LblFeat.Text = "功勋";
-            this.LblFeat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFeat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblFeat.BackColor = System.Drawing.Color.Transparent;
+            this.lblFeat.Location = new System.Drawing.Point(200, 50);
+            this.lblFeat.Name = "lblFeat";
+            this.lblFeat.Size = new System.Drawing.Size(50, 50);
+            this.lblFeat.TabIndex = 17;
+            this.lblFeat.Text = "功勋";
+            this.lblFeat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblAchievement
+            // lblAchievement
             // 
-            this.LblAchievement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblAchievement.BackColor = System.Drawing.Color.Transparent;
-            this.LblAchievement.Location = new System.Drawing.Point(250, 50);
-            this.LblAchievement.Name = "LblAchievement";
-            this.LblAchievement.Size = new System.Drawing.Size(50, 50);
-            this.LblAchievement.TabIndex = 17;
-            this.LblAchievement.Text = "成就";
-            this.LblAchievement.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAchievement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblAchievement.BackColor = System.Drawing.Color.Transparent;
+            this.lblAchievement.Location = new System.Drawing.Point(250, 50);
+            this.lblAchievement.Name = "lblAchievement";
+            this.lblAchievement.Size = new System.Drawing.Size(50, 50);
+            this.lblAchievement.TabIndex = 17;
+            this.lblAchievement.Text = "成就";
+            this.lblAchievement.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblFriend
+            // lblFriend
             // 
-            this.LblFriend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblFriend.BackColor = System.Drawing.Color.Transparent;
-            this.LblFriend.Location = new System.Drawing.Point(300, 50);
-            this.LblFriend.Name = "LblFriend";
-            this.LblFriend.Size = new System.Drawing.Size(50, 50);
-            this.LblFriend.TabIndex = 17;
-            this.LblFriend.Text = "好友";
-            this.LblFriend.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblFriend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblFriend.BackColor = System.Drawing.Color.Transparent;
+            this.lblFriend.Location = new System.Drawing.Point(300, 50);
+            this.lblFriend.Name = "lblFriend";
+            this.lblFriend.Size = new System.Drawing.Size(50, 50);
+            this.lblFriend.TabIndex = 17;
+            this.lblFriend.Text = "好友";
+            this.lblFriend.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // LblShop
+            // lblShop
             // 
-            this.LblShop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblShop.BackColor = System.Drawing.Color.Transparent;
-            this.LblShop.Location = new System.Drawing.Point(350, 0);
-            this.LblShop.Name = "LblShop";
-            this.LblShop.Size = new System.Drawing.Size(100, 100);
-            this.LblShop.TabIndex = 17;
-            this.LblShop.Text = "商城";
-            this.LblShop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblShop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblShop.BackColor = System.Drawing.Color.Transparent;
+            this.lblShop.Location = new System.Drawing.Point(350, 0);
+            this.lblShop.Name = "lblShop";
+            this.lblShop.Size = new System.Drawing.Size(100, 100);
+            this.lblShop.TabIndex = 17;
+            this.lblShop.Text = "商城";
+            this.lblShop.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainMenuCtrl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.Controls.Add(this.LblShop);
-            this.Controls.Add(this.LblFriend);
-            this.Controls.Add(this.LblAchievement);
-            this.Controls.Add(this.LblFeat);
-            this.Controls.Add(this.LblSociety);
-            this.Controls.Add(this.LblCollection);
-            this.Controls.Add(this.LblTask);
-            this.Controls.Add(this.LblPerson);
+            this.Controls.Add(this.lblShop);
+            this.Controls.Add(this.lblFriend);
+            this.Controls.Add(this.lblAchievement);
+            this.Controls.Add(this.lblFeat);
+            this.Controls.Add(this.lblSociety);
+            this.Controls.Add(this.lblCollection);
+            this.Controls.Add(this.lblTask);
+            this.Controls.Add(this.lblPerson);
             this.Name = "MainMenuCtrl";
             this.Size = new System.Drawing.Size(450, 100);
             this.ResumeLayout(false);
@@ -149,13 +149,13 @@ namespace KeLi.MsgGame.App.Components
 
         #endregion
 
-        private System.Windows.Forms.Label LblPerson;
-        private System.Windows.Forms.Label LblTask;
-        private System.Windows.Forms.Label LblCollection;
-        private System.Windows.Forms.Label LblSociety;
-        private System.Windows.Forms.Label LblFeat;
-        private System.Windows.Forms.Label LblAchievement;
-        private System.Windows.Forms.Label LblFriend;
-        private System.Windows.Forms.Label LblShop;
+        private System.Windows.Forms.Label lblPerson;
+        private System.Windows.Forms.Label lblTask;
+        private System.Windows.Forms.Label lblCollection;
+        private System.Windows.Forms.Label lblSociety;
+        private System.Windows.Forms.Label lblFeat;
+        private System.Windows.Forms.Label lblAchievement;
+        private System.Windows.Forms.Label lblFriend;
+        private System.Windows.Forms.Label lblShop;
     }
 }
