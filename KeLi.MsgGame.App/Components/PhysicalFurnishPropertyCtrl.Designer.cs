@@ -65,7 +65,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblXiXueValue.Name = "lblXiXueValue";
             this.lblXiXueValue.Size = new System.Drawing.Size(60, 22);
             this.lblXiXueValue.TabIndex = 12;
-            this.lblXiXueValue.Text = "23.0%";
+            this.lblXiXueValue.Text = "[百分比]";
             this.lblXiXueValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGongSuValue
@@ -78,7 +78,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblGongSuValue.Name = "lblGongSuValue";
             this.lblGongSuValue.Size = new System.Drawing.Size(60, 22);
             this.lblGongSuValue.TabIndex = 18;
-            this.lblGongSuValue.Text = "3.9";
+            this.lblGongSuValue.Text = "[数值]";
             this.lblGongSuValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGongSuProp
@@ -115,7 +115,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblGongJiLiValue.Name = "lblGongJiLiValue";
             this.lblGongJiLiValue.Size = new System.Drawing.Size(60, 22);
             this.lblGongJiLiValue.TabIndex = 18;
-            this.lblGongJiLiValue.Text = "69563";
+            this.lblGongJiLiValue.Text = "[数值]";
             this.lblGongJiLiValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblPoJiaProp
@@ -141,7 +141,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblPoJiaValue.Name = "lblPoJiaValue";
             this.lblPoJiaValue.Size = new System.Drawing.Size(60, 22);
             this.lblPoJiaValue.TabIndex = 18;
-            this.lblPoJiaValue.Text = "880";
+            this.lblPoJiaValue.Text = "[数值]";
             this.lblPoJiaValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBeiJiProp
@@ -165,7 +165,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblBeiJiValue.Name = "lblBeiJiValue";
             this.lblBeiJiValue.Size = new System.Drawing.Size(60, 22);
             this.lblBeiJiValue.TabIndex = 18;
-            this.lblBeiJiValue.Text = "35.0%";
+            this.lblBeiJiValue.Text = "[百分比]";
             this.lblBeiJiValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // PhysicalFurnishPropertyCtrl

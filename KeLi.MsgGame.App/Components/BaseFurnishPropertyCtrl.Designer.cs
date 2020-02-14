@@ -71,7 +71,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblShengMingHuiFuValue.Name = "lblShengMingHuiFuValue";
             this.lblShengMingHuiFuValue.Size = new System.Drawing.Size(60, 22);
             this.lblShengMingHuiFuValue.TabIndex = 12;
-            this.lblShengMingHuiFuValue.Text = "3856";
+            this.lblShengMingHuiFuValue.Text = "[数值]";
             this.lblShengMingHuiFuValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblMinJieValue
@@ -84,7 +84,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblMinJieValue.Name = "lblMinJieValue";
             this.lblMinJieValue.Size = new System.Drawing.Size(60, 22);
             this.lblMinJieValue.TabIndex = 18;
-            this.lblMinJieValue.Text = "17561";
+            this.lblMinJieValue.Text = "[数值]";
             this.lblMinJieValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblMinJieProp
@@ -121,7 +121,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblLiLiangValue.Name = "lblLiLiangValue";
             this.lblLiLiangValue.Size = new System.Drawing.Size(60, 22);
             this.lblLiLiangValue.TabIndex = 18;
-            this.lblLiLiangValue.Text = "18153";
+            this.lblLiLiangValue.Text = "[数值]";
             this.lblLiLiangValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblZhiLiProp
@@ -147,7 +147,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblZhiLiValue.Name = "lblZhiLiValue";
             this.lblZhiLiValue.Size = new System.Drawing.Size(60, 22);
             this.lblZhiLiValue.TabIndex = 18;
-            this.lblZhiLiValue.Text = "16158";
+            this.lblZhiLiValue.Text = "[数值]";
             this.lblZhiLiValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblShengMingProp
@@ -169,9 +169,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblShengMingValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblShengMingValue.Location = new System.Drawing.Point(40, 31);
             this.lblShengMingValue.Name = "lblShengMingValue";
-            this.lblShengMingValue.Size = new System.Drawing.Size(60, 22);
+            this.lblShengMingValue.Size = new System.Drawing.Size(70, 22);
             this.lblShengMingValue.TabIndex = 18;
-            this.lblShengMingValue.Text = "581256";
+            this.lblShengMingValue.Text = "[数值]";
             this.lblShengMingValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFaLiProp
@@ -193,9 +193,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblFaLiValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblFaLiValue.Location = new System.Drawing.Point(40, 62);
             this.lblFaLiValue.Name = "lblFaLiValue";
-            this.lblFaLiValue.Size = new System.Drawing.Size(60, 22);
+            this.lblFaLiValue.Size = new System.Drawing.Size(70, 22);
             this.lblFaLiValue.TabIndex = 18;
-            this.lblFaLiValue.Text = "315156";
+            this.lblFaLiValue.Text = "[数值]";
             this.lblFaLiValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFaLiHuiFuProp
@@ -234,7 +234,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblYiSuValue.Name = "lblYiSuValue";
             this.lblYiSuValue.Size = new System.Drawing.Size(60, 22);
             this.lblYiSuValue.TabIndex = 18;
-            this.lblYiSuValue.Text = "515";
+            this.lblYiSuValue.Text = "[数值]";
             this.lblYiSuValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFaLiHuiFuValue
@@ -247,7 +247,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblFaLiHuiFuValue.Name = "lblFaLiHuiFuValue";
             this.lblFaLiHuiFuValue.Size = new System.Drawing.Size(60, 22);
             this.lblFaLiHuiFuValue.TabIndex = 12;
-            this.lblFaLiHuiFuValue.Text = "2215";
+            this.lblFaLiHuiFuValue.Text = "[数值]";
             this.lblFaLiHuiFuValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // BaseFurnishPropertyCtrl

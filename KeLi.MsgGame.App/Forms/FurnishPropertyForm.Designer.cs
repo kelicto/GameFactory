@@ -2,7 +2,7 @@
 
 namespace KeLi.MsgGame.App.Forms
 {
-    partial class FurnishPropertyForm
+    sealed partial class FurnishPropertyForm
     {
         /// <summary>
         /// Required designer variable.
@@ -93,7 +93,7 @@ namespace KeLi.MsgGame.App.Forms
             this.fscZytz.Location = new System.Drawing.Point(11, 196);
             this.fscZytz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.fscZytz.Name = "fscZytz";
-            this.fscZytz.Size = new System.Drawing.Size(120, 136);
+            this.fscZytz.Size = new System.Drawing.Size(150, 136);
             this.fscZytz.TabIndex = 67;
             // 
             // bpcProperty
@@ -113,7 +113,7 @@ namespace KeLi.MsgGame.App.Forms
             this.ftcTitle.Location = new System.Drawing.Point(11, 12);
             this.ftcTitle.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.ftcTitle.Name = "ftcTitle";
-            this.ftcTitle.Size = new System.Drawing.Size(150, 102);
+            this.ftcTitle.Size = new System.Drawing.Size(160, 102);
             this.ftcTitle.TabIndex = 69;
             // 
             // mcMosaic
@@ -123,7 +123,7 @@ namespace KeLi.MsgGame.App.Forms
             this.mcMosaic.Location = new System.Drawing.Point(11, 363);
             this.mcMosaic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcMosaic.Name = "mcMosaic";
-            this.mcMosaic.Size = new System.Drawing.Size(120, 51);
+            this.mcMosaic.Size = new System.Drawing.Size(150, 51);
             this.mcMosaic.TabIndex = 70;
             // 
             // mcWqzx
@@ -144,7 +144,7 @@ namespace KeLi.MsgGame.App.Forms
             this.lblFightPower.Name = "lblFightPower";
             this.lblFightPower.Size = new System.Drawing.Size(50, 17);
             this.lblFightPower.TabIndex = 72;
-            this.lblFightPower.Text = "351300";
+            this.lblFightPower.Text = "[数值]";
             // 
             // lblFightName
             // 

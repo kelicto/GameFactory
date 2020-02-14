@@ -52,15 +52,15 @@ using System.Drawing;
 
 namespace KeLi.MsgGame.App.Forms
 {
-    public partial class FurnishPropertyForm : ShadowForm
+    public sealed partial class FurnishPropertyForm : ShadowForm
     {
         public FurnishPropertyForm()
         {
             InitializeComponent();
             BackgroundImage = new Bitmap(Resources.Furnish);
 
-            ftcTitle.SetFurnishName(Resources.YanMie_XingYunDao_15);
-            ftcTitle.SetFurnishType(Resources.WuQi_DanShou);
+            ftcTitle.SetFurnishName(Resources.ZhenYao_TengLongHuShou_15);
+            ftcTitle.SetFurnishType(Resources.ZhuangBei_HuShou);
             ftcTitle.SetIsBinding(Resources.YiBangDing);
             ftcTitle.SetEnhance(Resources.WuXing);
             ftcTitle.SetCanDiscard(Resources.BuKe_DiuQi);
@@ -72,13 +72,13 @@ namespace KeLi.MsgGame.App.Forms
             bpcProperty.SetFourthProperty(Resources.LingLi_3950);
 
             fscZytz.SetSuitName(Resources.ZhenYao_TengLongTaoZhuang);
-            fscZytz.SetMark(Resources.ZhenYao_TengLongJieZhi);
-            fscZytz.SetShoe(Resources.ZhenYao_TengLongXiangLian);
-            fscZytz.SetHandguard(Resources.ZhenYao_TengLongZhanKai);
+            fscZytz.SetNecklace(Resources.ZhenYao_TengLongJieZhi);
+            fscZytz.SetRing(Resources.ZhenYao_TengLongXiangLian);
+            fscZytz.SetCloth(Resources.ZhenYao_TengLongZhanKai);
             fscZytz.SetBelt(Resources.ZhenYao_TengLongYaoDai);
-            fscZytz.SetCloth(Resources.ZhenYao_TengLongHuShou);
-            fscZytz.SetNecklace(Resources.ZhenYao_TengLongZhanXue);
-            fscZytz.SetRing(Resources.ZhenYao_TengLongYin);
+            fscZytz.SetHandguard(Resources.ZhenYao_TengLongHuShou);
+            fscZytz.SetShoe(Resources.ZhenYao_TengLongZhanXue);
+            fscZytz.SetMark(Resources.ZhenYao_TengLongYin);
 
             mcMosaic.SetMosaicName(Resources.XiangQianKa_MingCheng);
             mcMosaic.SetFirstProperty(Resources.LiLiang_1000);

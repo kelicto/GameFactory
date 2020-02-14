@@ -52,7 +52,7 @@ using System.Drawing;
 
 namespace KeLi.MsgGame.App.Forms
 {
-    public partial class HeroPropertyForm : ShadowForm
+    public sealed partial class HeroPropertyForm : ShadowForm
     {
         public HeroPropertyForm()
         {

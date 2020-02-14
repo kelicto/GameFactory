@@ -67,7 +67,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblBingLiangValue.Name = "lblBingLiangValue";
             this.lblBingLiangValue.Size = new System.Drawing.Size(60, 22);
             this.lblBingLiangValue.TabIndex = 12;
-            this.lblBingLiangValue.Text = "550.0%";
+            this.lblBingLiangValue.Text = "[百分比]";
             this.lblBingLiangValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblJingYanValue
@@ -80,7 +80,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblJingYanValue.Name = "lblJingYanValue";
             this.lblJingYanValue.Size = new System.Drawing.Size(60, 22);
             this.lblJingYanValue.TabIndex = 18;
-            this.lblJingYanValue.Text = "520.0%";
+            this.lblJingYanValue.Text = "[百分比]";
             this.lblJingYanValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblJingYanProp
@@ -117,7 +117,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblJiFenValue.Name = "lblJiFenValue";
             this.lblJiFenValue.Size = new System.Drawing.Size(60, 22);
             this.lblJiFenValue.TabIndex = 18;
-            this.lblJiFenValue.Text = "630.5%";
+            this.lblJiFenValue.Text = "[百分比]";
             this.lblJiFenValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblZhanDouLiProp
@@ -143,7 +143,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblZhanDouLiValue.Name = "lblZhanDouLiValue";
             this.lblZhanDouLiValue.Size = new System.Drawing.Size(60, 22);
             this.lblZhanDouLiValue.TabIndex = 18;
-            this.lblZhanDouLiValue.Text = "35.0%";
+            this.lblZhanDouLiValue.Text = "[百分比]";
             this.lblZhanDouLiValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblShiBingProp
@@ -167,7 +167,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblShiBingValue.Name = "lblShiBingValue";
             this.lblShiBingValue.Size = new System.Drawing.Size(60, 22);
             this.lblShiBingValue.TabIndex = 18;
-            this.lblShiBingValue.Text = "550.0%";
+            this.lblShiBingValue.Text = "[百分比]";
             this.lblShiBingValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFuZhanJiBaoHuProp
@@ -193,7 +193,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblFuZhanJiBaoHuValue.Name = "lblFuZhanJiBaoHuValue";
             this.lblFuZhanJiBaoHuValue.Size = new System.Drawing.Size(60, 22);
             this.lblFuZhanJiBaoHuValue.TabIndex = 18;
-            this.lblFuZhanJiBaoHuValue.Text = "35.0%";
+            this.lblFuZhanJiBaoHuValue.Text = "[百分比]";
             this.lblFuZhanJiBaoHuValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // OtherFurnishPropertyCtrl

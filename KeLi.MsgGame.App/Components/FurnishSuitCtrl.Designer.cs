@@ -48,9 +48,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblSuitName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblSuitName.Location = new System.Drawing.Point(0, 0);
             this.lblSuitName.Name = "lblSuitName";
-            this.lblSuitName.Size = new System.Drawing.Size(120, 17);
+            this.lblSuitName.Size = new System.Drawing.Size(150, 17);
             this.lblSuitName.TabIndex = 63;
-            this.lblSuitName.Text = "震耀*腾龙套装(7/7)";
+            this.lblSuitName.Text = "[称号]*[套装名]([件数]/7)";
             this.lblSuitName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblMark
@@ -61,9 +61,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblMark.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblMark.Location = new System.Drawing.Point(0, 119);
             this.lblMark.Name = "lblMark";
-            this.lblMark.Size = new System.Drawing.Size(120, 17);
+            this.lblMark.Size = new System.Drawing.Size(150, 17);
             this.lblMark.TabIndex = 68;
-            this.lblMark.Text = "震耀*腾龙印";
+            this.lblMark.Text = "[称号]*[印章套件名]";
             this.lblMark.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblShoe
@@ -74,9 +74,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblShoe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblShoe.Location = new System.Drawing.Point(0, 102);
             this.lblShoe.Name = "lblShoe";
-            this.lblShoe.Size = new System.Drawing.Size(120, 17);
+            this.lblShoe.Size = new System.Drawing.Size(150, 17);
             this.lblShoe.TabIndex = 69;
-            this.lblShoe.Text = "震耀*腾龙战靴";
+            this.lblShoe.Text = "[称号]*[靴子套件名]";
             this.lblShoe.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblHandguard
@@ -87,9 +87,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblHandguard.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblHandguard.Location = new System.Drawing.Point(0, 85);
             this.lblHandguard.Name = "lblHandguard";
-            this.lblHandguard.Size = new System.Drawing.Size(120, 17);
+            this.lblHandguard.Size = new System.Drawing.Size(150, 17);
             this.lblHandguard.TabIndex = 70;
-            this.lblHandguard.Text = "震耀*腾龙护手";
+            this.lblHandguard.Text = "[称号]*[护手套件名]";
             this.lblHandguard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBelt
@@ -100,9 +100,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblBelt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblBelt.Location = new System.Drawing.Point(0, 68);
             this.lblBelt.Name = "lblBelt";
-            this.lblBelt.Size = new System.Drawing.Size(120, 17);
+            this.lblBelt.Size = new System.Drawing.Size(150, 17);
             this.lblBelt.TabIndex = 67;
-            this.lblBelt.Text = "震耀*腾龙腰带";
+            this.lblBelt.Text = "[称号]*[腰带套件名]";
             this.lblBelt.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblCloth
@@ -113,9 +113,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblCloth.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblCloth.Location = new System.Drawing.Point(0, 51);
             this.lblCloth.Name = "lblCloth";
-            this.lblCloth.Size = new System.Drawing.Size(120, 17);
+            this.lblCloth.Size = new System.Drawing.Size(150, 17);
             this.lblCloth.TabIndex = 66;
-            this.lblCloth.Text = "震耀*腾龙战铠";
+            this.lblCloth.Text = "[称号]*[铠甲套件名]";
             this.lblCloth.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblNecklace
@@ -126,9 +126,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblNecklace.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblNecklace.Location = new System.Drawing.Point(0, 34);
             this.lblNecklace.Name = "lblNecklace";
-            this.lblNecklace.Size = new System.Drawing.Size(120, 17);
+            this.lblNecklace.Size = new System.Drawing.Size(150, 17);
             this.lblNecklace.TabIndex = 65;
-            this.lblNecklace.Text = "震耀*腾龙项链";
+            this.lblNecklace.Text = "[称号]*[项链套件名]";
             this.lblNecklace.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblRing
@@ -139,9 +139,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblRing.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblRing.Location = new System.Drawing.Point(0, 17);
             this.lblRing.Name = "lblRing";
-            this.lblRing.Size = new System.Drawing.Size(120, 17);
+            this.lblRing.Size = new System.Drawing.Size(150, 17);
             this.lblRing.TabIndex = 64;
-            this.lblRing.Text = "震耀*腾龙戒指";
+            this.lblRing.Text = "[称号]*[戒指套件名]";
             this.lblRing.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FurnishSuitCtrl
@@ -159,7 +159,7 @@ namespace KeLi.MsgGame.App.Components
             this.Controls.Add(this.lblNecklace);
             this.Controls.Add(this.lblRing);
             this.Name = "FurnishSuitCtrl";
-            this.Size = new System.Drawing.Size(120, 136);
+            this.Size = new System.Drawing.Size(150, 136);
             this.ResumeLayout(false);
 
         }

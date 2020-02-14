@@ -2,7 +2,7 @@
 
 namespace KeLi.MsgGame.App.Forms
 {
-    partial class HeroPropertyForm
+    sealed partial class HeroPropertyForm
     {
         /// <summary>
         /// Required designer variable.
@@ -185,7 +185,7 @@ namespace KeLi.MsgGame.App.Forms
             this.lblZhanChangShenBingValue.Name = "lblZhanChangShenBingValue";
             this.lblZhanChangShenBingValue.Size = new System.Drawing.Size(80, 22);
             this.lblZhanChangShenBingValue.TabIndex = 9;
-            this.lblZhanChangShenBingValue.Text = "1151236";
+            this.lblZhanChangShenBingValue.Text = "[数值]";
             this.lblZhanChangShenBingValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // HeroPropertyForm

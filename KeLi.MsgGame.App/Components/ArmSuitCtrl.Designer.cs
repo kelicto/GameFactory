@@ -46,9 +46,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblSuitName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblSuitName.Location = new System.Drawing.Point(0, 0);
             this.lblSuitName.Name = "lblSuitName";
-            this.lblSuitName.Size = new System.Drawing.Size(120, 17);
+            this.lblSuitName.Size = new System.Drawing.Size(150, 17);
             this.lblSuitName.TabIndex = 30;
-            this.lblSuitName.Text = "湮灭*星陨套装(5/5)";
+            this.lblSuitName.Text = "[称号]*[套装名]([件数]/5)";
             this.lblSuitName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblClaw
@@ -59,9 +59,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblClaw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblClaw.Location = new System.Drawing.Point(0, 85);
             this.lblClaw.Name = "lblClaw";
-            this.lblClaw.Size = new System.Drawing.Size(120, 17);
+            this.lblClaw.Size = new System.Drawing.Size(150, 17);
             this.lblClaw.TabIndex = 35;
-            this.lblClaw.Text = "湮灭*星陨爪";
+            this.lblClaw.Text = "[称号]*[拳爪套件名]";
             this.lblClaw.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBow
@@ -72,9 +72,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblBow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblBow.Location = new System.Drawing.Point(0, 68);
             this.lblBow.Name = "lblBow";
-            this.lblBow.Size = new System.Drawing.Size(120, 17);
+            this.lblBow.Size = new System.Drawing.Size(150, 17);
             this.lblBow.TabIndex = 34;
-            this.lblBow.Text = "湮灭*星陨弓";
+            this.lblBow.Text = "[称号]*[弓箭套件名]";
             this.lblBow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblSpear
@@ -85,9 +85,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblSpear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblSpear.Location = new System.Drawing.Point(0, 51);
             this.lblSpear.Name = "lblSpear";
-            this.lblSpear.Size = new System.Drawing.Size(120, 17);
+            this.lblSpear.Size = new System.Drawing.Size(150, 17);
             this.lblSpear.TabIndex = 33;
-            this.lblSpear.Text = "湮灭*星陨枪";
+            this.lblSpear.Text = "[称号]*[长柄套件名]";
             this.lblSpear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblDoubleArm
@@ -98,9 +98,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblDoubleArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblDoubleArm.Location = new System.Drawing.Point(0, 34);
             this.lblDoubleArm.Name = "lblDoubleArm";
-            this.lblDoubleArm.Size = new System.Drawing.Size(120, 17);
+            this.lblDoubleArm.Size = new System.Drawing.Size(150, 17);
             this.lblDoubleArm.TabIndex = 32;
-            this.lblDoubleArm.Text = "湮灭*星陨对戟";
+            this.lblDoubleArm.Text = "[称号]*[双持套件名]";
             this.lblDoubleArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblSingleArm
@@ -111,9 +111,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblSingleArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
             this.lblSingleArm.Location = new System.Drawing.Point(0, 17);
             this.lblSingleArm.Name = "lblSingleArm";
-            this.lblSingleArm.Size = new System.Drawing.Size(120, 17);
+            this.lblSingleArm.Size = new System.Drawing.Size(150, 17);
             this.lblSingleArm.TabIndex = 31;
-            this.lblSingleArm.Text = "湮灭*星陨刀";
+            this.lblSingleArm.Text = "[称号]*[单手套件名]";
             this.lblSingleArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // ArmSuitCtrl
@@ -129,7 +129,7 @@ namespace KeLi.MsgGame.App.Components
             this.Controls.Add(this.lblDoubleArm);
             this.Controls.Add(this.lblSingleArm);
             this.Name = "ArmSuitCtrl";
-            this.Size = new System.Drawing.Size(120, 102);
+            this.Size = new System.Drawing.Size(150, 102);
             this.ResumeLayout(false);
 
         }

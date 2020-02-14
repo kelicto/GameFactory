@@ -46,7 +46,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblFourthProperty.Name = "lblFourthProperty";
             this.lblFourthProperty.Size = new System.Drawing.Size(120, 17);
             this.lblFourthProperty.TabIndex = 61;
-            this.lblFourthProperty.Text = "+3950.0点灵力";
+            this.lblFourthProperty.Text = "+[数值]点灵力";
             this.lblFourthProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblThirdProperty
@@ -59,7 +59,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblThirdProperty.Name = "lblThirdProperty";
             this.lblThirdProperty.Size = new System.Drawing.Size(120, 17);
             this.lblThirdProperty.TabIndex = 60;
-            this.lblThirdProperty.Text = "+1550.0点智力";
+            this.lblThirdProperty.Text = "+[数值]点智力";
             this.lblThirdProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblSecondProperty
@@ -72,7 +72,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblSecondProperty.Name = "lblSecondProperty";
             this.lblSecondProperty.Size = new System.Drawing.Size(120, 17);
             this.lblSecondProperty.TabIndex = 59;
-            this.lblSecondProperty.Text = "+1550.0点敏捷";
+            this.lblSecondProperty.Text = "+[数值]点敏捷";
             this.lblSecondProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFirstProperty
@@ -85,7 +85,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblFirstProperty.Name = "lblFirstProperty";
             this.lblFirstProperty.Size = new System.Drawing.Size(120, 17);
             this.lblFirstProperty.TabIndex = 58;
-            this.lblFirstProperty.Text = "+2550.0点力量";
+            this.lblFirstProperty.Text = "+[数值]点力量";
             this.lblFirstProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // BasePropertyCtrl

@@ -52,7 +52,7 @@ using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {
-    partial class ArmPropertyForm : ShadowForm
+    public sealed partial class ArmPropertyForm : ShadowForm
     {
         public ArmPropertyForm()
         {
@@ -95,7 +95,7 @@ namespace KeLi.MsgGame.App.Forms
             mcWqzx.SetMagicDetail(Resources.JiNeng_MiaoShu4);
 
             lblArmStory.Text = Resources.ZhuangBei_GuShi;
-            lblFightPower.Text = "351300";
+            lblFightPower.Text = "221300";
         }
     }
 }

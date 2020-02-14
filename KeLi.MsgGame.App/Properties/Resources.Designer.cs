@@ -362,7 +362,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 攻击时有20%几率触发，对周围550码内的敌军造成(5550+主属性*0.15)点伤害.
+        ///   Looks up a localized string similar to 攻击时有20%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害.
         /// </summary>
         internal static string JiNeng_MiaoShu1 {
             get {
@@ -389,7 +389,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 提升自身1128.1点全属性，提高13.7%倍击几率.
+        ///   Looks up a localized string similar to 提升自身520.0点全属性，提高13.5%倍击几率.
         /// </summary>
         internal static string JiNeng_MiaoShu4 {
             get {
@@ -695,7 +695,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ★★★★★.
+        ///   Looks up a localized string similar to ★★★★★★★★★★★★★★★.
         /// </summary>
         internal static string WuXing {
             get {

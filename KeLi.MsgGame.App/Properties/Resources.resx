@@ -212,7 +212,7 @@
     <value>不可丢弃</value>
   </data>
   <data name="WuXing" xml:space="preserve">
-    <value>★★★★★</value>
+    <value>★★★★★★★★★★★★★★★</value>
   </data>
   <data name="YiBangDing" xml:space="preserve">
     <value>已绑定</value>
@@ -248,7 +248,7 @@
     <value>非玩家列表</value>
   </data>
   <data name="JiNeng_MiaoShu1" xml:space="preserve">
-    <value>攻击时有20%几率触发，对周围550码内的敌军造成(5550+主属性*0.15)点伤害</value>
+    <value>攻击时有20%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害</value>
   </data>
   <data name="JiNeng_MingCheng1" xml:space="preserve">
     <value>冰封万里 Lv.7</value>
@@ -350,7 +350,7 @@
     <value>游戏初始金钱提高25%</value>
   </data>
   <data name="JiNeng_MiaoShu4" xml:space="preserve">
-    <value>提升自身1128.1点全属性，提高13.7%倍击几率</value>
+    <value>提升自身520.0点全属性，提高13.5%倍击几率</value>
   </data>
   <data name="ZhuangBei_HuShou" xml:space="preserve">
     <value>装备&gt;护手</value>
@@ -358,88 +358,85 @@
   <data name="ZhenYao_TengLongHuShou_15" xml:space="preserve">
     <value>震耀*腾龙护手(无情)+15</value>
   </data>
-  <data name="Microsoft_YaHei" xml:space="preserve">
-      <value>Microsoft YaHei</value>
-  </data>
   <data name="ShengMing_HuiFu" xml:space="preserve">
-      <value>生命恢复:</value>
+    <value>生命恢复:</value>
   </data>
   <data name="MinJie" xml:space="preserve">
-      <value>敏捷:</value>
+    <value>敏捷:</value>
   </data>
   <data name="LiLiang" xml:space="preserve">
-      <value>力量:</value>
+    <value>力量:</value>
   </data>
   <data name="ZhiLi" xml:space="preserve">
-      <value>智力:</value>
+    <value>智力:</value>
   </data>
   <data name="ShengMing" xml:space="preserve">
-      <value>生命:</value>
+    <value>生命:</value>
   </data>
   <data name="FaLi" xml:space="preserve">
-      <value>法力:</value>
+    <value>法力:</value>
   </data>
   <data name="FaLi_HuiFu" xml:space="preserve">
-      <value>法力恢复:</value>
+    <value>法力恢复:</value>
   </data>
   <data name="YiSu" xml:space="preserve">
-      <value>移速:</value>
+    <value>移速:</value>
   </data>
   <data name="HuJia" xml:space="preserve">
-      <value>护甲:</value>
+    <value>护甲:</value>
   </data>
   <data name="JianRen" xml:space="preserve">
-      <value>坚韧:</value>
+    <value>坚韧:</value>
   </data>
   <data name="FaKang" xml:space="preserve">
-      <value>法抗:</value>
+    <value>法抗:</value>
   </data>
   <data name="ZhuanHua" xml:space="preserve">
-      <value>转化:</value>
+    <value>转化:</value>
   </data>
   <data name="FaLeng" xml:space="preserve">
-      <value>法冷:</value>
+    <value>法冷:</value>
   </data>
   <data name="LingLi" xml:space="preserve">
-      <value>灵力:</value>
+    <value>灵力:</value>
   </data>
   <data name="FaChuan" xml:space="preserve">
-      <value>法穿:</value>
+    <value>法穿:</value>
   </data>
   <data name="BaoJi" xml:space="preserve">
-      <value>暴击:</value>
+    <value>暴击:</value>
   </data>
   <data name="BingLiang" xml:space="preserve">
-      <value>兵粮:</value>
+    <value>兵粮:</value>
   </data>
   <data name="JingYan" xml:space="preserve">
-      <value>经验:</value>
+    <value>经验:</value>
   </data>
   <data name="JiFen" xml:space="preserve">
-      <value>积分:</value>
+    <value>积分:</value>
   </data>
   <data name="ZhanDouLi" xml:space="preserve">
-      <value>战斗力:</value>
+    <value>战斗力:</value>
   </data>
   <data name="ShiBing" xml:space="preserve">
-      <value>士兵:</value>
+    <value>士兵:</value>
   </data>
   <data name="FuZhanJi_BaoHu" xml:space="preserve">
-      <value>负战绩保护:</value>
+    <value>负战绩保护:</value>
   </data>
   <data name="XiXue" xml:space="preserve">
-      <value>吸血:</value>
+    <value>吸血:</value>
   </data>
   <data name="GongSu" xml:space="preserve">
-      <value>攻速:</value>
+    <value>攻速:</value>
   </data>
   <data name="GongJiLi" xml:space="preserve">
-      <value>攻击力:</value>
+    <value>攻击力:</value>
   </data>
   <data name="PoJia" xml:space="preserve">
-      <value>破甲:</value>
+    <value>破甲:</value>
   </data>
   <data name="BeiJi" xml:space="preserve">
-      <value>倍击:</value>
+    <value>倍击:</value>
   </data>
 </root>

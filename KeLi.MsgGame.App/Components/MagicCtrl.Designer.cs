@@ -44,7 +44,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblMagicDetail.Name = "lblMagicDetail";
             this.lblMagicDetail.Size = new System.Drawing.Size(280, 35);
             this.lblMagicDetail.TabIndex = 14;
-            this.lblMagicDetail.Text = "攻击时有20%几率触发，对周围550码内的敌军造成(5550+主属性*0.15)点伤害";
+            this.lblMagicDetail.Text = "这是一段技能说明。";
             // 
             // lblMagicName
             // 
@@ -52,9 +52,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblMagicName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(98)))), ((int)(((byte)(182)))));
             this.lblMagicName.Location = new System.Drawing.Point(0, 0);
             this.lblMagicName.Name = "lblMagicName";
-            this.lblMagicName.Size = new System.Drawing.Size(88, 17);
+            this.lblMagicName.Size = new System.Drawing.Size(120, 17);
             this.lblMagicName.TabIndex = 13;
-            this.lblMagicName.Text = "冰封万里 Lv.7";
+            this.lblMagicName.Text = "[技能名称] Lv.[等级]";
             this.lblMagicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // MagicCtrl

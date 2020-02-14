@@ -48,7 +48,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblHuJiaValue.Name = "lblHuJiaValue";
             this.lblHuJiaValue.Size = new System.Drawing.Size(60, 22);
             this.lblHuJiaValue.TabIndex = 18;
-            this.lblHuJiaValue.Text = "820";
+            this.lblHuJiaValue.Text = "[数值]";
             this.lblHuJiaValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblHuJiaProp
@@ -85,7 +85,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblJianRenValue.Name = "lblJianRenValue";
             this.lblJianRenValue.Size = new System.Drawing.Size(60, 22);
             this.lblJianRenValue.TabIndex = 18;
-            this.lblJianRenValue.Text = "523";
+            this.lblJianRenValue.Text = "[数值]";
             this.lblJianRenValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFaKangProp
@@ -111,7 +111,7 @@ namespace KeLi.MsgGame.App.Components
             this.lblFaKangValue.Name = "lblFaKangValue";
             this.lblFaKangValue.Size = new System.Drawing.Size(60, 22);
             this.lblFaKangValue.TabIndex = 18;
-            this.lblFaKangValue.Text = "510";
+            this.lblFaKangValue.Text = "[数值]";
             this.lblFaKangValue.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // DefenseFurnishPropertyCtrl

@@ -43,9 +43,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblSecondProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
             this.lblSecondProperty.Location = new System.Drawing.Point(0, 34);
             this.lblSecondProperty.Name = "lblSecondProperty";
-            this.lblSecondProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblSecondProperty.Size = new System.Drawing.Size(150, 17);
             this.lblSecondProperty.TabIndex = 24;
-            this.lblSecondProperty.Text = "+86.0点破甲";
+            this.lblSecondProperty.Text = "+[数值]点破甲";
             this.lblSecondProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFirstProperty
@@ -56,9 +56,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblFirstProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
             this.lblFirstProperty.Location = new System.Drawing.Point(0, 17);
             this.lblFirstProperty.Name = "lblFirstProperty";
-            this.lblFirstProperty.Size = new System.Drawing.Size(120, 17);
+            this.lblFirstProperty.Size = new System.Drawing.Size(150, 17);
             this.lblFirstProperty.TabIndex = 23;
-            this.lblFirstProperty.Text = "+1000.0点力量";
+            this.lblFirstProperty.Text = "+[数值]点力量";
             this.lblFirstProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblMosaicName
@@ -69,9 +69,9 @@ namespace KeLi.MsgGame.App.Components
             this.lblMosaicName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(98)))), ((int)(((byte)(182)))));
             this.lblMosaicName.Location = new System.Drawing.Point(0, 0);
             this.lblMosaicName.Name = "lblMosaicName";
-            this.lblMosaicName.Size = new System.Drawing.Size(120, 17);
+            this.lblMosaicName.Size = new System.Drawing.Size(150, 17);
             this.lblMosaicName.TabIndex = 22;
-            this.lblMosaicName.Text = "西凉战神元神卡 Lv.5";
+            this.lblMosaicName.Text = "[元神卡名称] Lv.[卡等级]";
             this.lblMosaicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // MosaicCtrl
@@ -84,7 +84,7 @@ namespace KeLi.MsgGame.App.Components
             this.Controls.Add(this.lblFirstProperty);
             this.Controls.Add(this.lblMosaicName);
             this.Name = "MosaicCtrl";
-            this.Size = new System.Drawing.Size(120, 51);
+            this.Size = new System.Drawing.Size(150, 51);
             this.ResumeLayout(false);
 
         }
