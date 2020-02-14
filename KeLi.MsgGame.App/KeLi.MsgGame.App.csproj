@@ -45,124 +45,124 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\ActiveTaskCtrl.cs">
+    <Compile Include="Components\Page\ActiveTaskCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\ActiveTaskCtrl.Designer.cs">
+    <Compile Include="Components\Page\ActiveTaskCtrl.Designer.cs">
       <DependentUpon>ActiveTaskCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\ArmSuitCtrl.cs">
+    <Compile Include="Components\Part\ArmSuitCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\ArmSuitCtrl.Designer.cs">
+    <Compile Include="Components\Part\ArmSuitCtrl.Designer.cs">
       <DependentUpon>ArmSuitCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\MagicFurnishPropertyCtrl.cs">
+    <Compile Include="Components\Property\MagicFurnishPropertyCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\MagicFurnishPropertyCtrl.Designer.cs">
+    <Compile Include="Components\Property\MagicFurnishPropertyCtrl.Designer.cs">
       <DependentUpon>MagicFurnishPropertyCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\OtherFurnishPropertyCtrl.cs">
+    <Compile Include="Components\Property\OtherFurnishPropertyCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\OtherFurnishPropertyCtrl.Designer.cs">
+    <Compile Include="Components\Property\OtherFurnishPropertyCtrl.Designer.cs">
       <DependentUpon>OtherFurnishPropertyCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\DefenseFurnishPropertyCtrl .cs">
+    <Compile Include="Components\Property\DefenseFurnishPropertyCtrl .cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\DefenseFurnishPropertyCtrl .Designer.cs">
+    <Compile Include="Components\Property\DefenseFurnishPropertyCtrl .Designer.cs">
       <DependentUpon>DefenseFurnishPropertyCtrl .cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\PhysicalFurnishPropertyCtrl.cs">
+    <Compile Include="Components\Property\PhysicalFurnishPropertyCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\PhysicalFurnishPropertyCtrl.Designer.cs">
+    <Compile Include="Components\Property\PhysicalFurnishPropertyCtrl.Designer.cs">
       <DependentUpon>PhysicalFurnishPropertyCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\BaseFurnishPropertyCtrl.cs">
+    <Compile Include="Components\Property\BaseFurnishPropertyCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\BaseFurnishPropertyCtrl.Designer.cs">
+    <Compile Include="Components\Property\BaseFurnishPropertyCtrl.Designer.cs">
       <DependentUpon>BaseFurnishPropertyCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\BasePropertyCtrl.cs">
+    <Compile Include="Components\Part\BasePropertyCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\BasePropertyCtrl.Designer.cs">
+    <Compile Include="Components\Part\BasePropertyCtrl.Designer.cs">
       <DependentUpon>BasePropertyCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\FurnishSuitCtrl.cs">
+    <Compile Include="Components\Part\FurnishSuitCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\FurnishSuitCtrl.Designer.cs">
+    <Compile Include="Components\Part\FurnishSuitCtrl.Designer.cs">
       <DependentUpon>FurnishSuitCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\FurnishTypeCtrl.cs">
+    <Compile Include="Components\Part\FurnishTypeCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\FurnishTypeCtrl.Designer.cs">
+    <Compile Include="Components\Part\FurnishTypeCtrl.Designer.cs">
       <DependentUpon>FurnishTypeCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\GameCtrl.cs">
+    <Compile Include="Components\Page\GameCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\GameCtrl.Designer.cs">
+    <Compile Include="Components\Page\GameCtrl.Designer.cs">
       <DependentUpon>GameCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\GamerListCtrl.cs">
+    <Compile Include="Components\Page\GamerListCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\GamerListCtrl.Designer.cs">
+    <Compile Include="Components\Page\GamerListCtrl.Designer.cs">
       <DependentUpon>GamerListCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\MagicCtrl.cs">
+    <Compile Include="Components\Part\MagicCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\MagicCtrl.Designer.cs">
+    <Compile Include="Components\Part\MagicCtrl.Designer.cs">
       <DependentUpon>MagicCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\MainMenuCtrl.cs">
+    <Compile Include="Components\Page\MainMenuCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\MainMenuCtrl.Designer.cs">
+    <Compile Include="Components\Page\MainMenuCtrl.Designer.cs">
       <DependentUpon>MainMenuCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\MatchCtrl.cs">
+    <Compile Include="Components\Page\MatchCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\MatchCtrl.Designer.cs">
+    <Compile Include="Components\Page\MatchCtrl.Designer.cs">
       <DependentUpon>MatchCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\MosaicCtrl.cs">
+    <Compile Include="Components\Part\MosaicCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\MosaicCtrl.Designer.cs">
+    <Compile Include="Components\Part\MosaicCtrl.Designer.cs">
       <DependentUpon>MosaicCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\MsgCtrl.cs">
+    <Compile Include="Components\Page\MsgCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\MsgCtrl.Designer.cs">
+    <Compile Include="Components\Page\MsgCtrl.Designer.cs">
       <DependentUpon>MsgCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\RoomListCtrl.cs">
+    <Compile Include="Components\Page\RoomListCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\RoomListCtrl.Designer.cs">
+    <Compile Include="Components\Page\RoomListCtrl.Designer.cs">
       <DependentUpon>RoomListCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\SearchBoxCtrl.cs">
+    <Compile Include="Components\Page\SearchBoxCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\SearchBoxCtrl.Designer.cs">
+    <Compile Include="Components\Page\SearchBoxCtrl.Designer.cs">
       <DependentUpon>SearchBoxCtrl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\ShadowForm.cs">
+    <Compile Include="Forms\ShadowForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Components\ShadowForm.Designer.cs">
+    <Compile Include="Forms\ShadowForm.Designer.cs">
       <DependentUpon>ShadowForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ArmPropertyForm.cs">
@@ -193,65 +193,65 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\LocationUtil.cs" />
     <Compile Include="Utils\ShadowUtil.cs" />
-    <EmbeddedResource Include="Components\ActiveTaskCtrl.resx">
+    <EmbeddedResource Include="Components\Page\ActiveTaskCtrl.resx">
       <DependentUpon>ActiveTaskCtrl.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\ArmSuitCtrl.resx">
+    <EmbeddedResource Include="Components\Part\ArmSuitCtrl.resx">
       <DependentUpon>ArmSuitCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\MagicFurnishPropertyCtrl.resx">
+    <EmbeddedResource Include="Components\Property\MagicFurnishPropertyCtrl.resx">
       <DependentUpon>MagicFurnishPropertyCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\OtherFurnishPropertyCtrl.resx">
+    <EmbeddedResource Include="Components\Property\OtherFurnishPropertyCtrl.resx">
       <DependentUpon>OtherFurnishPropertyCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\DefenseFurnishPropertyCtrl .resx">
+    <EmbeddedResource Include="Components\Property\DefenseFurnishPropertyCtrl .resx">
       <DependentUpon>DefenseFurnishPropertyCtrl .cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\PhysicalFurnishPropertyCtrl.resx">
+    <EmbeddedResource Include="Components\Property\PhysicalFurnishPropertyCtrl.resx">
       <DependentUpon>PhysicalFurnishPropertyCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\BaseFurnishPropertyCtrl.resx">
+    <EmbeddedResource Include="Components\Property\BaseFurnishPropertyCtrl.resx">
       <DependentUpon>BaseFurnishPropertyCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\BasePropertyCtrl.resx">
+    <EmbeddedResource Include="Components\Part\BasePropertyCtrl.resx">
       <DependentUpon>BasePropertyCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\FurnishSuitCtrl.resx">
+    <EmbeddedResource Include="Components\Part\FurnishSuitCtrl.resx">
       <DependentUpon>FurnishSuitCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\FurnishTypeCtrl.resx">
+    <EmbeddedResource Include="Components\Part\FurnishTypeCtrl.resx">
       <DependentUpon>FurnishTypeCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\GameCtrl.resx">
+    <EmbeddedResource Include="Components\Page\GameCtrl.resx">
       <DependentUpon>GameCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\GamerListCtrl.resx">
+    <EmbeddedResource Include="Components\Page\GamerListCtrl.resx">
       <DependentUpon>GamerListCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\MagicCtrl.resx">
+    <EmbeddedResource Include="Components\Part\MagicCtrl.resx">
       <DependentUpon>MagicCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\MainMenuCtrl.resx">
+    <EmbeddedResource Include="Components\Page\MainMenuCtrl.resx">
       <DependentUpon>MainMenuCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\MatchCtrl.resx">
+    <EmbeddedResource Include="Components\Page\MatchCtrl.resx">
       <DependentUpon>MatchCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\MosaicCtrl.resx">
+    <EmbeddedResource Include="Components\Part\MosaicCtrl.resx">
       <DependentUpon>MosaicCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\MsgCtrl.resx">
+    <EmbeddedResource Include="Components\Page\MsgCtrl.resx">
       <DependentUpon>MsgCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\RoomListCtrl.resx">
+    <EmbeddedResource Include="Components\Page\RoomListCtrl.resx">
       <DependentUpon>RoomListCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\SearchBoxCtrl.resx">
+    <EmbeddedResource Include="Components\Page\SearchBoxCtrl.resx">
       <DependentUpon>SearchBoxCtrl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\ShadowForm.resx">
+    <EmbeddedResource Include="Forms\ShadowForm.resx">
       <DependentUpon>ShadowForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ArmPropertyForm.resx">

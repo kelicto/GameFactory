@@ -1,4 +1,5 @@
-﻿using KeLi.MsgGame.App.Properties;
+﻿using KeLi.MsgGame.App.Components.Part;
+using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {
@@ -35,14 +36,14 @@ namespace KeLi.MsgGame.App.Forms
             this.lblArmStory = new System.Windows.Forms.Label();
             this.lblDetail = new System.Windows.Forms.Label();
             this.lblFightName = new System.Windows.Forms.Label();
-            this.bpcProperty = new KeLi.MsgGame.App.Components.BasePropertyCtrl();
-            this.ftcTitle = new KeLi.MsgGame.App.Components.FurnishTypeCtrl();
-            this.mcBfwl = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.mcGyhd = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.mcFjzz = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.mcMosaic = new KeLi.MsgGame.App.Components.MosaicCtrl();
-            this.mcWqzx = new KeLi.MsgGame.App.Components.MagicCtrl();
-            this.ascXytz = new KeLi.MsgGame.App.Components.ArmSuitCtrl();
+            this.bpcProperty = new BasePropertyCtrl();
+            this.ftcTitle = new FurnishTypeCtrl();
+            this.mcBfwl = new MagicCtrl();
+            this.mcGyhd = new MagicCtrl();
+            this.mcFjzz = new MagicCtrl();
+            this.mcMosaic = new MosaicCtrl();
+            this.mcWqzx = new MagicCtrl();
+            this.ascXytz = new ArmSuitCtrl();
             this.lblFightPower = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -182,9 +183,9 @@ namespace KeLi.MsgGame.App.Forms
             // 
             this.lblFightPower.BackColor = System.Drawing.Color.Transparent;
             this.lblFightPower.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.lblFightPower.Location = new System.Drawing.Point(61, 689);
+            this.lblFightPower.Location = new System.Drawing.Point(53, 689);
             this.lblFightPower.Name = "lblFightPower";
-            this.lblFightPower.Size = new System.Drawing.Size(50, 17);
+            this.lblFightPower.Size = new System.Drawing.Size(70, 17);
             this.lblFightPower.TabIndex = 17;
             this.lblFightPower.Text = "[数值]";
             // 
@@ -221,14 +222,14 @@ namespace KeLi.MsgGame.App.Forms
         private System.Windows.Forms.Label lblArmStory;
         private System.Windows.Forms.Label lblDetail;
         private System.Windows.Forms.Label lblFightName;
-        private Components.BasePropertyCtrl bpcProperty;
-        private Components.FurnishTypeCtrl ftcTitle;
-        private Components.MagicCtrl mcBfwl;
-        private Components.MagicCtrl mcGyhd;
-        private Components.MagicCtrl mcFjzz;
-        private Components.MosaicCtrl mcMosaic;
-        private Components.MagicCtrl mcWqzx;
-        private Components.ArmSuitCtrl ascXytz;
+        private BasePropertyCtrl bpcProperty;
+        private FurnishTypeCtrl ftcTitle;
+        private MagicCtrl mcBfwl;
+        private MagicCtrl mcGyhd;
+        private MagicCtrl mcFjzz;
+        private MosaicCtrl mcMosaic;
+        private MagicCtrl mcWqzx;
+        private ArmSuitCtrl ascXytz;
         private System.Windows.Forms.Label lblFightPower;
     }
 }

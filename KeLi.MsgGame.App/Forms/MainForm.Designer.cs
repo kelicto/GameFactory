@@ -1,4 +1,5 @@
-﻿using KeLi.MsgGame.App.Properties;
+﻿using KeLi.MsgGame.App.Components.Page;
+using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {
@@ -30,12 +31,12 @@ namespace KeLi.MsgGame.App.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.mcMatch = new KeLi.MsgGame.App.Components.MatchCtrl();
-            this.atcTask = new KeLi.MsgGame.App.Components.ActiveTaskCtrl();
-            this.mcMsg = new KeLi.MsgGame.App.Components.MsgCtrl();
-            this.glcGamer = new KeLi.MsgGame.App.Components.GamerListCtrl();
-            this.rlcRoom = new KeLi.MsgGame.App.Components.RoomListCtrl();
-            this.mmcMenu = new KeLi.MsgGame.App.Components.MainMenuCtrl();
+            this.mcMatch = new MatchCtrl();
+            this.atcTask = new ActiveTaskCtrl();
+            this.mcMsg = new MsgCtrl();
+            this.glcGamer = new GamerListCtrl();
+            this.rlcRoom = new RoomListCtrl();
+            this.mmcMenu = new MainMenuCtrl();
             this.SuspendLayout();
             // 
             // mcMatch
@@ -133,11 +134,11 @@ namespace KeLi.MsgGame.App.Forms
         }
 
         #endregion
-        private Components.MainMenuCtrl mmcMenu;
-        private Components.RoomListCtrl rlcRoom;
-        private Components.GamerListCtrl glcGamer;
-        private Components.MsgCtrl mcMsg;
-        private Components.ActiveTaskCtrl atcTask;
-        private Components.MatchCtrl mcMatch;
+        private MainMenuCtrl mmcMenu;
+        private RoomListCtrl rlcRoom;
+        private GamerListCtrl glcGamer;
+        private MsgCtrl mcMsg;
+        private ActiveTaskCtrl atcTask;
+        private MatchCtrl mcMatch;
     }
 }

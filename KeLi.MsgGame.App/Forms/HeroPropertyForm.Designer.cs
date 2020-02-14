@@ -1,4 +1,5 @@
-﻿using KeLi.MsgGame.App.Properties;
+﻿using KeLi.MsgGame.App.Components.Property;
+using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {
@@ -36,11 +37,11 @@ namespace KeLi.MsgGame.App.Forms
             this.lblFangYuShuXing = new System.Windows.Forms.Label();
             this.lblQiTaShuXing = new System.Windows.Forms.Label();
             this.lblZhanChangShenBingProp = new System.Windows.Forms.Label();
-            this.bfpcBase = new KeLi.MsgGame.App.Components.BaseFurnishPropertyCtrl();
-            this.PfpcPhysical = new KeLi.MsgGame.App.Components.PhysicalFurnishPropertyCtrl();
-            this.mfpcMagic = new KeLi.MsgGame.App.Components.MagicFurnishPropertyCtrl();
-            this.dfpcDefense = new KeLi.MsgGame.App.Components.DefenseFurnishPropertyCtrl();
-            this.OfpcOther = new KeLi.MsgGame.App.Components.OtherFurnishPropertyCtrl();
+            this.bfpcBase = new KeLi.MsgGame.App.Components.Property.BaseFurnishPropertyCtrl();
+            this.PfpcPhysical = new KeLi.MsgGame.App.Components.Property.PhysicalFurnishPropertyCtrl();
+            this.mfpcMagic = new KeLi.MsgGame.App.Components.Property.MagicFurnishPropertyCtrl();
+            this.dfpcDefense = new KeLi.MsgGame.App.Components.Property.DefenseFurnishPropertyCtrl();
+            this.OfpcOther = new KeLi.MsgGame.App.Components.Property.OtherFurnishPropertyCtrl();
             this.lblZhanChangShenBingValue = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -181,7 +182,7 @@ namespace KeLi.MsgGame.App.Forms
             this.lblZhanChangShenBingValue.BackColor = System.Drawing.Color.Transparent;
             this.lblZhanChangShenBingValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblZhanChangShenBingValue.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.lblZhanChangShenBingValue.Location = new System.Drawing.Point(76, 466);
+            this.lblZhanChangShenBingValue.Location = new System.Drawing.Point(71, 466);
             this.lblZhanChangShenBingValue.Name = "lblZhanChangShenBingValue";
             this.lblZhanChangShenBingValue.Size = new System.Drawing.Size(80, 22);
             this.lblZhanChangShenBingValue.TabIndex = 9;
@@ -221,11 +222,11 @@ namespace KeLi.MsgGame.App.Forms
         private System.Windows.Forms.Label lblFangYuShuXing;
         private System.Windows.Forms.Label lblQiTaShuXing;
         private System.Windows.Forms.Label lblZhanChangShenBingProp;
-        private Components.BaseFurnishPropertyCtrl bfpcBase;
-        private Components.PhysicalFurnishPropertyCtrl PfpcPhysical;
-        private Components.MagicFurnishPropertyCtrl mfpcMagic;
-        private Components.DefenseFurnishPropertyCtrl dfpcDefense;
-        private Components.OtherFurnishPropertyCtrl OfpcOther;
+        private BaseFurnishPropertyCtrl bfpcBase;
+        private PhysicalFurnishPropertyCtrl PfpcPhysical;
+        private MagicFurnishPropertyCtrl mfpcMagic;
+        private DefenseFurnishPropertyCtrl dfpcDefense;
+        private OtherFurnishPropertyCtrl OfpcOther;
         private System.Windows.Forms.Label lblZhanChangShenBingValue;
     }
 }

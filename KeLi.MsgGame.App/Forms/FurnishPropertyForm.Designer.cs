@@ -1,4 +1,5 @@
-﻿using KeLi.MsgGame.App.Properties;
+﻿using KeLi.MsgGame.App.Components.Part;
+using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {
@@ -34,11 +35,11 @@ namespace KeLi.MsgGame.App.Forms
             this.lblArtificeTitle = new System.Windows.Forms.Label();
             this.lblArmStory = new System.Windows.Forms.Label();
             this.lblDetail = new System.Windows.Forms.Label();
-            this.fscZytz = new KeLi.MsgGame.App.Components.FurnishSuitCtrl();
-            this.bpcProperty = new KeLi.MsgGame.App.Components.BasePropertyCtrl();
-            this.ftcTitle = new KeLi.MsgGame.App.Components.FurnishTypeCtrl();
-            this.mcMosaic = new KeLi.MsgGame.App.Components.MosaicCtrl();
-            this.mcWqzx = new KeLi.MsgGame.App.Components.MagicCtrl();
+            this.fscZytz = new FurnishSuitCtrl();
+            this.bpcProperty = new BasePropertyCtrl();
+            this.ftcTitle = new FurnishTypeCtrl();
+            this.mcMosaic = new MosaicCtrl();
+            this.mcWqzx = new MagicCtrl();
             this.lblFightPower = new System.Windows.Forms.Label();
             this.lblFightName = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -139,9 +140,9 @@ namespace KeLi.MsgGame.App.Forms
             // 
             this.lblFightPower.BackColor = System.Drawing.Color.Transparent;
             this.lblFightPower.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.lblFightPower.Location = new System.Drawing.Point(62, 561);
+            this.lblFightPower.Location = new System.Drawing.Point(53, 561);
             this.lblFightPower.Name = "lblFightPower";
-            this.lblFightPower.Size = new System.Drawing.Size(50, 17);
+            this.lblFightPower.Size = new System.Drawing.Size(70, 17);
             this.lblFightPower.TabIndex = 72;
             this.lblFightPower.Text = "[数值]";
             // 
@@ -185,11 +186,11 @@ namespace KeLi.MsgGame.App.Forms
         private System.Windows.Forms.Label lblArtificeTitle;
         private System.Windows.Forms.Label lblArmStory;
         private System.Windows.Forms.Label lblDetail;
-        private Components.FurnishSuitCtrl fscZytz;
-        private Components.BasePropertyCtrl bpcProperty;
-        private Components.FurnishTypeCtrl ftcTitle;
-        private Components.MosaicCtrl mcMosaic;
-        private Components.MagicCtrl mcWqzx;
+        private FurnishSuitCtrl fscZytz;
+        private BasePropertyCtrl bpcProperty;
+        private FurnishTypeCtrl ftcTitle;
+        private MosaicCtrl mcMosaic;
+        private MagicCtrl mcWqzx;
         private System.Windows.Forms.Label lblFightPower;
         private System.Windows.Forms.Label lblFightName;
     }

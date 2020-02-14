@@ -46,48 +46,45 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using KeLi.MsgGame.App.Properties;
-using System.Drawing;
+using KeLi.MsgGame.App.Components.Page;
 
-namespace KeLi.MsgGame.App.Forms
+namespace KeLi.MsgGame.App.Components.Part
 {
-    public sealed partial class FurnishPropertyForm : ShadowForm
+    public partial class FurnishTypeCtrl : GameCtrl
     {
-        public FurnishPropertyForm()
+        public FurnishTypeCtrl()
         {
             InitializeComponent();
-            BackgroundImage = new Bitmap(Resources.Furnish);
+        }
 
-            ftcTitle.SetFurnishName(Resources.ZhenYao_TengLongHuShou_15);
-            ftcTitle.SetFurnishType(Resources.ZhuangBei_HuShou);
-            ftcTitle.SetIsBinding(Resources.YiBangDing);
-            ftcTitle.SetEnhance(Resources.WuXing);
-            ftcTitle.SetCanDiscard(Resources.BuKe_DiuQi);
-            ftcTitle.SetCanSplit(Resources.BuKe_FenJie);
+        public void SetFurnishName(string furnishName)
+        {
+            lblFurnishName.Text = furnishName;
+        }
 
-            bpcProperty.SetFirstProperty(Resources.LiLiang_2550);
-            bpcProperty.SetSecondProperty(Resources.MinJie_1550);
-            bpcProperty.SetThirdProperty(Resources.ZhiLi_1550);
-            bpcProperty.SetFourthProperty(Resources.LingLi_3950);
+        public void SetFurnishType(string furnishType)
+        {
+            lblFurnishType.Text = furnishType;
+        }
 
-            fscZytz.SetSuitName(Resources.ZhenYao_TengLongTaoZhuang);
-            fscZytz.SetNecklace(Resources.ZhenYao_TengLongJieZhi);
-            fscZytz.SetRing(Resources.ZhenYao_TengLongXiangLian);
-            fscZytz.SetCloth(Resources.ZhenYao_TengLongZhanKai);
-            fscZytz.SetBelt(Resources.ZhenYao_TengLongYaoDai);
-            fscZytz.SetHandguard(Resources.ZhenYao_TengLongHuShou);
-            fscZytz.SetShoe(Resources.ZhenYao_TengLongZhanXue);
-            fscZytz.SetMark(Resources.ZhenYao_TengLongYin);
+        public void SetIsBinding(string isBinding)
+        {
+            lblIsBinding.Text = isBinding;
+        }
 
-            mcMosaic.SetMosaicName(Resources.XiangQianKa_MingCheng);
-            mcMosaic.SetFirstProperty(Resources.LiLiang_1000);
-            mcMosaic.SetSecondProperty(Resources.PoJia_86);
+        public void SetEnhance(string enhance)
+        {
+            lblEnhance.Text = enhance;
+        }
 
-            mcWqzx.SetMagicName(Resources.JiNeng_MingCheng4);
-            mcWqzx.SetMagicDetail(Resources.JiNeng_MiaoShu4);
+        public void SetCanDiscard(string canDiscard)
+        {
+            lblCanDiscard.Text = canDiscard;
+        }
 
-            lblArmStory.Text = Resources.ZhuangBei_GuShi;
-            lblFightPower.Text = "131000.0";
+        public void SetCanSplit(string canSplit)
+        {
+            lblCanSplit.Text = canSplit;
         }
     }
 }

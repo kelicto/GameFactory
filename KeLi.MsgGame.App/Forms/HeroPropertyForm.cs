@@ -46,7 +46,6 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using KeLi.MsgGame.App.Components;
 using KeLi.MsgGame.App.Properties;
 using System.Drawing;
 

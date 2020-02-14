@@ -46,48 +46,17 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using KeLi.MsgGame.App.Properties;
-using System.Drawing;
+using System.Windows.Forms;
+using KeLi.MsgGame.App.Utils;
 
-namespace KeLi.MsgGame.App.Forms
+namespace KeLi.MsgGame.App.Components.Page
 {
-    public sealed partial class FurnishPropertyForm : ShadowForm
+    public partial class GameCtrl : UserControl
     {
-        public FurnishPropertyForm()
+        public GameCtrl()
         {
             InitializeComponent();
-            BackgroundImage = new Bitmap(Resources.Furnish);
-
-            ftcTitle.SetFurnishName(Resources.ZhenYao_TengLongHuShou_15);
-            ftcTitle.SetFurnishType(Resources.ZhuangBei_HuShou);
-            ftcTitle.SetIsBinding(Resources.YiBangDing);
-            ftcTitle.SetEnhance(Resources.WuXing);
-            ftcTitle.SetCanDiscard(Resources.BuKe_DiuQi);
-            ftcTitle.SetCanSplit(Resources.BuKe_FenJie);
-
-            bpcProperty.SetFirstProperty(Resources.LiLiang_2550);
-            bpcProperty.SetSecondProperty(Resources.MinJie_1550);
-            bpcProperty.SetThirdProperty(Resources.ZhiLi_1550);
-            bpcProperty.SetFourthProperty(Resources.LingLi_3950);
-
-            fscZytz.SetSuitName(Resources.ZhenYao_TengLongTaoZhuang);
-            fscZytz.SetNecklace(Resources.ZhenYao_TengLongJieZhi);
-            fscZytz.SetRing(Resources.ZhenYao_TengLongXiangLian);
-            fscZytz.SetCloth(Resources.ZhenYao_TengLongZhanKai);
-            fscZytz.SetBelt(Resources.ZhenYao_TengLongYaoDai);
-            fscZytz.SetHandguard(Resources.ZhenYao_TengLongHuShou);
-            fscZytz.SetShoe(Resources.ZhenYao_TengLongZhanXue);
-            fscZytz.SetMark(Resources.ZhenYao_TengLongYin);
-
-            mcMosaic.SetMosaicName(Resources.XiangQianKa_MingCheng);
-            mcMosaic.SetFirstProperty(Resources.LiLiang_1000);
-            mcMosaic.SetSecondProperty(Resources.PoJia_86);
-
-            mcWqzx.SetMagicName(Resources.JiNeng_MingCheng4);
-            mcWqzx.SetMagicDetail(Resources.JiNeng_MiaoShu4);
-
-            lblArmStory.Text = Resources.ZhuangBei_GuShi;
-            lblFightPower.Text = "131000.0";
+            Handle.SetShadowStyle();
         }
     }
 }

@@ -47,7 +47,6 @@
 */
 
 using System.Drawing;
-using KeLi.MsgGame.App.Components;
 using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
@@ -95,7 +94,7 @@ namespace KeLi.MsgGame.App.Forms
             mcWqzx.SetMagicDetail(Resources.JiNeng_MiaoShu4);
 
             lblArmStory.Text = Resources.ZhuangBei_GuShi;
-            lblFightPower.Text = "221300";
+            lblFightPower.Text = "221300.0";
         }
     }
 }
