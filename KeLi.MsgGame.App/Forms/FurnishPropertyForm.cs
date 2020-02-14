@@ -88,7 +88,7 @@ namespace KeLi.MsgGame.App.Forms
             mcWqzx.SetMagicDetail(Resources.JiNeng_MiaoShu4);
 
             lblArmStory.Text = Resources.ZhuangBei_GuShi;
-            lblFightPower.Text = "231000";
+            lblFightPower.Text = "131000";
         }
     }
 }

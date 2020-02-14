@@ -248,7 +248,7 @@
     <value>非玩家列表</value>
   </data>
   <data name="JiNeng_MiaoShu1" xml:space="preserve">
-    <value>攻击时有20%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害</value>
+    <value>攻击时有20.0%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害</value>
   </data>
   <data name="JiNeng_MingCheng1" xml:space="preserve">
     <value>冰封万里 Lv.7</value>
@@ -344,10 +344,10 @@
     <value>无情之心 Lv.9</value>
   </data>
   <data name="JiNeng_MiaoShu2" xml:space="preserve">
-    <value>攻击时有20%几率触发，召唤8颗陨石对周围900码内的敌军单位打击，造成(主属性*1.1)点额外伤害</value>
+    <value>攻击时有20.0%几率触发，召唤8颗陨石对周围900码内的敌军单位打击，造成(主属性*1.1)点额外伤害</value>
   </data>
   <data name="JiNeng_MiaoShu3" xml:space="preserve">
-    <value>游戏初始金钱提高25%</value>
+    <value>游戏初始金钱提高25.0%</value>
   </data>
   <data name="JiNeng_MiaoShu4" xml:space="preserve">
     <value>提升自身520.0点全属性，提高13.5%倍击几率</value>

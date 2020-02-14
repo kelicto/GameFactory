@@ -362,7 +362,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 攻击时有20%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害.
+        ///   Looks up a localized string similar to 攻击时有20.0%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害.
         /// </summary>
         internal static string JiNeng_MiaoShu1 {
             get {
@@ -371,7 +371,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 攻击时有20%几率触发，召唤8颗陨石对周围900码内的敌军单位打击，造成(主属性*1.1)点额外伤害.
+        ///   Looks up a localized string similar to 攻击时有20.0%几率触发，召唤8颗陨石对周围900码内的敌军单位打击，造成(主属性*1.1)点额外伤害.
         /// </summary>
         internal static string JiNeng_MiaoShu2 {
             get {
@@ -380,7 +380,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 游戏初始金钱提高25%.
+        ///   Looks up a localized string similar to 游戏初始金钱提高25.0%.
         /// </summary>
         internal static string JiNeng_MiaoShu3 {
             get {

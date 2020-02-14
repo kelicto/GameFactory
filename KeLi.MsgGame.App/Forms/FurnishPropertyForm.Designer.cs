@@ -73,8 +73,7 @@ namespace KeLi.MsgGame.App.Forms
             this.lblArmStory.Name = "lblArmStory";
             this.lblArmStory.Size = new System.Drawing.Size(298, 68);
             this.lblArmStory.TabIndex = 51;
-            this.lblArmStory.Text = "三万年前，魔界发兵百万入侵人族，人族一溃千里。就在人族惨遭灭种之时，电闪雷鸣，异象突显，流血漂橹的大地下起了雪花，人族不世出神秘强者出现了！神兵一出，冰封万里，百" +
-    "万神魔瞬间灰飞烟灭！";
+            this.lblArmStory.Text = "这是一段装备历史故事。";
             // 
             // lblDetail
             // 
