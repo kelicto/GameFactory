@@ -46,7 +46,7 @@
             this.lblSuitName.Name = "lblSuitName";
             this.lblSuitName.Size = new System.Drawing.Size(200, 17);
             this.lblSuitName.TabIndex = 30;
-            this.lblSuitName.Text = "[称号]*[套装名]([件数]/5)[章节套装]";
+            this.lblSuitName.Text = "[称号]*[套装名][[件数]/5][章节套装]";
             this.lblSuitName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblClaw

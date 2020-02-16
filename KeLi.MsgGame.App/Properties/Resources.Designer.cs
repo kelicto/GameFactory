@@ -614,7 +614,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 湮灭*星陨刀(无情)[1阶]+15.
+        ///   Looks up a localized string similar to 湮灭*星陨刀[无情][1阶]+15.
         /// </summary>
         internal static string YanMie_XingYunDao_15 {
             get {

@@ -111,7 +111,7 @@
             this.lblFurnishName.Name = "lblFurnishName";
             this.lblFurnishName.Size = new System.Drawing.Size(200, 17);
             this.lblFurnishName.TabIndex = 40;
-            this.lblFurnishName.Text = "[装备名]([炼化类型])+[阶段][等级]";
+            this.lblFurnishName.Text = "[装备名][炼化类型]+[阶段][等级]";
             this.lblFurnishName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FurnishTypeCtrl

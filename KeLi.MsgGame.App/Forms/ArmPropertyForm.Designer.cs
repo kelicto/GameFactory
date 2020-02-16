@@ -185,6 +185,7 @@ namespace KeLi.MsgGame.App.Forms
             this.Controls.Add(this.lblFightName);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "ArmPropertyForm";
+            this.Opacity = 1D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 

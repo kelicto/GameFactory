@@ -31,12 +31,12 @@ namespace KeLi.MsgGame.App.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.mcMatch = new MatchCtrl();
-            this.atcTask = new ActiveTaskCtrl();
-            this.mcMsg = new MsgCtrl();
-            this.glcGamer = new GamerListCtrl();
-            this.rlcRoom = new RoomListCtrl();
-            this.mmcMenu = new MainMenuCtrl();
+            this.mcMatch = new KeLi.MsgGame.App.Components.Page.MatchCtrl();
+            this.atcTask = new KeLi.MsgGame.App.Components.Page.ActiveTaskCtrl();
+            this.mcMsg = new KeLi.MsgGame.App.Components.Page.MsgCtrl();
+            this.glcGamer = new KeLi.MsgGame.App.Components.Page.GamerListCtrl();
+            this.rlcRoom = new KeLi.MsgGame.App.Components.Page.RoomListCtrl();
+            this.mmcMenu = new KeLi.MsgGame.App.Components.Page.MainMenuCtrl();
             this.SuspendLayout();
             // 
             // mcMatch
@@ -123,6 +123,7 @@ namespace KeLi.MsgGame.App.Forms
             this.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.IsMdiContainer = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MainForm";
