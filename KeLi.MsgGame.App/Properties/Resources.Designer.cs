@@ -153,7 +153,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 苍雷*帝恨护手[无情][1阶]+15.
+        ///   Looks up a localized string similar to 苍雷*帝恨护手[10阶]+15.
         /// </summary>
         internal static string CL_DL_HuShou_15 {
             get {
@@ -380,7 +380,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 无情*无情之心 Lv.9.
+        ///   Looks up a localized string similar to 无情之心 Lv.9.
         /// </summary>
         internal static string JiNeng_MingCheng4 {
             get {
@@ -587,7 +587,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 破甲*西凉战神元神卡 Lv.5.
+        ///   Looks up a localized string similar to 西凉战神元神卡 Lv.5.
         /// </summary>
         internal static string XiangQianKa_MingCheng {
             get {
@@ -614,7 +614,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 湮灭*星陨刀[无情][1阶]+15.
+        ///   Looks up a localized string similar to 湮灭*星陨刀[10阶]+15.
         /// </summary>
         internal static string YanMie_XingYunDao_15 {
             get {

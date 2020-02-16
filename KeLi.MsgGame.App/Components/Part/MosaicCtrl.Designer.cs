@@ -70,7 +70,7 @@
             this.lblMosaicName.Name = "lblMosaicName";
             this.lblMosaicName.Size = new System.Drawing.Size(200, 17);
             this.lblMosaicName.TabIndex = 22;
-            this.lblMosaicName.Text = "[称号]*[元神卡名称] Lv.[卡等级]";
+            this.lblMosaicName.Text = "[元神卡名称] Lv.[卡等级]";
             this.lblMosaicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblArtificeTitle

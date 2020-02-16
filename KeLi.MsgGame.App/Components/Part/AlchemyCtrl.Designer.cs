@@ -53,7 +53,7 @@
             this.lblMagicName.Name = "lblMagicName";
             this.lblMagicName.Size = new System.Drawing.Size(200, 17);
             this.lblMagicName.TabIndex = 13;
-            this.lblMagicName.Text = "[称号]*[技能名称] Lv.[等级]";
+            this.lblMagicName.Text = "[技能名称] Lv.[等级]";
             this.lblMagicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblAlchemyTitle

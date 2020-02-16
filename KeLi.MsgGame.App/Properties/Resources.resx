@@ -221,7 +221,7 @@
     <value>武器&gt;单手</value>
   </data>
   <data name="YanMie_XingYunDao_15" xml:space="preserve">
-    <value>湮灭*星陨刀[无情][1阶]+15</value>
+    <value>湮灭*星陨刀[10阶]+15</value>
   </data>
   <data name="PaiHangBang" xml:space="preserve">
     <value>排行榜</value>
@@ -287,7 +287,7 @@
     <value>+1000.0点力量</value>
   </data>
   <data name="XiangQianKa_MingCheng" xml:space="preserve">
-    <value>破甲*西凉战神元神卡 Lv.5</value>
+    <value>西凉战神元神卡 Lv.5</value>
   </data>
   <data name="WanJia_MingCheng" xml:space="preserve">
     <value>张翼德之力</value>
@@ -338,7 +338,7 @@
     <value>富极之尊 Lv.8</value>
   </data>
   <data name="JiNeng_MingCheng4" xml:space="preserve">
-    <value>无情*无情之心 Lv.9</value>
+    <value>无情之心 Lv.9</value>
   </data>
   <data name="JiNeng_MiaoShu2" xml:space="preserve">
     <value>攻击时有20.0%几率触发，召唤[8]颗陨石对周围900码内的敌军单位打击，造成[主属性*1.1]点额外伤害</value>
@@ -353,6 +353,6 @@
     <value>装备&gt;护手</value>
   </data>
   <data name="CL_DL_HuShou_15" xml:space="preserve">
-    <value>苍雷*帝恨护手[无情][1阶]+15</value>
+    <value>苍雷*帝恨护手[10阶]+15</value>
   </data>
 </root>
