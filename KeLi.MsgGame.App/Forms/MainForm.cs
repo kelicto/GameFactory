@@ -46,13 +46,13 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using KeLi.MsgGame.App.Properties;
 using System.Drawing;
 using System.Windows.Forms;
+using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {
-    public partial class MainForm : Form
+    public sealed partial class MainForm : Form
     {
         public MainForm()
         {

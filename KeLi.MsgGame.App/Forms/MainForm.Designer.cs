@@ -3,7 +3,7 @@ using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {
-    partial class MainForm
+    sealed partial class MainForm
     {
         /// <summary>
         /// Required designer variable.

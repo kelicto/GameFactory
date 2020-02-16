@@ -155,7 +155,7 @@
     <value>回归奖励</value>
   </data>
   <data name="YanMie_XingYunTaoZhuang" xml:space="preserve">
-    <value>湮灭*星陨套装(5/5)</value>
+    <value>湮灭*星陨套装[5/5][第七章装备]</value>
   </data>
   <data name="YanMie_XingYunZhua" xml:space="preserve">
     <value>湮灭*星陨爪</value>
@@ -181,29 +181,29 @@
   <data name="LiLiang_2550" xml:space="preserve">
     <value>+2550.0点力量</value>
   </data>
-  <data name="ZhenYao_TengLongTaoZhuang" xml:space="preserve">
-    <value>震耀*腾龙套装(7/7)</value>
+  <data name="CL_DL_TaoZhuang" xml:space="preserve">
+    <value>苍雷*帝恨套装[7/7][第七章装备]</value>
   </data>
-  <data name="ZhenYao_TengLongYin" xml:space="preserve">
-    <value>震耀*腾龙印</value>
+  <data name="CL_DL_Yin" xml:space="preserve">
+    <value>苍雷*天征印</value>
   </data>
-  <data name="ZhenYao_TengLongZhanXue" xml:space="preserve">
-    <value>震耀*腾龙战靴</value>
+  <data name="CL_DL_ZhanXue" xml:space="preserve">
+    <value>苍雷*帝恨战靴</value>
   </data>
-  <data name="ZhenYao_TengLongHuShou" xml:space="preserve">
-    <value>震耀*腾龙护手</value>
+  <data name="CL_DL_HuShou" xml:space="preserve">
+    <value>苍雷*帝恨护手</value>
   </data>
-  <data name="ZhenYao_TengLongYaoDai" xml:space="preserve">
-    <value>震耀*腾龙腰带</value>
+  <data name="CL_DL_YaoDai" xml:space="preserve">
+    <value>苍雷*帝恨腰带</value>
   </data>
-  <data name="ZhenYao_TengLongZhanKai" xml:space="preserve">
-    <value>震耀*腾龙战铠</value>
+  <data name="CL_DL_ZhanKai" xml:space="preserve">
+    <value>苍雷*帝恨战铠</value>
   </data>
-  <data name="ZhenYao_TengLongXiangLian" xml:space="preserve">
-    <value>震耀*腾龙项链</value>
+  <data name="CL_DL_XiangLian" xml:space="preserve">
+    <value>苍雷*帝恨项链</value>
   </data>
-  <data name="ZhenYao_TengLongJieZhi" xml:space="preserve">
-    <value>震耀*腾龙戒指</value>
+  <data name="CL_DL_JieZhi" xml:space="preserve">
+    <value>苍雷*帝恨戒指</value>
   </data>
   <data name="BuKe_FenJie" xml:space="preserve">
     <value>不可分解</value>
@@ -221,7 +221,7 @@
     <value>武器&gt;单手</value>
   </data>
   <data name="YanMie_XingYunDao_15" xml:space="preserve">
-    <value>湮灭*星陨刀(无情)+15</value>
+    <value>湮灭*星陨刀(无情)[1阶]+15</value>
   </data>
   <data name="PaiHangBang" xml:space="preserve">
     <value>排行榜</value>
@@ -248,7 +248,7 @@
     <value>非玩家列表</value>
   </data>
   <data name="JiNeng_MiaoShu1" xml:space="preserve">
-    <value>攻击时有20.0%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害</value>
+    <value>攻击时有20.0%几率触发，对周围550码内的敌军造成[5550.0+主属性*0.15]点伤害</value>
   </data>
   <data name="JiNeng_MingCheng1" xml:space="preserve">
     <value>冰封万里 Lv.7</value>
@@ -287,7 +287,7 @@
     <value>+1000.0点力量</value>
   </data>
   <data name="XiangQianKa_MingCheng" xml:space="preserve">
-    <value>西凉战神元神卡 Lv.5</value>
+    <value>破甲*西凉战神元神卡 Lv.5</value>
   </data>
   <data name="WanJia_MingCheng" xml:space="preserve">
     <value>张翼德之力</value>
@@ -326,13 +326,10 @@
     <value>炼化加成</value>
   </data>
   <data name="ZhuangBei_GuShi" xml:space="preserve">
-    <value>三万年前，魔界发兵百万入侵人族，人族一溃千里。就在人族惨遭灭种之时，电闪雷鸣，异象突显，流血漂橹的大地下起了雪花，人族不世出神秘强者出现了！神兵一出，冰封万里，百万神魔瞬间灰飞烟灭！</value>
+    <value>神兵一出，冰封万里，百万神魔瞬间灰飞烟灭！</value>
   </data>
   <data name="ZhuangBei_ShuoMing" xml:space="preserve">
     <value>装备附加的能力不带入竞技场</value>
-  </data>
-  <data name="ShenBingZhi" xml:space="preserve">
-    <value>神兵值:</value>
   </data>
   <data name="JiNeng_MingCheng2" xml:space="preserve">
     <value>归于混沌 Lv.3</value>
@@ -341,10 +338,10 @@
     <value>富极之尊 Lv.8</value>
   </data>
   <data name="JiNeng_MingCheng4" xml:space="preserve">
-    <value>无情之心 Lv.9</value>
+    <value>无情*无情之心 Lv.9</value>
   </data>
   <data name="JiNeng_MiaoShu2" xml:space="preserve">
-    <value>攻击时有20.0%几率触发，召唤8颗陨石对周围900码内的敌军单位打击，造成(主属性*1.1)点额外伤害</value>
+    <value>攻击时有20.0%几率触发，召唤[8]颗陨石对周围900码内的敌军单位打击，造成[主属性*1.1]点额外伤害</value>
   </data>
   <data name="JiNeng_MiaoShu3" xml:space="preserve">
     <value>游戏初始金钱提高25.0%</value>
@@ -355,88 +352,7 @@
   <data name="ZhuangBei_HuShou" xml:space="preserve">
     <value>装备&gt;护手</value>
   </data>
-  <data name="ZhenYao_TengLongHuShou_15" xml:space="preserve">
-    <value>震耀*腾龙护手(无情)+15</value>
-  </data>
-  <data name="ShengMing_HuiFu" xml:space="preserve">
-    <value>生命恢复:</value>
-  </data>
-  <data name="MinJie" xml:space="preserve">
-    <value>敏捷:</value>
-  </data>
-  <data name="LiLiang" xml:space="preserve">
-    <value>力量:</value>
-  </data>
-  <data name="ZhiLi" xml:space="preserve">
-    <value>智力:</value>
-  </data>
-  <data name="ShengMing" xml:space="preserve">
-    <value>生命:</value>
-  </data>
-  <data name="FaLi" xml:space="preserve">
-    <value>法力:</value>
-  </data>
-  <data name="FaLi_HuiFu" xml:space="preserve">
-    <value>法力恢复:</value>
-  </data>
-  <data name="YiSu" xml:space="preserve">
-    <value>移速:</value>
-  </data>
-  <data name="HuJia" xml:space="preserve">
-    <value>护甲:</value>
-  </data>
-  <data name="JianRen" xml:space="preserve">
-    <value>坚韧:</value>
-  </data>
-  <data name="FaKang" xml:space="preserve">
-    <value>法抗:</value>
-  </data>
-  <data name="ZhuanHua" xml:space="preserve">
-    <value>转化:</value>
-  </data>
-  <data name="FaLeng" xml:space="preserve">
-    <value>法冷:</value>
-  </data>
-  <data name="LingLi" xml:space="preserve">
-    <value>灵力:</value>
-  </data>
-  <data name="FaChuan" xml:space="preserve">
-    <value>法穿:</value>
-  </data>
-  <data name="BaoJi" xml:space="preserve">
-    <value>暴击:</value>
-  </data>
-  <data name="BingLiang" xml:space="preserve">
-    <value>兵粮:</value>
-  </data>
-  <data name="JingYan" xml:space="preserve">
-    <value>经验:</value>
-  </data>
-  <data name="JiFen" xml:space="preserve">
-    <value>积分:</value>
-  </data>
-  <data name="ZhanDouLi" xml:space="preserve">
-    <value>战斗力:</value>
-  </data>
-  <data name="ShiBing" xml:space="preserve">
-    <value>士兵:</value>
-  </data>
-  <data name="FuZhanJi_BaoHu" xml:space="preserve">
-    <value>负战绩保护:</value>
-  </data>
-  <data name="XiXue" xml:space="preserve">
-    <value>吸血:</value>
-  </data>
-  <data name="GongSu" xml:space="preserve">
-    <value>攻速:</value>
-  </data>
-  <data name="GongJiLi" xml:space="preserve">
-    <value>攻击力:</value>
-  </data>
-  <data name="PoJia" xml:space="preserve">
-    <value>破甲:</value>
-  </data>
-  <data name="BeiJi" xml:space="preserve">
-    <value>倍击:</value>
+  <data name="CL_DL_HuShou_15" xml:space="preserve">
+    <value>苍雷*帝恨护手[无情][1阶]+15</value>
   </data>
 </root>

@@ -43,7 +43,7 @@
             this.lblMatch.TabIndex = 12;
             this.lblMatch.Text = "开始匹配";
             this.lblMatch.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblMatch.Click += new System.EventHandler(this.lblMatch_Click);
+            this.lblMatch.Click += new System.EventHandler(this.LblMatch_Click);
             // 
             // lblLeft
             // 
@@ -55,7 +55,7 @@
             this.lblLeft.TabIndex = 13;
             this.lblLeft.Text = "v";
             this.lblLeft.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblLeft.Click += new System.EventHandler(this.lblLeft_Click);
+            this.lblLeft.Click += new System.EventHandler(this.LblLeft_Click);
             // 
             // lblRight
             // 
@@ -67,7 +67,7 @@
             this.lblRight.TabIndex = 13;
             this.lblRight.Text = "v";
             this.lblRight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblRight.Click += new System.EventHandler(this.lblRight_Click);
+            this.lblRight.Click += new System.EventHandler(this.LblRight_Click);
             // 
             // MatchCtrl
             // 

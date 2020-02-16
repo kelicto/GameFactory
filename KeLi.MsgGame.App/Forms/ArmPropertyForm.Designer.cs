@@ -51,7 +51,7 @@ namespace KeLi.MsgGame.App.Forms
             this.lblArmStory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(132)))), ((int)(((byte)(153)))));
             this.lblArmStory.Location = new System.Drawing.Point(11, 637);
             this.lblArmStory.Name = "lblArmStory";
-            this.lblArmStory.Size = new System.Drawing.Size(298, 52);
+            this.lblArmStory.Size = new System.Drawing.Size(300, 52);
             this.lblArmStory.TabIndex = 18;
             this.lblArmStory.Text = "这是一段装备历史故事。";
             // 
@@ -162,7 +162,7 @@ namespace KeLi.MsgGame.App.Forms
             this.acAlchemy.Location = new System.Drawing.Point(11, 555);
             this.acAlchemy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.acAlchemy.Name = "acAlchemy";
-            this.acAlchemy.Size = new System.Drawing.Size(200, 75);
+            this.acAlchemy.Size = new System.Drawing.Size(300, 75);
             this.acAlchemy.TabIndex = 41;
             // 
             // ArmPropertyForm

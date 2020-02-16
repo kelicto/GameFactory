@@ -46,6 +46,7 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System;
 using KeLi.MsgGame.App.Forms;
 
 namespace KeLi.MsgGame.App.Components.Page
@@ -57,18 +58,18 @@ namespace KeLi.MsgGame.App.Components.Page
             InitializeComponent();
         }
 
-        private void lblMatch_Click(object sender, System.EventArgs e)
+        private void LblMatch_Click(object sender, EventArgs e)
         {
-            new ArmPropertyForm().Show();
-            new FurnishPropertyForm().Show();
-            new HeroPropertyForm().Show();
+            new ArmPropertyForm().ShowDialog();
+            new FurnishPropertyForm().ShowDialog();
+            new HeroPropertyForm().ShowDialog();
         }
 
-        private void lblLeft_Click(object sender, System.EventArgs e)
+        private void LblLeft_Click(object sender, EventArgs e)
         {
         }
 
-        private void lblRight_Click(object sender, System.EventArgs e)
+        private void LblRight_Click(object sender, EventArgs e)
         {
         }
     }

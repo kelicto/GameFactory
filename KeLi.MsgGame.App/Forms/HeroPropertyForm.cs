@@ -46,8 +46,8 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using KeLi.MsgGame.App.Properties;
 using System.Drawing;
+using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App.Forms
 {

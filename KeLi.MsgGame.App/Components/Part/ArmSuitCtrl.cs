@@ -76,6 +76,7 @@ namespace KeLi.MsgGame.App.Components.Part
         {
             lblSpear.Text = spear;
         }
+
         public void SetBow(string bow)
         {
             lblBow.Text = bow;

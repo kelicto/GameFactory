@@ -90,33 +90,6 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 暴击:.
-        /// </summary>
-        internal static string BaoJi {
-            get {
-                return ResourceManager.GetString("BaoJi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 倍击:.
-        /// </summary>
-        internal static string BeiJi {
-            get {
-                return ResourceManager.GetString("BeiJi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 兵粮:.
-        /// </summary>
-        internal static string BingLiang {
-            get {
-                return ResourceManager.GetString("BingLiang", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 不可丢弃.
         /// </summary>
         internal static string BuKe_DiuQi {
@@ -171,56 +144,92 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨护手.
+        /// </summary>
+        internal static string CL_DL_HuShou {
+            get {
+                return ResourceManager.GetString("CL_DL_HuShou", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨护手[无情][1阶]+15.
+        /// </summary>
+        internal static string CL_DL_HuShou_15 {
+            get {
+                return ResourceManager.GetString("CL_DL_HuShou_15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨戒指.
+        /// </summary>
+        internal static string CL_DL_JieZhi {
+            get {
+                return ResourceManager.GetString("CL_DL_JieZhi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨套装[7/7][第七章装备].
+        /// </summary>
+        internal static string CL_DL_TaoZhuang {
+            get {
+                return ResourceManager.GetString("CL_DL_TaoZhuang", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨项链.
+        /// </summary>
+        internal static string CL_DL_XiangLian {
+            get {
+                return ResourceManager.GetString("CL_DL_XiangLian", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨腰带.
+        /// </summary>
+        internal static string CL_DL_YaoDai {
+            get {
+                return ResourceManager.GetString("CL_DL_YaoDai", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*天征印.
+        /// </summary>
+        internal static string CL_DL_Yin {
+            get {
+                return ResourceManager.GetString("CL_DL_Yin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨战铠.
+        /// </summary>
+        internal static string CL_DL_ZhanKai {
+            get {
+                return ResourceManager.GetString("CL_DL_ZhanKai", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 苍雷*帝恨战靴.
+        /// </summary>
+        internal static string CL_DL_ZhanXue {
+            get {
+                return ResourceManager.GetString("CL_DL_ZhanXue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 存档.
         /// </summary>
         internal static string CunDang {
             get {
                 return ResourceManager.GetString("CunDang", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 法穿:.
-        /// </summary>
-        internal static string FaChuan {
-            get {
-                return ResourceManager.GetString("FaChuan", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 法抗:.
-        /// </summary>
-        internal static string FaKang {
-            get {
-                return ResourceManager.GetString("FaKang", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 法冷:.
-        /// </summary>
-        internal static string FaLeng {
-            get {
-                return ResourceManager.GetString("FaLeng", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 法力:.
-        /// </summary>
-        internal static string FaLi {
-            get {
-                return ResourceManager.GetString("FaLi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 法力恢复:.
-        /// </summary>
-        internal static string FaLi_HuiFu {
-            get {
-                return ResourceManager.GetString("FaLi_HuiFu", resourceCulture);
             }
         }
         
@@ -262,38 +271,11 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 负战绩保护:.
-        /// </summary>
-        internal static string FuZhanJi_BaoHu {
-            get {
-                return ResourceManager.GetString("FuZhanJi_BaoHu", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 个人.
         /// </summary>
         internal static string GeRen {
             get {
                 return ResourceManager.GetString("GeRen", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 攻击力:.
-        /// </summary>
-        internal static string GongJiLi {
-            get {
-                return ResourceManager.GetString("GongJiLi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 攻速:.
-        /// </summary>
-        internal static string GongSu {
-            get {
-                return ResourceManager.GetString("GongSu", resourceCulture);
             }
         }
         
@@ -335,34 +317,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 护甲:.
-        /// </summary>
-        internal static string HuJia {
-            get {
-                return ResourceManager.GetString("HuJia", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 坚韧:.
-        /// </summary>
-        internal static string JianRen {
-            get {
-                return ResourceManager.GetString("JianRen", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 积分:.
-        /// </summary>
-        internal static string JiFen {
-            get {
-                return ResourceManager.GetString("JiFen", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 攻击时有20.0%几率触发，对周围550码内的敌军造成(5550.0+主属性*0.15)点伤害.
+        ///   Looks up a localized string similar to 攻击时有20.0%几率触发，对周围550码内的敌军造成[5550.0+主属性*0.15]点伤害.
         /// </summary>
         internal static string JiNeng_MiaoShu1 {
             get {
@@ -371,7 +326,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 攻击时有20.0%几率触发，召唤8颗陨石对周围900码内的敌军单位打击，造成(主属性*1.1)点额外伤害.
+        ///   Looks up a localized string similar to 攻击时有20.0%几率触发，召唤[8]颗陨石对周围900码内的敌军单位打击，造成[主属性*1.1]点额外伤害.
         /// </summary>
         internal static string JiNeng_MiaoShu2 {
             get {
@@ -425,20 +380,11 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 无情之心 Lv.9.
+        ///   Looks up a localized string similar to 无情*无情之心 Lv.9.
         /// </summary>
         internal static string JiNeng_MingCheng4 {
             get {
                 return ResourceManager.GetString("JiNeng_MingCheng4", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 经验:.
-        /// </summary>
-        internal static string JingYan {
-            get {
-                return ResourceManager.GetString("JingYan", resourceCulture);
             }
         }
         
@@ -461,15 +407,6 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 力量:.
-        /// </summary>
-        internal static string LiLiang {
-            get {
-                return ResourceManager.GetString("LiLiang", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to +1000.0点力量.
         /// </summary>
         internal static string LiLiang_1000 {
@@ -488,15 +425,6 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 灵力:.
-        /// </summary>
-        internal static string LingLi {
-            get {
-                return ResourceManager.GetString("LingLi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to +3950.0点灵力.
         /// </summary>
         internal static string LingLi_3950 {
@@ -511,15 +439,6 @@ namespace KeLi.MsgGame.App.Properties {
         internal static string Microsoft_YaHei {
             get {
                 return ResourceManager.GetString("Microsoft_YaHei", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 敏捷:.
-        /// </summary>
-        internal static string MinJie {
-            get {
-                return ResourceManager.GetString("MinJie", resourceCulture);
             }
         }
         
@@ -547,15 +466,6 @@ namespace KeLi.MsgGame.App.Properties {
         internal static string PiPei {
             get {
                 return ResourceManager.GetString("PiPei", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 破甲:.
-        /// </summary>
-        internal static string PoJia {
-            get {
-                return ResourceManager.GetString("PoJia", resourceCulture);
             }
         }
         
@@ -592,42 +502,6 @@ namespace KeLi.MsgGame.App.Properties {
         internal static string SheHui {
             get {
                 return ResourceManager.GetString("SheHui", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 神兵值:.
-        /// </summary>
-        internal static string ShenBingZhi {
-            get {
-                return ResourceManager.GetString("ShenBingZhi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 生命:.
-        /// </summary>
-        internal static string ShengMing {
-            get {
-                return ResourceManager.GetString("ShengMing", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 生命恢复:.
-        /// </summary>
-        internal static string ShengMing_HuiFu {
-            get {
-                return ResourceManager.GetString("ShengMing_HuiFu", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 士兵:.
-        /// </summary>
-        internal static string ShiBing {
-            get {
-                return ResourceManager.GetString("ShiBing", resourceCulture);
             }
         }
         
@@ -713,7 +587,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 西凉战神元神卡 Lv.5.
+        ///   Looks up a localized string similar to 破甲*西凉战神元神卡 Lv.5.
         /// </summary>
         internal static string XiangQianKa_MingCheng {
             get {
@@ -731,15 +605,6 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 吸血:.
-        /// </summary>
-        internal static string XiXue {
-            get {
-                return ResourceManager.GetString("XiXue", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 湮灭*星陨刀.
         /// </summary>
         internal static string YanMie_XingYunDao {
@@ -749,7 +614,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 湮灭*星陨刀(无情)+15.
+        ///   Looks up a localized string similar to 湮灭*星陨刀(无情)[1阶]+15.
         /// </summary>
         internal static string YanMie_XingYunDao_15 {
             get {
@@ -785,7 +650,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 湮灭*星陨套装(5/5).
+        ///   Looks up a localized string similar to 湮灭*星陨套装[5/5][第七章装备].
         /// </summary>
         internal static string YanMie_XingYunTaoZhuang {
             get {
@@ -812,15 +677,6 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 移速:.
-        /// </summary>
-        internal static string YiSu {
-            get {
-                return ResourceManager.GetString("YiSu", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 游乐园.
         /// </summary>
         internal static string YouLeYuan {
@@ -839,15 +695,6 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 战斗力:.
-        /// </summary>
-        internal static string ZhanDouLi {
-            get {
-                return ResourceManager.GetString("ZhanDouLi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 珍宝阁.
         /// </summary>
         internal static string ZhenBaoGe {
@@ -857,101 +704,11 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙护手.
-        /// </summary>
-        internal static string ZhenYao_TengLongHuShou {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongHuShou", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙护手(无情)+15.
-        /// </summary>
-        internal static string ZhenYao_TengLongHuShou_15 {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongHuShou_15", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙戒指.
-        /// </summary>
-        internal static string ZhenYao_TengLongJieZhi {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongJieZhi", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙套装(7/7).
-        /// </summary>
-        internal static string ZhenYao_TengLongTaoZhuang {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongTaoZhuang", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙项链.
-        /// </summary>
-        internal static string ZhenYao_TengLongXiangLian {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongXiangLian", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙腰带.
-        /// </summary>
-        internal static string ZhenYao_TengLongYaoDai {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongYaoDai", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙印.
-        /// </summary>
-        internal static string ZhenYao_TengLongYin {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongYin", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙战铠.
-        /// </summary>
-        internal static string ZhenYao_TengLongZhanKai {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongZhanKai", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 震耀*腾龙战靴.
-        /// </summary>
-        internal static string ZhenYao_TengLongZhanXue {
-            get {
-                return ResourceManager.GetString("ZhenYao_TengLongZhanXue", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to 直播.
         /// </summary>
         internal static string ZhiBo {
             get {
                 return ResourceManager.GetString("ZhiBo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 智力:.
-        /// </summary>
-        internal static string ZhiLi {
-            get {
-                return ResourceManager.GetString("ZhiLi", resourceCulture);
             }
         }
         
@@ -974,7 +731,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 三万年前，魔界发兵百万入侵人族，人族一溃千里。就在人族惨遭灭种之时，电闪雷鸣，异象突显，流血漂橹的大地下起了雪花，人族不世出神秘强者出现了！神兵一出，冰封万里，百万神魔瞬间灰飞烟灭！.
+        ///   Looks up a localized string similar to 神兵一出，冰封万里，百万神魔瞬间灰飞烟灭！.
         /// </summary>
         internal static string ZhuangBei_GuShi {
             get {
@@ -997,15 +754,6 @@ namespace KeLi.MsgGame.App.Properties {
         internal static string ZhuangBei_ShuoMing {
             get {
                 return ResourceManager.GetString("ZhuangBei_ShuoMing", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 转化:.
-        /// </summary>
-        internal static string ZhuanHua {
-            get {
-                return ResourceManager.GetString("ZhuanHua", resourceCulture);
             }
         }
         
