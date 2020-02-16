@@ -83,8 +83,8 @@ namespace KeLi.MsgGame.App.Forms
             mcMosaic.SetFirstProperty(Resources.LiLiang_1000);
             mcMosaic.SetSecondProperty(Resources.PoJia_86);
 
-            mcWqzx.SetMagicName(Resources.JiNeng_MingCheng4);
-            mcWqzx.SetMagicDetail(Resources.JiNeng_MiaoShu4);
+            acAlchemy.SetMagicName(Resources.JiNeng_MingCheng4);
+            acAlchemy.SetMagicDetail(Resources.JiNeng_MiaoShu4);
 
             lblArmStory.Text = Resources.ZhuangBei_GuShi;
             lblFightPower.Text = "131000.0";

@@ -46,55 +46,25 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System.Drawing;
-using KeLi.MsgGame.App.Properties;
+using KeLi.MsgGame.App.Components.Page;
 
-namespace KeLi.MsgGame.App.Forms
+namespace KeLi.MsgGame.App.Components.Part
 {
-    public sealed partial class ArmPropertyForm : ShadowForm
+    public partial class AlchemyCtrl : GameCtrl
     {
-        public ArmPropertyForm()
+        public AlchemyCtrl()
         {
             InitializeComponent();
-            BackgroundImage = new Bitmap(Resources.Arm);
+        }
 
-            ftcTitle.SetFurnishName(Resources.YanMie_XingYunDao_15);
-            ftcTitle.SetFurnishType(Resources.WuQi_DanShou);
-            ftcTitle.SetIsBinding(Resources.YiBangDing);
-            ftcTitle.SetEnhance(Resources.WuXing);
-            ftcTitle.SetCanDiscard(Resources.BuKe_DiuQi);
-            ftcTitle.SetCanSplit(Resources.BuKe_FenJie);
+        public void SetMagicName(string magicName)
+        {
+            lblMagicName.Text = magicName;
+        }
 
-            bpcProperty.SetFirstProperty(Resources.LiLiang_2550);
-            bpcProperty.SetSecondProperty(Resources.MinJie_1550);
-            bpcProperty.SetThirdProperty(Resources.ZhiLi_1550);
-            bpcProperty.SetFourthProperty(Resources.LingLi_3950);
-
-            ascXytz.SetSuitName(Resources.YanMie_XingYunTaoZhuang);
-            ascXytz.SetSingleArm(Resources.YanMie_XingYunDao);
-            ascXytz.SetDoubleArm(Resources.YanMie_XingYunDuiJi);
-            ascXytz.SetSpear(Resources.YanMie_XingYunQiang);
-            ascXytz.SetBow(Resources.YanMie_XingYunGong);
-            ascXytz.SetClaw(Resources.YanMie_XingYunZhua);
-
-            mcBfwl.SetMagicName(Resources.JiNeng_MingCheng1);
-            mcBfwl.SetMagicDetail(Resources.JiNeng_MiaoShu1);
-
-            mcGyhd.SetMagicName(Resources.JiNeng_MingCheng2);
-            mcGyhd.SetMagicDetail(Resources.JiNeng_MiaoShu2);
-
-            mcFjzz.SetMagicName(Resources.JiNeng_MingCheng3);
-            mcFjzz.SetMagicDetail(Resources.JiNeng_MiaoShu3);
-
-            mcMosaic.SetMosaicName(Resources.XiangQianKa_MingCheng);
-            mcMosaic.SetFirstProperty(Resources.LiLiang_1000);
-            mcMosaic.SetSecondProperty(Resources.PoJia_86);
-
-            acAlchemy.SetMagicName(Resources.JiNeng_MingCheng4);
-            acAlchemy.SetMagicDetail(Resources.JiNeng_MiaoShu4);
-
-            lblArmStory.Text = Resources.ZhuangBei_GuShi;
-            lblFightPower.Text = "221300.0";
+        public void SetMagicDetail(string magicDetail)
+        {
+            lblMagicDetail.Text = magicDetail;
         }
     }
 }

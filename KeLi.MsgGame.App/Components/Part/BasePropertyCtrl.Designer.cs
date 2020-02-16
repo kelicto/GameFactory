@@ -44,7 +44,7 @@
             this.lblFourthProperty.Name = "lblFourthProperty";
             this.lblFourthProperty.Size = new System.Drawing.Size(120, 17);
             this.lblFourthProperty.TabIndex = 61;
-            this.lblFourthProperty.Text = "+[数值]点灵力";
+            this.lblFourthProperty.Text = "+第四条属性";
             this.lblFourthProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblThirdProperty
@@ -57,7 +57,7 @@
             this.lblThirdProperty.Name = "lblThirdProperty";
             this.lblThirdProperty.Size = new System.Drawing.Size(120, 17);
             this.lblThirdProperty.TabIndex = 60;
-            this.lblThirdProperty.Text = "+[数值]点智力";
+            this.lblThirdProperty.Text = "+第三条属性";
             this.lblThirdProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblSecondProperty
@@ -70,7 +70,7 @@
             this.lblSecondProperty.Name = "lblSecondProperty";
             this.lblSecondProperty.Size = new System.Drawing.Size(120, 17);
             this.lblSecondProperty.TabIndex = 59;
-            this.lblSecondProperty.Text = "+[数值]点敏捷";
+            this.lblSecondProperty.Text = "+第二条属性";
             this.lblSecondProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblFirstProperty
@@ -83,7 +83,7 @@
             this.lblFirstProperty.Name = "lblFirstProperty";
             this.lblFirstProperty.Size = new System.Drawing.Size(120, 17);
             this.lblFirstProperty.TabIndex = 58;
-            this.lblFirstProperty.Text = "+[数值]点力量";
+            this.lblFirstProperty.Text = "+第一条属性";
             this.lblFirstProperty.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // BasePropertyCtrl

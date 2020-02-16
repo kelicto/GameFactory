@@ -57,6 +57,12 @@
     <Compile Include="Components\Part\ArmSuitCtrl.Designer.cs">
       <DependentUpon>ArmSuitCtrl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Components\Part\AlchemyCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\Part\AlchemyCtrl.Designer.cs">
+      <DependentUpon>AlchemyCtrl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Components\Property\MagicFurnishPropertyCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -199,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Components\Part\ArmSuitCtrl.resx">
       <DependentUpon>ArmSuitCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\Part\AlchemyCtrl.resx">
+      <DependentUpon>AlchemyCtrl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Components\Property\MagicFurnishPropertyCtrl.resx">
       <DependentUpon>MagicFurnishPropertyCtrl.cs</DependentUpon>

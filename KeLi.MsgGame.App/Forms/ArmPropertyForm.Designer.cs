@@ -31,51 +31,27 @@ namespace KeLi.MsgGame.App.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblMosaicTitle = new System.Windows.Forms.Label();
-            this.lblArtificeTitle = new System.Windows.Forms.Label();
             this.lblArmStory = new System.Windows.Forms.Label();
             this.lblDetail = new System.Windows.Forms.Label();
             this.lblFightName = new System.Windows.Forms.Label();
-            this.bpcProperty = new BasePropertyCtrl();
-            this.ftcTitle = new FurnishTypeCtrl();
-            this.mcBfwl = new MagicCtrl();
-            this.mcGyhd = new MagicCtrl();
-            this.mcFjzz = new MagicCtrl();
-            this.mcMosaic = new MosaicCtrl();
-            this.mcWqzx = new MagicCtrl();
-            this.ascXytz = new ArmSuitCtrl();
+            this.bpcProperty = new KeLi.MsgGame.App.Components.Part.BasePropertyCtrl();
+            this.ftcTitle = new KeLi.MsgGame.App.Components.Part.FurnishTypeCtrl();
+            this.mcBfwl = new KeLi.MsgGame.App.Components.Part.MagicCtrl();
+            this.mcGyhd = new KeLi.MsgGame.App.Components.Part.MagicCtrl();
+            this.mcFjzz = new KeLi.MsgGame.App.Components.Part.MagicCtrl();
+            this.mcMosaic = new KeLi.MsgGame.App.Components.Part.MosaicCtrl();
+            this.ascXytz = new KeLi.MsgGame.App.Components.Part.ArmSuitCtrl();
             this.lblFightPower = new System.Windows.Forms.Label();
+            this.acAlchemy = new KeLi.MsgGame.App.Components.Part.AlchemyCtrl();
             this.SuspendLayout();
-            // 
-            // lblMosaicTitle
-            // 
-            this.lblMosaicTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblMosaicTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.lblMosaicTitle.Location = new System.Drawing.Point(11, 472);
-            this.lblMosaicTitle.Name = "lblMosaicTitle";
-            this.lblMosaicTitle.Size = new System.Drawing.Size(69, 17);
-            this.lblMosaicTitle.TabIndex = 31;
-            this.lblMosaicTitle.Text = "镶嵌加成";
-            this.lblMosaicTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // lblArtificeTitle
-            // 
-            this.lblArtificeTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblArtificeTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.lblArtificeTitle.Location = new System.Drawing.Point(11, 552);
-            this.lblArtificeTitle.Name = "lblArtificeTitle";
-            this.lblArtificeTitle.Size = new System.Drawing.Size(69, 17);
-            this.lblArtificeTitle.TabIndex = 30;
-            this.lblArtificeTitle.Text = "炼化加成";
-            this.lblArtificeTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblArmStory
             // 
             this.lblArmStory.BackColor = System.Drawing.Color.Transparent;
             this.lblArmStory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(132)))), ((int)(((byte)(153)))));
-            this.lblArmStory.Location = new System.Drawing.Point(11, 615);
+            this.lblArmStory.Location = new System.Drawing.Point(11, 637);
             this.lblArmStory.Name = "lblArmStory";
-            this.lblArmStory.Size = new System.Drawing.Size(298, 68);
+            this.lblArmStory.Size = new System.Drawing.Size(298, 52);
             this.lblArmStory.TabIndex = 18;
             this.lblArmStory.Text = "这是一段装备历史故事。";
             // 
@@ -83,7 +59,7 @@ namespace KeLi.MsgGame.App.Forms
             // 
             this.lblDetail.BackColor = System.Drawing.Color.Transparent;
             this.lblDetail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(5)))), ((int)(((byte)(3)))));
-            this.lblDetail.Location = new System.Drawing.Point(11, 718);
+            this.lblDetail.Location = new System.Drawing.Point(11, 722);
             this.lblDetail.Name = "lblDetail";
             this.lblDetail.Size = new System.Drawing.Size(175, 17);
             this.lblDetail.TabIndex = 32;
@@ -93,7 +69,7 @@ namespace KeLi.MsgGame.App.Forms
             // 
             this.lblFightName.BackColor = System.Drawing.Color.Transparent;
             this.lblFightName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.lblFightName.Location = new System.Drawing.Point(11, 689);
+            this.lblFightName.Location = new System.Drawing.Point(11, 696);
             this.lblFightName.Name = "lblFightName";
             this.lblFightName.Size = new System.Drawing.Size(50, 17);
             this.lblFightName.TabIndex = 17;
@@ -116,7 +92,7 @@ namespace KeLi.MsgGame.App.Forms
             this.ftcTitle.Location = new System.Drawing.Point(11, 11);
             this.ftcTitle.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.ftcTitle.Name = "ftcTitle";
-            this.ftcTitle.Size = new System.Drawing.Size(160, 102);
+            this.ftcTitle.Size = new System.Drawing.Size(200, 102);
             this.ftcTitle.TabIndex = 36;
             // 
             // mcBfwl
@@ -153,21 +129,11 @@ namespace KeLi.MsgGame.App.Forms
             // 
             this.mcMosaic.BackColor = System.Drawing.Color.Transparent;
             this.mcMosaic.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.mcMosaic.Location = new System.Drawing.Point(11, 495);
+            this.mcMosaic.Location = new System.Drawing.Point(11, 473);
             this.mcMosaic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcMosaic.Name = "mcMosaic";
-            this.mcMosaic.Size = new System.Drawing.Size(150, 51);
+            this.mcMosaic.Size = new System.Drawing.Size(200, 75);
             this.mcMosaic.TabIndex = 39;
-            // 
-            // mcWqzx
-            // 
-            this.mcWqzx.BackColor = System.Drawing.Color.Transparent;
-            this.mcWqzx.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.mcWqzx.Location = new System.Drawing.Point(11, 575);
-            this.mcWqzx.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.mcWqzx.Name = "mcWqzx";
-            this.mcWqzx.Size = new System.Drawing.Size(280, 34);
-            this.mcWqzx.TabIndex = 38;
             // 
             // ascXytz
             // 
@@ -176,18 +142,28 @@ namespace KeLi.MsgGame.App.Forms
             this.ascXytz.Location = new System.Drawing.Point(11, 193);
             this.ascXytz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ascXytz.Name = "ascXytz";
-            this.ascXytz.Size = new System.Drawing.Size(150, 102);
+            this.ascXytz.Size = new System.Drawing.Size(200, 102);
             this.ascXytz.TabIndex = 40;
             // 
             // lblFightPower
             // 
             this.lblFightPower.BackColor = System.Drawing.Color.Transparent;
             this.lblFightPower.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(151)))), ((int)(((byte)(5)))));
-            this.lblFightPower.Location = new System.Drawing.Point(53, 689);
+            this.lblFightPower.Location = new System.Drawing.Point(53, 696);
             this.lblFightPower.Name = "lblFightPower";
             this.lblFightPower.Size = new System.Drawing.Size(70, 17);
             this.lblFightPower.TabIndex = 17;
             this.lblFightPower.Text = "[数值]";
+            // 
+            // acAlchemy
+            // 
+            this.acAlchemy.BackColor = System.Drawing.Color.Transparent;
+            this.acAlchemy.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.acAlchemy.Location = new System.Drawing.Point(11, 555);
+            this.acAlchemy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.acAlchemy.Name = "acAlchemy";
+            this.acAlchemy.Size = new System.Drawing.Size(200, 75);
+            this.acAlchemy.TabIndex = 41;
             // 
             // ArmPropertyForm
             // 
@@ -195,16 +171,14 @@ namespace KeLi.MsgGame.App.Forms
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(320, 750);
+            this.Controls.Add(this.acAlchemy);
             this.Controls.Add(this.ascXytz);
             this.Controls.Add(this.mcMosaic);
-            this.Controls.Add(this.mcWqzx);
             this.Controls.Add(this.mcFjzz);
             this.Controls.Add(this.mcGyhd);
             this.Controls.Add(this.mcBfwl);
             this.Controls.Add(this.ftcTitle);
             this.Controls.Add(this.bpcProperty);
-            this.Controls.Add(this.lblMosaicTitle);
-            this.Controls.Add(this.lblArtificeTitle);
             this.Controls.Add(this.lblArmStory);
             this.Controls.Add(this.lblDetail);
             this.Controls.Add(this.lblFightPower);
@@ -217,8 +191,6 @@ namespace KeLi.MsgGame.App.Forms
         }
 
         #endregion
-        private System.Windows.Forms.Label lblMosaicTitle;
-        private System.Windows.Forms.Label lblArtificeTitle;
         private System.Windows.Forms.Label lblArmStory;
         private System.Windows.Forms.Label lblDetail;
         private System.Windows.Forms.Label lblFightName;
@@ -228,8 +200,8 @@ namespace KeLi.MsgGame.App.Forms
         private MagicCtrl mcGyhd;
         private MagicCtrl mcFjzz;
         private MosaicCtrl mcMosaic;
-        private MagicCtrl mcWqzx;
         private ArmSuitCtrl ascXytz;
         private System.Windows.Forms.Label lblFightPower;
+        private AlchemyCtrl acAlchemy;
     }
 }
