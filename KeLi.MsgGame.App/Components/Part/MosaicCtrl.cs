@@ -46,6 +46,8 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System.ComponentModel;
+
 using KeLi.MsgGame.App.Components.Page;
 
 namespace KeLi.MsgGame.App.Components.Part
@@ -57,19 +59,31 @@ namespace KeLi.MsgGame.App.Components.Part
             InitializeComponent();
         }
 
-        public void SetMosaicName(string mosaicName)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string MosaicName
         {
-            lblMosaicName.Text = mosaicName;
+            get => lblMosaicName.Text;
+            set => lblMosaicName.Text = value;
         }
 
-        public void SetFirstProperty(string firstProperty)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FirstProperty
         {
-            lblFirstProperty.Text = firstProperty;
+            get => lblFirstProperty.Text;
+            set => lblFirstProperty.Text = value;
         }
 
-        public void SetSecondProperty(string secondProperty)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SecondProperty
         {
-            lblSecondProperty.Text = secondProperty;
+            get => lblSecondProperty.Text;
+            set => lblSecondProperty.Text = value;
         }
     }
 }

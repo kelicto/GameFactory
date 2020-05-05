@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.lblSuitName = new System.Windows.Forms.Label();
-            this.lblClaw = new System.Windows.Forms.Label();
-            this.lblBow = new System.Windows.Forms.Label();
-            this.lblSpear = new System.Windows.Forms.Label();
+            this.lblClawArm = new System.Windows.Forms.Label();
+            this.lblBowArm = new System.Windows.Forms.Label();
+            this.lblSpearArm = new System.Windows.Forms.Label();
             this.lblDoubleArm = new System.Windows.Forms.Label();
             this.lblSingleArm = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -51,42 +51,42 @@
             // 
             // lblClaw
             // 
-            this.lblClaw.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblClawArm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblClaw.BackColor = System.Drawing.Color.Transparent;
-            this.lblClaw.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.lblClaw.Location = new System.Drawing.Point(0, 85);
-            this.lblClaw.Name = "lblClaw";
-            this.lblClaw.Size = new System.Drawing.Size(200, 17);
-            this.lblClaw.TabIndex = 35;
-            this.lblClaw.Text = "[称号]*[拳爪套件名]";
-            this.lblClaw.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblClawArm.BackColor = System.Drawing.Color.Transparent;
+            this.lblClawArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblClawArm.Location = new System.Drawing.Point(0, 85);
+            this.lblClawArm.Name = "lblClaw";
+            this.lblClawArm.Size = new System.Drawing.Size(200, 17);
+            this.lblClawArm.TabIndex = 35;
+            this.lblClawArm.Text = "[称号]*[拳爪套件名]";
+            this.lblClawArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBow
             // 
-            this.lblBow.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblBowArm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblBow.BackColor = System.Drawing.Color.Transparent;
-            this.lblBow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.lblBow.Location = new System.Drawing.Point(0, 68);
-            this.lblBow.Name = "lblBow";
-            this.lblBow.Size = new System.Drawing.Size(200, 17);
-            this.lblBow.TabIndex = 34;
-            this.lblBow.Text = "[称号]*[弓箭套件名]";
-            this.lblBow.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblBowArm.BackColor = System.Drawing.Color.Transparent;
+            this.lblBowArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblBowArm.Location = new System.Drawing.Point(0, 68);
+            this.lblBowArm.Name = "lblBow";
+            this.lblBowArm.Size = new System.Drawing.Size(200, 17);
+            this.lblBowArm.TabIndex = 34;
+            this.lblBowArm.Text = "[称号]*[弓箭套件名]";
+            this.lblBowArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblSpear
             // 
-            this.lblSpear.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSpearArm.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblSpear.BackColor = System.Drawing.Color.Transparent;
-            this.lblSpear.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
-            this.lblSpear.Location = new System.Drawing.Point(0, 51);
-            this.lblSpear.Name = "lblSpear";
-            this.lblSpear.Size = new System.Drawing.Size(200, 17);
-            this.lblSpear.TabIndex = 33;
-            this.lblSpear.Text = "[称号]*[长柄套件名]";
-            this.lblSpear.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblSpearArm.BackColor = System.Drawing.Color.Transparent;
+            this.lblSpearArm.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(239)))), ((int)(((byte)(0)))));
+            this.lblSpearArm.Location = new System.Drawing.Point(0, 51);
+            this.lblSpearArm.Name = "lblSpear";
+            this.lblSpearArm.Size = new System.Drawing.Size(200, 17);
+            this.lblSpearArm.TabIndex = 33;
+            this.lblSpearArm.Text = "[称号]*[长柄套件名]";
+            this.lblSpearArm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblDoubleArm
             // 
@@ -121,9 +121,9 @@
             this.BackColor = System.Drawing.Color.Transparent;
             this.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Controls.Add(this.lblSuitName);
-            this.Controls.Add(this.lblClaw);
-            this.Controls.Add(this.lblBow);
-            this.Controls.Add(this.lblSpear);
+            this.Controls.Add(this.lblClawArm);
+            this.Controls.Add(this.lblBowArm);
+            this.Controls.Add(this.lblSpearArm);
             this.Controls.Add(this.lblDoubleArm);
             this.Controls.Add(this.lblSingleArm);
             this.Name = "ArmSuitCtrl";
@@ -135,9 +135,9 @@
         #endregion
 
         private System.Windows.Forms.Label lblSuitName;
-        private System.Windows.Forms.Label lblClaw;
-        private System.Windows.Forms.Label lblBow;
-        private System.Windows.Forms.Label lblSpear;
+        private System.Windows.Forms.Label lblClawArm;
+        private System.Windows.Forms.Label lblBowArm;
+        private System.Windows.Forms.Label lblSpearArm;
         private System.Windows.Forms.Label lblDoubleArm;
         private System.Windows.Forms.Label lblSingleArm;
     }

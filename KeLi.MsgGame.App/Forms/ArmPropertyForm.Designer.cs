@@ -100,6 +100,7 @@ namespace KeLi.MsgGame.App.Forms
             this.mcBfwl.BackColor = System.Drawing.Color.Transparent;
             this.mcBfwl.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mcBfwl.Location = new System.Drawing.Point(11, 301);
+            this.mcBfwl.MagicDetail = "这是一段技能说明。";
             this.mcBfwl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcBfwl.Name = "mcBfwl";
             this.mcBfwl.Size = new System.Drawing.Size(280, 51);
@@ -110,6 +111,7 @@ namespace KeLi.MsgGame.App.Forms
             this.mcGyhd.BackColor = System.Drawing.Color.Transparent;
             this.mcGyhd.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mcGyhd.Location = new System.Drawing.Point(11, 358);
+            this.mcGyhd.MagicDetail = "这是一段技能说明。";
             this.mcGyhd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcGyhd.Name = "mcGyhd";
             this.mcGyhd.Size = new System.Drawing.Size(280, 51);
@@ -120,6 +122,7 @@ namespace KeLi.MsgGame.App.Forms
             this.mcFjzz.BackColor = System.Drawing.Color.Transparent;
             this.mcFjzz.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mcFjzz.Location = new System.Drawing.Point(11, 415);
+            this.mcFjzz.MagicDetail = "这是一段技能说明。";
             this.mcFjzz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcFjzz.Name = "mcFjzz";
             this.mcFjzz.Size = new System.Drawing.Size(280, 51);

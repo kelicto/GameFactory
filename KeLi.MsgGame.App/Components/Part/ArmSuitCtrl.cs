@@ -46,6 +46,8 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System.ComponentModel;
+
 using KeLi.MsgGame.App.Components.Page;
 
 namespace KeLi.MsgGame.App.Components.Part
@@ -57,34 +59,58 @@ namespace KeLi.MsgGame.App.Components.Part
             InitializeComponent();
         }
 
-        public void SetSuitName(string suitName)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SuitName
         {
-            lblSuitName.Text = suitName;
+            get => lblSuitName.Text;
+            set => lblSuitName.Text = value;
         }
 
-        public void SetSingleArm(string singleArm)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SingleArm
         {
-            lblSingleArm.Text = singleArm;
+            get => lblSingleArm.Text;
+            set => lblSingleArm.Text = value;
         }
 
-        public void SetDoubleArm(string doubleArm)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string DoubleArm
         {
-            lblDoubleArm.Text = doubleArm;
+            get => lblDoubleArm.Text;
+            set => lblDoubleArm.Text = value;
         }
 
-        public void SetSpear(string spear)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SpearArm
         {
-            lblSpear.Text = spear;
+            get => lblSpearArm.Text;
+            set => lblSpearArm.Text = value;
         }
 
-        public void SetBow(string bow)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string BowArm
         {
-            lblBow.Text = bow;
+            get => lblBowArm.Text;
+            set => lblBowArm.Text = value;
         }
 
-        public void SetClaw(string claw)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string ClawArm
         {
-            lblClaw.Text = claw;
+            get => lblClawArm.Text;
+            set => lblClawArm.Text = value;
         }
     }
 }

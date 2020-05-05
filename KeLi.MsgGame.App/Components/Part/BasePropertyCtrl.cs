@@ -46,6 +46,8 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System.ComponentModel;
+
 using KeLi.MsgGame.App.Components.Page;
 
 namespace KeLi.MsgGame.App.Components.Part
@@ -57,24 +59,40 @@ namespace KeLi.MsgGame.App.Components.Part
             InitializeComponent();
         }
 
-        public void SetFirstProperty(string firstProperty)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FirstProperty
         {
-            lblFirstProperty.Text = firstProperty;
+            get => lblFirstProperty.Text;
+            set => lblFirstProperty.Text = value;
         }
 
-        public void SetSecondProperty(string secondProperty)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SecondProperty
         {
-            lblSecondProperty.Text = secondProperty;
+            get => lblSecondProperty.Text;
+            set => lblSecondProperty.Text = value;
         }
 
-        public void SetThirdProperty(string thirdProperty)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string ThirdProperty
         {
-            lblThirdProperty.Text = thirdProperty;
+            get => lblThirdProperty.Text;
+            set => lblThirdProperty.Text = value;
         }
 
-        public void SetFourthProperty(string fourthProperty)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FourthProperty
         {
-            lblFourthProperty.Text = fourthProperty;
+            get => lblFourthProperty.Text;
+            set => lblFourthProperty.Text = value;
         }
     }
 }

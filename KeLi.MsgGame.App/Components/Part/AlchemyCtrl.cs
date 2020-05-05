@@ -46,6 +46,8 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System.ComponentModel;
+
 using KeLi.MsgGame.App.Components.Page;
 
 namespace KeLi.MsgGame.App.Components.Part
@@ -57,14 +59,22 @@ namespace KeLi.MsgGame.App.Components.Part
             InitializeComponent();
         }
 
-        public void SetMagicName(string magicName)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string MagicName
         {
-            lblMagicName.Text = magicName;
+            get => lblMagicName.Text;
+            set => lblMagicName.Text = value;
         }
 
-        public void SetMagicDetail(string magicDetail)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string MagicDetail
         {
-            lblMagicDetail.Text = magicDetail;
+            get => lblMagicDetail.Text;
+            set => lblMagicDetail.Text = value;
         }
     }
 }

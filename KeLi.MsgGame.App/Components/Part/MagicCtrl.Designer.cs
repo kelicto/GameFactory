@@ -34,23 +34,25 @@
             // 
             // lblMagicDetail
             // 
-            this.lblMagicDetail.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMagicDetail.BackColor = System.Drawing.Color.Transparent;
+            this.lblMagicDetail.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblMagicDetail.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblMagicDetail.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(188)))), ((int)(((byte)(186)))), ((int)(((byte)(183)))));
             this.lblMagicDetail.Location = new System.Drawing.Point(0, 17);
             this.lblMagicDetail.Name = "lblMagicDetail";
-            this.lblMagicDetail.Size = new System.Drawing.Size(280, 35);
+            this.lblMagicDetail.Size = new System.Drawing.Size(280, 34);
             this.lblMagicDetail.TabIndex = 14;
             this.lblMagicDetail.Text = "这是一段技能说明。";
             // 
             // lblMagicName
             // 
             this.lblMagicName.BackColor = System.Drawing.Color.Transparent;
+            this.lblMagicName.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblMagicName.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblMagicName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(12)))), ((int)(((byte)(98)))), ((int)(((byte)(182)))));
             this.lblMagicName.Location = new System.Drawing.Point(0, 0);
             this.lblMagicName.Name = "lblMagicName";
-            this.lblMagicName.Size = new System.Drawing.Size(120, 17);
+            this.lblMagicName.Size = new System.Drawing.Size(280, 17);
             this.lblMagicName.TabIndex = 13;
             this.lblMagicName.Text = "[技能名称] Lv.[等级]";
             this.lblMagicName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;

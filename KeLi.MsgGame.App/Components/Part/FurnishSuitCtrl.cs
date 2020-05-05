@@ -46,6 +46,8 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System.ComponentModel;
+
 using KeLi.MsgGame.App.Components.Page;
 
 namespace KeLi.MsgGame.App.Components.Part
@@ -57,44 +59,76 @@ namespace KeLi.MsgGame.App.Components.Part
             InitializeComponent();
         }
 
-        public void SetSuitName(string suitName)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SuitName
         {
-            lblSuitName.Text = suitName;
+            get => lblSuitName.Text;
+            set => lblSuitName.Text = value;
         }
 
-        public void SetMark(string mark)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Mark
         {
-            lblMark.Text = mark;
+            get => lblMark.Text;
+            set => lblMark.Text = value;
         }
 
-        public void SetShoe(string shoe)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Shoe
         {
-            lblShoe.Text = shoe;
+            get => lblShoe.Text;
+            set => lblShoe.Text = value;
         }
 
-        public void SetHandguard(string handguard)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Handguard
         {
-            lblHandguard.Text = handguard;
+            get => lblHandguard.Text;
+            set => lblHandguard.Text = value;
         }
 
-        public void SetBelt(string belt)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Belt
         {
-            lblBelt.Text = belt;
+            get => lblBelt.Text;
+            set => lblBelt.Text = value;
         }
 
-        public void SetCloth(string cloth)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Cloth
         {
-            lblCloth.Text = cloth;
+            get => lblCloth.Text;
+            set => lblCloth.Text = value;
         }
 
-        public void SetNecklace(string necklace)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Necklace
         {
-            lblNecklace.Text = necklace;
+            get => lblNecklace.Text;
+            set => lblNecklace.Text = value;
         }
 
-        public void SetRing(string ring)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Ring
         {
-            lblRing.Text = ring;
+            get => lblRing.Text;
+            set => lblRing.Text = value;
         }
     }
 }
