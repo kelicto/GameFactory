@@ -46,6 +46,8 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
+using System.ComponentModel;
+
 using KeLi.MsgGame.App.Components.Page;
 
 namespace KeLi.MsgGame.App.Components.Part
@@ -57,34 +59,58 @@ namespace KeLi.MsgGame.App.Components.Part
             InitializeComponent();
         }
 
-        public void SetFurnishName(string furnishName)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FurnishName
         {
-            lblFurnishName.Text = furnishName;
+            get => lblFurnishName.Text;
+            set => lblFurnishName.Text = value;
         }
 
-        public void SetFurnishType(string furnishType)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FurnishType
         {
-            lblFurnishType.Text = furnishType;
+            get => lblFurnishType.Text;
+            set => lblFurnishType.Text = value;
         }
 
-        public void SetIsBinding(string isBinding)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string IsBinding
         {
-            lblIsBinding.Text = isBinding;
+            get => lblIsBinding.Text;
+            set => lblIsBinding.Text = value;
         }
 
-        public void SetEnhance(string enhance)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string Enhance
         {
-            lblEnhance.Text = enhance;
+            get => lblEnhance.Text;
+            set => lblEnhance.Text = value;
         }
 
-        public void SetCanDiscard(string canDiscard)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string CanDiscard
         {
-            lblCanDiscard.Text = canDiscard;
+            get => lblCanDiscard.Text;
+            set => lblCanDiscard.Text = value;
         }
 
-        public void SetCanSplit(string canSplit)
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string CanSplit
         {
-            lblCanSplit.Text = canSplit;
+            get => lblCanSplit.Text;
+            set => lblCanSplit.Text = value;
         }
     }
 }

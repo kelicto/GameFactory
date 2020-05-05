@@ -39,6 +39,7 @@
             this.lblFourthProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFourthProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblFourthProperty.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblFourthProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
             this.lblFourthProperty.Location = new System.Drawing.Point(0, 51);
             this.lblFourthProperty.Name = "lblFourthProperty";
@@ -52,6 +53,7 @@
             this.lblThirdProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblThirdProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblThirdProperty.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblThirdProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
             this.lblThirdProperty.Location = new System.Drawing.Point(0, 34);
             this.lblThirdProperty.Name = "lblThirdProperty";
@@ -65,6 +67,7 @@
             this.lblSecondProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSecondProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblSecondProperty.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblSecondProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
             this.lblSecondProperty.Location = new System.Drawing.Point(0, 17);
             this.lblSecondProperty.Name = "lblSecondProperty";
@@ -78,6 +81,7 @@
             this.lblFirstProperty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFirstProperty.BackColor = System.Drawing.Color.Transparent;
+            this.lblFirstProperty.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblFirstProperty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(214)))), ((int)(((byte)(4)))));
             this.lblFirstProperty.Location = new System.Drawing.Point(0, 0);
             this.lblFirstProperty.Name = "lblFirstProperty";
