@@ -60,9 +60,6 @@ namespace KeLi.MsgGame.App.Components.Page
 
         private void LblMatch_Click(object sender, EventArgs e)
         {
-            new ArmPropertyForm().Show();
-            new FurnishPropertyForm().Show();
-            new HeroPropertyForm().Show();
         }
 
         private void LblLeft_Click(object sender, EventArgs e)

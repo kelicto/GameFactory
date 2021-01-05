@@ -78,17 +78,27 @@ namespace KeLi.MsgGame.App.Forms
             // bpcProperty
             // 
             this.bpcProperty.BackColor = System.Drawing.Color.Transparent;
+            this.bpcProperty.FirstProperty = "+第一条属性";
             this.bpcProperty.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.bpcProperty.FourthProperty = "+第四条属性";
             this.bpcProperty.Location = new System.Drawing.Point(11, 119);
             this.bpcProperty.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.bpcProperty.Name = "bpcProperty";
+            this.bpcProperty.SecondProperty = "+第二条属性";
             this.bpcProperty.Size = new System.Drawing.Size(120, 68);
             this.bpcProperty.TabIndex = 34;
+            this.bpcProperty.ThirdProperty = "+第三条属性";
             // 
             // ftcTitle
             // 
             this.ftcTitle.BackColor = System.Drawing.Color.Transparent;
+            this.ftcTitle.CanDiscard = "[是否可以丢弃]";
+            this.ftcTitle.CanSplit = "[是否可以分解]";
+            this.ftcTitle.Enhance = "[强化等级]";
             this.ftcTitle.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ftcTitle.FurnishName = "[套装名]*[套件名][阶段]+[等级]";
+            this.ftcTitle.FurnishType = "[装备类型]>[穿戴部位]";
+            this.ftcTitle.IsBinding = "[是否绑定]";
             this.ftcTitle.Location = new System.Drawing.Point(11, 11);
             this.ftcTitle.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
             this.ftcTitle.Name = "ftcTitle";
@@ -101,6 +111,7 @@ namespace KeLi.MsgGame.App.Forms
             this.mcBfwl.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mcBfwl.Location = new System.Drawing.Point(11, 301);
             this.mcBfwl.MagicDetail = "这是一段技能说明。";
+            this.mcBfwl.MagicName = "[技能名称] Lv.[等级]";
             this.mcBfwl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcBfwl.Name = "mcBfwl";
             this.mcBfwl.Size = new System.Drawing.Size(280, 51);
@@ -112,6 +123,7 @@ namespace KeLi.MsgGame.App.Forms
             this.mcGyhd.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mcGyhd.Location = new System.Drawing.Point(11, 358);
             this.mcGyhd.MagicDetail = "这是一段技能说明。";
+            this.mcGyhd.MagicName = "[技能名称] Lv.[等级]";
             this.mcGyhd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcGyhd.Name = "mcGyhd";
             this.mcGyhd.Size = new System.Drawing.Size(280, 51);
@@ -123,6 +135,7 @@ namespace KeLi.MsgGame.App.Forms
             this.mcFjzz.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mcFjzz.Location = new System.Drawing.Point(11, 415);
             this.mcFjzz.MagicDetail = "这是一段技能说明。";
+            this.mcFjzz.MagicName = "[技能名称] Lv.[等级]";
             this.mcFjzz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcFjzz.Name = "mcFjzz";
             this.mcFjzz.Size = new System.Drawing.Size(280, 51);
@@ -131,21 +144,30 @@ namespace KeLi.MsgGame.App.Forms
             // mcMosaic
             // 
             this.mcMosaic.BackColor = System.Drawing.Color.Transparent;
+            this.mcMosaic.FirstProperty = "+第一条属性";
             this.mcMosaic.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.mcMosaic.Location = new System.Drawing.Point(11, 473);
             this.mcMosaic.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mcMosaic.MosaicName = "[元神卡名称] Lv.[卡等级]";
             this.mcMosaic.Name = "mcMosaic";
+            this.mcMosaic.SecondProperty = "+第二条属性";
             this.mcMosaic.Size = new System.Drawing.Size(200, 75);
             this.mcMosaic.TabIndex = 39;
             // 
             // ascXytz
             // 
             this.ascXytz.BackColor = System.Drawing.Color.Transparent;
+            this.ascXytz.BowArm = "[称号]*[弓箭套件名]";
+            this.ascXytz.ClawArm = "[称号]*[拳爪套件名]";
+            this.ascXytz.DoubleArm = "[称号]*[双持套件名]";
             this.ascXytz.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.ascXytz.Location = new System.Drawing.Point(11, 193);
             this.ascXytz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ascXytz.Name = "ascXytz";
+            this.ascXytz.SingleArm = "[称号]*[单手套件名]";
             this.ascXytz.Size = new System.Drawing.Size(200, 102);
+            this.ascXytz.SpearArm = "[称号]*[长柄套件名]";
+            this.ascXytz.SuitName = "[称号]*[套装名][[件数]/5][章节套装]";
             this.ascXytz.TabIndex = 40;
             // 
             // lblFightPower
@@ -163,6 +185,8 @@ namespace KeLi.MsgGame.App.Forms
             this.acAlchemy.BackColor = System.Drawing.Color.Transparent;
             this.acAlchemy.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.acAlchemy.Location = new System.Drawing.Point(11, 555);
+            this.acAlchemy.MagicDetail = "这是一段技能说明。";
+            this.acAlchemy.MagicName = "[技能名称] Lv.[等级]";
             this.acAlchemy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.acAlchemy.Name = "acAlchemy";
             this.acAlchemy.Size = new System.Drawing.Size(300, 75);
@@ -188,7 +212,6 @@ namespace KeLi.MsgGame.App.Forms
             this.Controls.Add(this.lblFightName);
             this.Location = new System.Drawing.Point(0, 0);
             this.Name = "ArmPropertyForm";
-            this.Opacity = 1D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
