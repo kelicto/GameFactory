@@ -101,7 +101,7 @@
             this.lblLingLiProp.Name = "lblLingLiProp";
             this.lblLingLiProp.Size = new System.Drawing.Size(38, 22);
             this.lblLingLiProp.TabIndex = 19;
-            this.lblLingLiProp.Text = "灵力:";
+            this.lblLingLiProp.Text = "魂力:";
             this.lblLingLiProp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblLingLiValue

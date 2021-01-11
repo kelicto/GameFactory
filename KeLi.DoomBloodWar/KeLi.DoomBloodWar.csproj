@@ -45,17 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArmDataForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ArmDataForm.Designer.cs">
-      <DependentUpon>ArmDataForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ArmDataForm.resx">
-      <DependentUpon>ArmDataForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -425,7 +425,7 @@ namespace KeLi.MsgGame.App.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to +3950.0点灵力.
+        ///   Looks up a localized string similar to +3950.0点魂力.
         /// </summary>
         internal static string LingLi_3950 {
             get {

@@ -50,7 +50,7 @@ namespace KeLi.MsgGame.App
             this.lblArmStory.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(101)))), ((int)(((byte)(132)))), ((int)(((byte)(153)))));
             this.lblArmStory.Location = new System.Drawing.Point(11, 637);
             this.lblArmStory.Name = "lblArmStory";
-            this.lblArmStory.Size = new System.Drawing.Size(300, 52);
+            this.lblArmStory.Size = new System.Drawing.Size(327, 52);
             this.lblArmStory.TabIndex = 18;
             this.lblArmStory.Text = "这是一段装备历史故事。";
             // 
@@ -113,7 +113,7 @@ namespace KeLi.MsgGame.App
             this.mcBfwl.MagicName = "[技能名称] Lv.[等级]";
             this.mcBfwl.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcBfwl.Name = "mcBfwl";
-            this.mcBfwl.Size = new System.Drawing.Size(280, 51);
+            this.mcBfwl.Size = new System.Drawing.Size(327, 51);
             this.mcBfwl.TabIndex = 38;
             // 
             // mcGyhd
@@ -125,7 +125,7 @@ namespace KeLi.MsgGame.App
             this.mcGyhd.MagicName = "[技能名称] Lv.[等级]";
             this.mcGyhd.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcGyhd.Name = "mcGyhd";
-            this.mcGyhd.Size = new System.Drawing.Size(280, 51);
+            this.mcGyhd.Size = new System.Drawing.Size(327, 51);
             this.mcGyhd.TabIndex = 38;
             // 
             // mcFjzz
@@ -137,7 +137,7 @@ namespace KeLi.MsgGame.App
             this.mcFjzz.MagicName = "[技能名称] Lv.[等级]";
             this.mcFjzz.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mcFjzz.Name = "mcFjzz";
-            this.mcFjzz.Size = new System.Drawing.Size(280, 51);
+            this.mcFjzz.Size = new System.Drawing.Size(327, 51);
             this.mcFjzz.TabIndex = 38;
             // 
             // mcMosaic
@@ -188,15 +188,15 @@ namespace KeLi.MsgGame.App
             this.acAlchemy.MagicName = "[技能名称] Lv.[等级]";
             this.acAlchemy.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.acAlchemy.Name = "acAlchemy";
-            this.acAlchemy.Size = new System.Drawing.Size(300, 75);
+            this.acAlchemy.Size = new System.Drawing.Size(327, 75);
             this.acAlchemy.TabIndex = 41;
             // 
-            // ArmPropertyForm
+            // ArmDataForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(320, 750);
+            this.ClientSize = new System.Drawing.Size(350, 750);
             this.Controls.Add(this.acAlchemy);
             this.Controls.Add(this.ascXytz);
             this.Controls.Add(this.mcMosaic);
@@ -210,7 +210,7 @@ namespace KeLi.MsgGame.App
             this.Controls.Add(this.lblFightPower);
             this.Controls.Add(this.lblFightName);
             this.Location = new System.Drawing.Point(0, 0);
-            this.Name = "ArmPropertyForm";
+            this.Name = "ArmDataForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
 
