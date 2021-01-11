@@ -46,19 +46,24 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System;
 using System.Windows.Forms;
 
-namespace KeLi.MsgGame.App
+namespace KeLi.GameComps
 {
-    public static class Program
+    public partial class GameCtrl : UserControl
     {
-        [STAThread]
-        public static void Main()
+        protected GameCtrl()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            InitializeComponent();
+            Handle.SetShadowStyle();
+        }
+
+        protected override void OnMouseMove(MouseEventArgs e)
+        {
+            base.OnMouseMove(e);
+
+            if (e.Button == MouseButtons.Left)
+                Handle.CanMove();
         }
     }
 }

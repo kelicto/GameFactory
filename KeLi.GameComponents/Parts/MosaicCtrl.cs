@@ -46,19 +46,42 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System;
-using System.Windows.Forms;
+using System.ComponentModel;
 
-namespace KeLi.MsgGame.App
+namespace KeLi.GameComps.Part
 {
-    public static class Program
+    public partial class MosaicCtrl : GameCtrl
     {
-        [STAThread]
-        public static void Main()
+        public MosaicCtrl()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            InitializeComponent();
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string MosaicName
+        {
+            get => lblMosaicName.Text;
+            set => lblMosaicName.Text = value;
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FirstProperty
+        {
+            get => lblFirstProperty.Text;
+            set => lblFirstProperty.Text = value;
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SecondProperty
+        {
+            get => lblSecondProperty.Text;
+            set => lblSecondProperty.Text = value;
         }
     }
 }

@@ -46,19 +46,13 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System;
-using System.Windows.Forms;
-
-namespace KeLi.MsgGame.App
+namespace KeLi.GameComps.Page
 {
-    public static class Program
+    public partial class RoomListCtrl : GameCtrl
     {
-        [STAThread]
-        public static void Main()
+        public RoomListCtrl()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            InitializeComponent();
         }
     }
 }

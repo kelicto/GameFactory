@@ -47,18 +47,26 @@
 */
 
 using System;
-using System.Windows.Forms;
 
-namespace KeLi.MsgGame.App
+namespace KeLi.GameComps.Page
 {
-    public static class Program
+    public partial class MatchCtrl : GameCtrl
     {
-        [STAThread]
-        public static void Main()
+        public MatchCtrl()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            InitializeComponent();
+        }
+
+        private void LblMatch_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void LblLeft_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void LblRight_Click(object sender, EventArgs e)
+        {
         }
     }
 }

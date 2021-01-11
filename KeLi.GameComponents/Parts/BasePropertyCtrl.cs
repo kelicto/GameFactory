@@ -46,19 +46,51 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System;
-using System.Windows.Forms;
+using System.ComponentModel;
 
-namespace KeLi.MsgGame.App
+namespace KeLi.GameComps.Part
 {
-    public static class Program
+    public partial class BasePropertyCtrl : GameCtrl
     {
-        [STAThread]
-        public static void Main()
+        public BasePropertyCtrl()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            InitializeComponent();
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FirstProperty
+        {
+            get => lblFirstProperty.Text;
+            set => lblFirstProperty.Text = value;
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string SecondProperty
+        {
+            get => lblSecondProperty.Text;
+            set => lblSecondProperty.Text = value;
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string ThirdProperty
+        {
+            get => lblThirdProperty.Text;
+            set => lblThirdProperty.Text = value;
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string FourthProperty
+        {
+            get => lblFourthProperty.Text;
+            set => lblFourthProperty.Text = value;
         }
     }
 }

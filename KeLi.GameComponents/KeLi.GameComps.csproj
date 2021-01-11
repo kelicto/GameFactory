@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14A87EBC-AB6B-4B9D-A848-45A195C0747F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>KeLi.GameComps</RootNamespace>
+    <AssemblyName>KeLi.GameComps</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LocationUtil.cs" />
+    <Compile Include="Pages\ActiveTaskCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ActiveTaskCtrl.Designer.cs">
+      <DependentUpon>ActiveTaskCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GameCtrl.Designer.cs">
+      <DependentUpon>GameCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GamerListCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\GamerListCtrl.Designer.cs">
+      <DependentUpon>GamerListCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainMenuCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MainMenuCtrl.Designer.cs">
+      <DependentUpon>MainMenuCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MatchCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MatchCtrl.Designer.cs">
+      <DependentUpon>MatchCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MsgCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MsgCtrl.Designer.cs">
+      <DependentUpon>MsgCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RoomListCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\RoomListCtrl.Designer.cs">
+      <DependentUpon>RoomListCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SearchBoxCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\SearchBoxCtrl.Designer.cs">
+      <DependentUpon>SearchBoxCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\AlchemyCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\AlchemyCtrl.Designer.cs">
+      <DependentUpon>AlchemyCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\ArmSuitCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\ArmSuitCtrl.Designer.cs">
+      <DependentUpon>ArmSuitCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\BasePropertyCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\BasePropertyCtrl.Designer.cs">
+      <DependentUpon>BasePropertyCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\FurnishSuitCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\FurnishSuitCtrl.Designer.cs">
+      <DependentUpon>FurnishSuitCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\FurnishTypeCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\FurnishTypeCtrl.Designer.cs">
+      <DependentUpon>FurnishTypeCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\MagicCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\MagicCtrl.Designer.cs">
+      <DependentUpon>MagicCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\MosaicCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\MosaicCtrl.Designer.cs">
+      <DependentUpon>MosaicCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Furnishs\BaseFurnishCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\BaseFurnishCtrl.Designer.cs">
+      <DependentUpon>BaseFurnishCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnishs\DefenseFurnishCtrl .cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\DefenseFurnishCtrl .Designer.cs">
+      <DependentUpon>DefenseFurnishCtrl .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnishs\MagicFurnishCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\MagicFurnishCtrl.Designer.cs">
+      <DependentUpon>MagicFurnishCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnishs\ResourcesFurnishCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\ResourcesFurnishCtrl.Designer.cs">
+      <DependentUpon>ResourcesFurnishCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnishs\PhysicalFurnishCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\PhysicalFurnishCtrl.Designer.cs">
+      <DependentUpon>PhysicalFurnishCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShadowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShadowForm.Designer.cs">
+      <DependentUpon>ShadowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShadowUtil.cs" />
+    <EmbeddedResource Include="Pages\ActiveTaskCtrl.resx">
+      <DependentUpon>ActiveTaskCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameCtrl.resx">
+      <DependentUpon>GameCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\GamerListCtrl.resx">
+      <DependentUpon>GamerListCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MainMenuCtrl.resx">
+      <DependentUpon>MainMenuCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MatchCtrl.resx">
+      <DependentUpon>MatchCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MsgCtrl.resx">
+      <DependentUpon>MsgCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\RoomListCtrl.resx">
+      <DependentUpon>RoomListCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\SearchBoxCtrl.resx">
+      <DependentUpon>SearchBoxCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\AlchemyCtrl.resx">
+      <DependentUpon>AlchemyCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\ArmSuitCtrl.resx">
+      <DependentUpon>ArmSuitCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\BasePropertyCtrl.resx">
+      <DependentUpon>BasePropertyCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\FurnishSuitCtrl.resx">
+      <DependentUpon>FurnishSuitCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\FurnishTypeCtrl.resx">
+      <DependentUpon>FurnishTypeCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\MagicCtrl.resx">
+      <DependentUpon>MagicCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\MosaicCtrl.resx">
+      <DependentUpon>MosaicCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Furnishs\BaseFurnishCtrl.resx">
+      <DependentUpon>BaseFurnishCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\DefenseFurnishCtrl .resx">
+      <DependentUpon>DefenseFurnishCtrl .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\MagicFurnishCtrl.resx">
+      <DependentUpon>MagicFurnishCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\ResourcesFurnishCtrl.resx">
+      <DependentUpon>ResourcesFurnishCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\PhysicalFurnishCtrl.resx">
+      <DependentUpon>PhysicalFurnishCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShadowForm.resx">
+      <DependentUpon>ShadowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

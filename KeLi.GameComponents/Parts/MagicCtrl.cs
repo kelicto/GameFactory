@@ -46,19 +46,33 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System;
-using System.Windows.Forms;
+using System.ComponentModel;
 
-namespace KeLi.MsgGame.App
+namespace KeLi.GameComps.Part
 {
-    public static class Program
+    public partial class MagicCtrl : GameCtrl
     {
-        [STAThread]
-        public static void Main()
+        public MagicCtrl()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            InitializeComponent();
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string MagicName
+        {
+            get => lblMagicName.Text;
+            set => lblMagicName.Text = value;
+        }
+
+        [Category("Appearance")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        public string MagicDetail
+        {
+            get => lblMagicDetail.Text;
+            set => lblMagicDetail.Text = value;
         }
     }
 }

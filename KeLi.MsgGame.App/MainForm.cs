@@ -46,19 +46,19 @@
         /_==__==========__==_ooo__ooo=_/'   /___________,"
 */
 
-using System;
+using System.Drawing;
 using System.Windows.Forms;
+
+using KeLi.MsgGame.App.Properties;
 
 namespace KeLi.MsgGame.App
 {
-    public static class Program
+    public sealed partial class MainForm : Form
     {
-        [STAThread]
-        public static void Main()
+        public MainForm()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            InitializeComponent();
+            BackgroundImage = new Bitmap(Resources.Back);
         }
     }
 }
