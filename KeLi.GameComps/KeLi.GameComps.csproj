@@ -48,7 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LocationUtil.cs" />
+    <Compile Include="Utils\LocationUtil.cs" />
     <Compile Include="Pages\ActiveTaskCtrl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -176,7 +176,8 @@
     <Compile Include="ShadowForm.Designer.cs">
       <DependentUpon>ShadowForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ShadowUtil.cs" />
+    <Compile Include="Utils\WindowUtil.cs" />
+    <Compile Include="Utils\User32Importer.cs" />
     <EmbeddedResource Include="Pages\ActiveTaskCtrl.resx">
       <DependentUpon>ActiveTaskCtrl.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -261,5 +262,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

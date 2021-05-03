@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace KeLi.GameComps
+namespace KeLi.GameComps.Utils
 {
     public static class LocationUtil
     {

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 
+using KeLi.GameComps.Utils;
+
 namespace KeLi.GameComps
 {
     public partial class ShadowForm : Form
@@ -16,7 +18,7 @@ namespace KeLi.GameComps
             base.OnMouseMove(e);
 
             if (e.Button == MouseButtons.Left)
-                Handle.CanMove();
+                Handle.MoveWindow();
         }
 
         private void ShadowForm_Load(object sender, EventArgs e)

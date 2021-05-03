@@ -1,5 +1,7 @@
 ﻿using System.Windows.Forms;
 
+using KeLi.GameComps.Utils;
+
 namespace KeLi.GameComps
 {
     public partial class GameCtrl : UserControl
@@ -15,7 +17,7 @@ namespace KeLi.GameComps
             base.OnMouseMove(e);
 
             if (e.Button == MouseButtons.Left)
-                Handle.CanMove();
+                Handle.MoveWindow();
         }
     }
 }
