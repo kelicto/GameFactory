@@ -20,6 +20,15 @@ namespace KeLi.GameComps.Utils
                 case FormStartPosition.CenterParent:
                     return form.GetCenterParentPoint();
 
+                case FormStartPosition.Manual:
+                    return form.Location;
+
+                case FormStartPosition.WindowsDefaultLocation:
+                    return form.Location;
+                
+                case FormStartPosition.WindowsDefaultBounds:
+                    return form.Location;
+                
                 default:
                     return form.Location;
             }
