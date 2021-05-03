@@ -21,7 +21,14 @@ namespace KeLi.GameComps.Utils
         public static void MoveWindow(this IntPtr handle)
         {
             User32Importer.ReleaseCapture();
-            Control.FromHandle(handle).FindForm()?.Handle.SendMessage(WM_NCLBUTTONDOWN, HTCAPTION, 0);
+
+            var control = Control.FromHandle(handle);
+
+            if (control is Form)
+                control.Handle.SendMessage(WM_NCLBUTTONDOWN, HTCAPTION, 0);
+
+            else
+                control.FindForm()?.Handle.SendMessage(WM_NCLBUTTONDOWN, HTCAPTION, 0);
         }
     }
 }
