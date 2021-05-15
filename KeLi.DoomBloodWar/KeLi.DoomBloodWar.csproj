@@ -76,9 +76,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KeLi.GameComps\KeLi.GameComps.csproj">
+    <ProjectReference Include="..\KeLi.GameComps\KeLi.GameFactory.Components.csproj">
       <Project>{14a87ebc-ab6b-4b9d-a848-45a195c0747f}</Project>
-      <Name>KeLi.GameComps</Name>
+      <Name>KeLi.GameFactory.Components</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

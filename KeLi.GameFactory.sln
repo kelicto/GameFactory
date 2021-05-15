@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeLi.M3gGame", "KeLi.M3gGame\KeLi.M3gGame.csproj", "{2071FC4C-D36B-4506-98BE-B893770F47BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeLi.GameComps", "KeLi.GameComps\KeLi.GameComps.csproj", "{14A87EBC-AB6B-4B9D-A848-45A195C0747F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeLi.GameFactory.Components", "KeLi.GameComps\KeLi.GameFactory.Components.csproj", "{14A87EBC-AB6B-4B9D-A848-45A195C0747F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeLi.DoomBloodWar", "KeLi.DoomBloodWar\KeLi.DoomBloodWar.csproj", "{70BDC3A2-881B-4EE1-BCF4-AB58F860E8AE}"
 EndProject

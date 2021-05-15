@@ -45,43 +45,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArmDataForm.cs">
+    <Compile Include="Forms\ArmDataFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ArmDataForm.Designer.cs">
-      <DependentUpon>ArmDataForm.cs</DependentUpon>
+    <Compile Include="Forms\ArmDataFrm.Designer.cs">
+      <DependentUpon>ArmDataFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="FurnishDataForm.cs">
+    <Compile Include="Forms\FurnishDataFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FurnishDataForm.Designer.cs">
-      <DependentUpon>FurnishDataForm.cs</DependentUpon>
+    <Compile Include="Forms\FurnishDataFrm.Designer.cs">
+      <DependentUpon>FurnishDataFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="HeroDataForm.cs">
+    <Compile Include="Forms\HeroDataFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="HeroDataForm.Designer.cs">
-      <DependentUpon>HeroDataForm.cs</DependentUpon>
+    <Compile Include="Forms\HeroDataFrm.Designer.cs">
+      <DependentUpon>HeroDataFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="MainFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="MainFrm.Designer.cs">
+      <DependentUpon>MainFrm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ArmDataForm.resx">
-      <DependentUpon>ArmDataForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ArmDataFrm.resx">
+      <DependentUpon>ArmDataFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FurnishDataForm.resx">
-      <DependentUpon>FurnishDataForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FurnishDataFrm.resx">
+      <DependentUpon>FurnishDataFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HeroDataForm.resx">
-      <DependentUpon>HeroDataForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\HeroDataFrm.resx">
+      <DependentUpon>HeroDataFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="MainFrm.resx">
+      <DependentUpon>MainFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -119,9 +119,9 @@
     <None Include="Resources\Hero.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KeLi.GameComps\KeLi.GameComps.csproj">
+    <ProjectReference Include="..\KeLi.GameComps\KeLi.GameFactory.Components.csproj">
       <Project>{14A87EBC-AB6B-4B9D-A848-45A195C0747F}</Project>
-      <Name>KeLi.GameComps</Name>
+      <Name>KeLi.GameFactory.Components</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

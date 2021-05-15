@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace KeLi.GameComps.Utils
+namespace KeLi.GameFactory.Components.Utils
 {
     public static class User32Importer
     {

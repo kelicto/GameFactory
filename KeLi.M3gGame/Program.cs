@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 
+using KeLi.M3Game.Forms;
+
 namespace KeLi.M3Game
 {
     public static class Program
@@ -10,7 +12,7 @@ namespace KeLi.M3Game
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ArmDataForm());
+            Application.Run(new HeroDataFrm());
         }
     }
 }
