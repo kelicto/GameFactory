@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
 
-using KeLi.M3Game.Forms;
+using KeLi.MengSang.Forms;
 
-namespace KeLi.M3Game
+namespace KeLi.MengSang
 {
     public static class Program
     {

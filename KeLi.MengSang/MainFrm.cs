@@ -1,9 +1,9 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-using KeLi.M3Game.Properties;
+using KeLi.MengSang.Properties;
 
-namespace KeLi.M3Game
+namespace KeLi.MengSang
 {
     public sealed partial class MainFrm : Form
     {

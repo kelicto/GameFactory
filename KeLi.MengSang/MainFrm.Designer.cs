@@ -1,6 +1,6 @@
 ﻿using KeLi.GameFactory.Components.Pages;
 
-namespace KeLi.M3Game
+namespace KeLi.MengSang
 {
     sealed partial class MainFrm
     {

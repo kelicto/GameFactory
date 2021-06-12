@@ -164,11 +164,11 @@
     <Compile Include="Furnishs\PhysicalFurnish.Designer.cs">
       <DependentUpon>PhysicalFurnish.cs</DependentUpon>
     </Compile>
-    <Compile Include="ShadowFrm.cs">
+    <Compile Include="ShadowForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ShadowFrm.Designer.cs">
-      <DependentUpon>ShadowFrm.cs</DependentUpon>
+    <Compile Include="ShadowForm.Designer.cs">
+      <DependentUpon>ShadowForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Utils\FormUtil.cs" />
     <Compile Include="Utils\User32Importer.cs" />
@@ -240,8 +240,8 @@
     <EmbeddedResource Include="Furnishs\PhysicalFurnish.resx">
       <DependentUpon>PhysicalFurnish.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ShadowFrm.resx">
-      <DependentUpon>ShadowFrm.cs</DependentUpon>
+    <EmbeddedResource Include="ShadowForm.resx">
+      <DependentUpon>ShadowForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

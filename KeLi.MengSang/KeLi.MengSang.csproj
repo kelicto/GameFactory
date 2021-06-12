@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{2071FC4C-D36B-4506-98BE-B893770F47BF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>KeLi.M3Game</RootNamespace>
-    <AssemblyName>KeLi.M3Game</AssemblyName>
+    <RootNamespace>KeLi.MengSang</RootNamespace>
+    <AssemblyName>KeLi.MengSang</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -119,7 +119,7 @@
     <None Include="Resources\Hero.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KeLi.GameComps\KeLi.GameFactory.Components.csproj">
+    <ProjectReference Include="..\KeLi.GameFactory.Components\KeLi.GameFactory.Components.csproj">
       <Project>{14A87EBC-AB6B-4B9D-A848-45A195C0747F}</Project>
       <Name>KeLi.GameFactory.Components</Name>
     </ProjectReference>

@@ -1,6 +1,6 @@
 ﻿using KeLi.GameFactory.Components.Parts;
 
-namespace KeLi.M3Game.Forms
+namespace KeLi.MengSang.Forms
 {
     sealed partial class ArmDataFrm
     {

@@ -1,10 +1,10 @@
 ﻿using KeLi.GameFactory.Components;
 
-namespace KeLi.DoomBloodWar
+namespace KeLi.HulaiSang
 {
-    public partial class MainForm : ShadowForm
+    public partial class MainFrm : ShadowForm
     {
-        public MainForm()
+        public MainFrm()
         {
             InitializeComponent();
         }

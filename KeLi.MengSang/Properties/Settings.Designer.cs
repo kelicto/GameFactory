@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KeLi.DoomBloodWar.Properties {
+namespace KeLi.MengSang.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

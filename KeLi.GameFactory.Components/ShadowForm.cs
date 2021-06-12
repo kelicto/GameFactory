@@ -5,9 +5,9 @@ using KeLi.GameFactory.Components.Utils;
 
 namespace KeLi.GameFactory.Components
 {
-    public partial class ShadowFrm : Form
+    public partial class ShadowForm : Form
     {
-        public ShadowFrm()
+        public ShadowForm()
         {
             InitializeComponent();
             Handle.SetShadowStyle();

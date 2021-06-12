@@ -1,6 +1,7 @@
-﻿namespace KeLi.GameFactory.Components
+﻿
+namespace KeLi.HulaiSang
 {
-    partial class ShadowFrm
+    partial class MainFrm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,19 +31,14 @@
         {
             this.SuspendLayout();
             // 
-            // ShadowForm
+            // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(31)))), ((int)(((byte)(21)))));
-            this.ClientSize = new System.Drawing.Size(300, 300);
-            this.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.ForeColor = System.Drawing.SystemColors.Control;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "ShadowFrm";
-            this.Opacity = 0.9D;
-            this.Load += new System.EventHandler(this.ShadowForm_Load);
+            this.ClientSize = new System.Drawing.Size(486, 475);
+            this.Location = new System.Drawing.Point(0, 0);
+            this.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.Name = "MainFrm";
             this.ResumeLayout(false);
 
         }
@@ -50,3 +46,4 @@
         #endregion
     }
 }
+

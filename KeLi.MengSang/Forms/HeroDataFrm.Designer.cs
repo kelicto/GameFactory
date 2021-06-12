@@ -1,6 +1,6 @@
 ﻿using KeLi.GameFactory.Components.Furnishs;
 
-namespace KeLi.M3Game.Forms
+namespace KeLi.MengSang.Forms
 {
     sealed partial class HeroDataFrm
     {
