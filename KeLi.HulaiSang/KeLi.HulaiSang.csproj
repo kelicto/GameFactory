@@ -53,6 +53,24 @@
     <Compile Include="MainFrm.Designer.cs">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\GamerPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\GamerPage.Designer.cs">
+      <DependentUpon>GamerPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainTaskPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MainTaskPage.Designer.cs">
+      <DependentUpon>MainTaskPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ResourcePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ResourcePage.Designer.cs">
+      <DependentUpon>ResourcePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MainFrm.resx">
@@ -86,6 +104,9 @@
       <Project>{14a87ebc-ab6b-4b9d-a848-45a195c0747f}</Project>
       <Name>KeLi.GameFactory.Components</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

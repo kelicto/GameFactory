@@ -63,11 +63,119 @@
     <Compile Include="Forms\HeroDataFrm.Designer.cs">
       <DependentUpon>HeroDataFrm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Furnishs\BaseFurnish.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\BaseFurnish.Designer.cs">
+      <DependentUpon>BaseFurnish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnishs\MagicFurnish.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\MagicFurnish.Designer.cs">
+      <DependentUpon>MagicFurnish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnishs\PhysicalFurnish.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\PhysicalFurnish.Designer.cs">
+      <DependentUpon>PhysicalFurnish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Furnishs\ResourcesFurnish.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Furnishs\ResourcesFurnish.Designer.cs">
+      <DependentUpon>ResourcesFurnish.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainFrm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainFrm.Designer.cs">
       <DependentUpon>MainFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ActiveTask.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ActiveTask.Designer.cs">
+      <DependentUpon>ActiveTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ChatMessage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ChatMessage.Designer.cs">
+      <DependentUpon>ChatMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GameMatch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\GameMatch.Designer.cs">
+      <DependentUpon>GameMatch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\GamerList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\GamerList.Designer.cs">
+      <DependentUpon>GamerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RoomList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\RoomList.Designer.cs">
+      <DependentUpon>RoomList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SearchBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\SearchBox.Designer.cs">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\AlchemyComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\AlchemyComponent.Designer.cs">
+      <DependentUpon>AlchemyComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\ArmSuit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\ArmSuit.Designer.cs">
+      <DependentUpon>ArmSuit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\BasePropertyies.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\BasePropertyies.Designer.cs">
+      <DependentUpon>BasePropertyies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\FurnishSuit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\FurnishSuit.Designer.cs">
+      <DependentUpon>FurnishSuit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\FurnishTypeComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\FurnishTypeComponent.Designer.cs">
+      <DependentUpon>FurnishTypeComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\MagicComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\MagicComponent.Designer.cs">
+      <DependentUpon>MagicComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parts\MosaicComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Parts\MosaicComponent.Designer.cs">
+      <DependentUpon>MosaicComponent.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,8 +188,63 @@
     <EmbeddedResource Include="Forms\HeroDataFrm.resx">
       <DependentUpon>HeroDataFrm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\BaseFurnish.resx">
+      <DependentUpon>BaseFurnish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\MagicFurnish.resx">
+      <DependentUpon>MagicFurnish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\PhysicalFurnish.resx">
+      <DependentUpon>PhysicalFurnish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Furnishs\ResourcesFurnish.resx">
+      <DependentUpon>ResourcesFurnish.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainFrm.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ActiveTask.resx">
+      <DependentUpon>ActiveTask.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ChatMessage.resx">
+      <DependentUpon>ChatMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\GameMatch.resx">
+      <DependentUpon>GameMatch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\GamerList.resx">
+      <DependentUpon>GamerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\RoomList.resx">
+      <DependentUpon>RoomList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\SearchBox.resx">
+      <DependentUpon>SearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\AlchemyComponent.resx">
+      <DependentUpon>AlchemyComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\ArmSuit.resx">
+      <DependentUpon>ArmSuit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\BasePropertyies.resx">
+      <DependentUpon>BasePropertyies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\FurnishSuit.resx">
+      <DependentUpon>FurnishSuit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\FurnishTypeComponent.resx">
+      <DependentUpon>FurnishTypeComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\MagicComponent.resx">
+      <DependentUpon>MagicComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parts\MosaicComponent.resx">
+      <DependentUpon>MosaicComponent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

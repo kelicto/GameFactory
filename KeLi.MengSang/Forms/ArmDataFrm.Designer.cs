@@ -1,4 +1,4 @@
-﻿using KeLi.GameFactory.Components.Parts;
+﻿using KeLi.MengSang.Parts;
 
 namespace KeLi.MengSang.Forms
 {

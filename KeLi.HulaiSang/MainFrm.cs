@@ -1,12 +1,16 @@
-﻿using KeLi.GameFactory.Components;
+﻿using System.Drawing;
+
+using KeLi.GameFactory.Components;
+using KeLi.HulaiSang.Properties;
 
 namespace KeLi.HulaiSang
 {
-    public partial class MainFrm : ShadowForm
+    public sealed partial class MainFrm : ShadowForm
     {
         public MainFrm()
         {
             InitializeComponent();
+            BackgroundImage = new Bitmap(Resources.Back);
         }
     }
 }

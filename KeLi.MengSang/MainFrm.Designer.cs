@@ -1,4 +1,4 @@
-﻿using KeLi.GameFactory.Components.Pages;
+﻿using KeLi.MengSang.Pages;
 
 namespace KeLi.MengSang
 {

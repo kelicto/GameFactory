@@ -1,4 +1,4 @@
-﻿using KeLi.GameFactory.Components.Furnishs;
+﻿using KeLi.MengSang.Furnishs;
 
 namespace KeLi.MengSang.Forms
 {
@@ -35,11 +35,11 @@ namespace KeLi.MengSang.Forms
             this.lblFaShuShuXing = new System.Windows.Forms.Label();
             this.lblQiTaShuXing = new System.Windows.Forms.Label();
             this.lblZhanChangShenBingProp = new System.Windows.Forms.Label();
-            this.PfpcPhysical = new KeLi.GameFactory.Components.Furnishs.PhysicalFurnish();
-            this.mfpcMagic = new KeLi.GameFactory.Components.Furnishs.MagicFurnish();
-            this.OfpcOther = new KeLi.GameFactory.Components.Furnishs.ResourcesFurnish();
+            this.PfpcPhysical = new PhysicalFurnish();
+            this.mfpcMagic = new MagicFurnish();
+            this.OfpcOther = new ResourcesFurnish();
             this.lblZhanChangShenBingValue = new System.Windows.Forms.Label();
-            this.baseFurnish1 = new KeLi.GameFactory.Components.Furnishs.BaseFurnish();
+            this.baseFurnish1 = new BaseFurnish();
             this.SuspendLayout();
             // 
             // lblJiChuShuXing

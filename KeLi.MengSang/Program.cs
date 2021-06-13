@@ -12,7 +12,7 @@ namespace KeLi.MengSang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HeroDataFrm());
+            Application.Run(new MainFrm());
         }
     }
 }
