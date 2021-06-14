@@ -53,6 +53,7 @@
             // lblRoomList
             // 
             this.lblRoomList.BackColor = System.Drawing.Color.Transparent;
+            this.lblRoomList.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblRoomList.Location = new System.Drawing.Point(0, 0);
             this.lblRoomList.Name = "lblRoomList";
             this.lblRoomList.Size = new System.Drawing.Size(240, 32);
@@ -63,6 +64,7 @@
             // PnlContent
             // 
             this.PnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PnlContent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.PnlContent.Location = new System.Drawing.Point(0, 65);
             this.PnlContent.Name = "PnlContent";
             this.PnlContent.Size = new System.Drawing.Size(360, 277);
@@ -77,6 +79,7 @@
             this.PnlPage.Controls.Add(this.lblPagePosition);
             this.PnlPage.Controls.Add(this.lblNext);
             this.PnlPage.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.PnlPage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.PnlPage.Location = new System.Drawing.Point(0, 342);
             this.PnlPage.Name = "PnlPage";
             this.PnlPage.Size = new System.Drawing.Size(360, 44);
@@ -86,6 +89,7 @@
             // 
             this.lblMatch.BackColor = System.Drawing.Color.Transparent;
             this.lblMatch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblMatch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblMatch.Location = new System.Drawing.Point(50, 6);
             this.lblMatch.Name = "lblMatch";
             this.lblMatch.Size = new System.Drawing.Size(38, 32);
@@ -97,6 +101,7 @@
             // 
             this.lblAll.BackColor = System.Drawing.Color.Transparent;
             this.lblAll.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblAll.Location = new System.Drawing.Point(6, 6);
             this.lblAll.Name = "lblAll";
             this.lblAll.Size = new System.Drawing.Size(38, 32);
@@ -108,6 +113,7 @@
             // 
             this.lblLast.BackColor = System.Drawing.Color.Transparent;
             this.lblLast.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblLast.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblLast.Location = new System.Drawing.Point(113, 6);
             this.lblLast.Name = "lblLast";
             this.lblLast.Size = new System.Drawing.Size(32, 32);
@@ -119,6 +125,7 @@
             // 
             this.lblCreateRoom.BackColor = System.Drawing.Color.Transparent;
             this.lblCreateRoom.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblCreateRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblCreateRoom.Location = new System.Drawing.Point(294, 6);
             this.lblCreateRoom.Name = "lblCreateRoom";
             this.lblCreateRoom.Size = new System.Drawing.Size(60, 32);
@@ -130,6 +137,7 @@
             // 
             this.lblPagePosition.BackColor = System.Drawing.Color.Transparent;
             this.lblPagePosition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPagePosition.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblPagePosition.Location = new System.Drawing.Point(151, 6);
             this.lblPagePosition.Name = "lblPagePosition";
             this.lblPagePosition.Size = new System.Drawing.Size(59, 32);
@@ -141,6 +149,7 @@
             // 
             this.lblNext.BackColor = System.Drawing.Color.Transparent;
             this.lblNext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblNext.Location = new System.Drawing.Point(216, 6);
             this.lblNext.Name = "lblNext";
             this.lblNext.Size = new System.Drawing.Size(32, 32);
@@ -151,6 +160,7 @@
             // lblMapName
             // 
             this.lblMapName.BackColor = System.Drawing.Color.Transparent;
+            this.lblMapName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblMapName.Location = new System.Drawing.Point(0, 32);
             this.lblMapName.Name = "lblMapName";
             this.lblMapName.Size = new System.Drawing.Size(112, 32);
@@ -161,6 +171,7 @@
             // lblRecord
             // 
             this.lblRecord.BackColor = System.Drawing.Color.Transparent;
+            this.lblRecord.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblRecord.Location = new System.Drawing.Point(240, 0);
             this.lblRecord.Name = "lblRecord";
             this.lblRecord.Size = new System.Drawing.Size(60, 32);
@@ -172,6 +183,7 @@
             // 
             this.lblFlee.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblFlee.BackColor = System.Drawing.Color.Transparent;
+            this.lblFlee.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblFlee.Location = new System.Drawing.Point(328, 32);
             this.lblFlee.Name = "lblFlee";
             this.lblFlee.Size = new System.Drawing.Size(32, 32);
@@ -183,6 +195,7 @@
             // 
             this.lblGaming.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblGaming.BackColor = System.Drawing.Color.Transparent;
+            this.lblGaming.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblGaming.Location = new System.Drawing.Point(296, 32);
             this.lblGaming.Name = "lblGaming";
             this.lblGaming.Size = new System.Drawing.Size(32, 32);
@@ -194,6 +207,7 @@
             // 
             this.lblPerson.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblPerson.BackColor = System.Drawing.Color.Transparent;
+            this.lblPerson.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblPerson.Location = new System.Drawing.Point(264, 32);
             this.lblPerson.Name = "lblPerson";
             this.lblPerson.Size = new System.Drawing.Size(32, 32);
@@ -204,6 +218,7 @@
             // lblLive
             // 
             this.lblLive.BackColor = System.Drawing.Color.Transparent;
+            this.lblLive.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblLive.Location = new System.Drawing.Point(300, 0);
             this.lblLive.Name = "lblLive";
             this.lblLive.Size = new System.Drawing.Size(60, 32);
@@ -223,6 +238,7 @@
             this.PnlTitle.Controls.Add(this.lblMapName);
             this.PnlTitle.Controls.Add(this.lblRoomList);
             this.PnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.PnlTitle.Location = new System.Drawing.Point(0, 0);
             this.PnlTitle.Name = "PnlTitle";
             this.PnlTitle.Size = new System.Drawing.Size(360, 65);
@@ -232,6 +248,7 @@
             // 
             this.lblSelectMap.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblSelectMap.BackColor = System.Drawing.Color.Transparent;
+            this.lblSelectMap.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblSelectMap.Location = new System.Drawing.Point(112, 32);
             this.lblSelectMap.Name = "lblSelectMap";
             this.lblSelectMap.Size = new System.Drawing.Size(32, 32);
@@ -242,6 +259,7 @@
             // lblSearchRoom
             // 
             this.lblSearchRoom.BackColor = System.Drawing.Color.Transparent;
+            this.lblSearchRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblSearchRoom.Location = new System.Drawing.Point(144, 32);
             this.lblSearchRoom.Name = "lblSearchRoom";
             this.lblSearchRoom.Size = new System.Drawing.Size(120, 32);
@@ -249,7 +267,7 @@
             this.lblSearchRoom.Text = "搜索房间...";
             this.lblSearchRoom.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // RoomListCtrl
+            // RoomList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

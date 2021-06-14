@@ -44,6 +44,7 @@
             // lblExpression
             // 
             this.lblExpression.BackColor = System.Drawing.Color.Transparent;
+            this.lblExpression.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblExpression.Location = new System.Drawing.Point(0, 0);
             this.lblExpression.Name = "lblExpression";
             this.lblExpression.Size = new System.Drawing.Size(32, 32);
@@ -54,6 +55,7 @@
             // lblSetting
             // 
             this.lblSetting.BackColor = System.Drawing.Color.Transparent;
+            this.lblSetting.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblSetting.Location = new System.Drawing.Point(0, 32);
             this.lblSetting.Name = "lblSetting";
             this.lblSetting.Size = new System.Drawing.Size(32, 32);
@@ -64,6 +66,7 @@
             // lblChat
             // 
             this.lblChat.BackColor = System.Drawing.Color.Transparent;
+            this.lblChat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblChat.Location = new System.Drawing.Point(0, 64);
             this.lblChat.Name = "lblChat";
             this.lblChat.Size = new System.Drawing.Size(32, 32);
@@ -74,6 +77,7 @@
             // lblRadio
             // 
             this.lblRadio.BackColor = System.Drawing.Color.Transparent;
+            this.lblRadio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblRadio.Location = new System.Drawing.Point(0, 96);
             this.lblRadio.Name = "lblRadio";
             this.lblRadio.Size = new System.Drawing.Size(32, 32);
@@ -84,6 +88,7 @@
             // lblLast
             // 
             this.lblLast.BackColor = System.Drawing.Color.Transparent;
+            this.lblLast.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblLast.Location = new System.Drawing.Point(0, 128);
             this.lblLast.Name = "lblLast";
             this.lblLast.Size = new System.Drawing.Size(32, 32);
@@ -94,6 +99,7 @@
             // lblNext
             // 
             this.lblNext.BackColor = System.Drawing.Color.Transparent;
+            this.lblNext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblNext.Location = new System.Drawing.Point(0, 160);
             this.lblNext.Name = "lblNext";
             this.lblNext.Size = new System.Drawing.Size(32, 32);
@@ -104,6 +110,7 @@
             // lblBottom
             // 
             this.lblBottom.BackColor = System.Drawing.Color.Transparent;
+            this.lblBottom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblBottom.Location = new System.Drawing.Point(0, 192);
             this.lblBottom.Name = "lblBottom";
             this.lblBottom.Size = new System.Drawing.Size(32, 32);
@@ -114,6 +121,7 @@
             // lblGamer
             // 
             this.lblGamer.BackColor = System.Drawing.Color.Transparent;
+            this.lblGamer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblGamer.Location = new System.Drawing.Point(32, 224);
             this.lblGamer.Name = "lblGamer";
             this.lblGamer.Size = new System.Drawing.Size(70, 32);
@@ -125,6 +133,7 @@
             // 
             this.lblSend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSend.BackColor = System.Drawing.Color.Transparent;
+            this.lblSend.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblSend.Location = new System.Drawing.Point(328, 224);
             this.lblSend.Name = "lblSend";
             this.lblSend.Size = new System.Drawing.Size(32, 32);
@@ -135,6 +144,7 @@
             // lblMin
             // 
             this.lblMin.BackColor = System.Drawing.Color.Transparent;
+            this.lblMin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblMin.Location = new System.Drawing.Point(0, 224);
             this.lblMin.Name = "lblMin";
             this.lblMin.Size = new System.Drawing.Size(32, 32);
@@ -147,6 +157,7 @@
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.label1.Location = new System.Drawing.Point(102, 224);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(228, 32);
@@ -154,7 +165,7 @@
             this.label1.Text = "你好，张翼德！";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // MsgCtrl
+            // ChatMessage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

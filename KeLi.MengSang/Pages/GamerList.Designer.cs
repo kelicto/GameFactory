@@ -49,6 +49,7 @@
             // lblTop
             // 
             this.lblTop.BackColor = System.Drawing.Color.Transparent;
+            this.lblTop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblTop.Location = new System.Drawing.Point(0, 0);
             this.lblTop.Name = "lblTop";
             this.lblTop.Size = new System.Drawing.Size(60, 32);
@@ -59,6 +60,7 @@
             // lblGroup
             // 
             this.lblGroup.BackColor = System.Drawing.Color.Transparent;
+            this.lblGroup.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblGroup.Location = new System.Drawing.Point(60, 0);
             this.lblGroup.Name = "lblGroup";
             this.lblGroup.Size = new System.Drawing.Size(60, 32);
@@ -69,6 +71,7 @@
             // lblTown
             // 
             this.lblTown.BackColor = System.Drawing.Color.Transparent;
+            this.lblTown.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblTown.Location = new System.Drawing.Point(120, 0);
             this.lblTown.Name = "lblTown";
             this.lblTown.Size = new System.Drawing.Size(60, 32);
@@ -79,6 +82,7 @@
             // lblBuff
             // 
             this.lblBuff.BackColor = System.Drawing.Color.Transparent;
+            this.lblBuff.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblBuff.Location = new System.Drawing.Point(180, 0);
             this.lblBuff.Name = "lblBuff";
             this.lblBuff.Size = new System.Drawing.Size(60, 32);
@@ -89,6 +93,7 @@
             // lblLucky
             // 
             this.lblLucky.BackColor = System.Drawing.Color.Transparent;
+            this.lblLucky.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblLucky.Location = new System.Drawing.Point(240, 0);
             this.lblLucky.Name = "lblLucky";
             this.lblLucky.Size = new System.Drawing.Size(60, 32);
@@ -99,6 +104,7 @@
             // lblHelp
             // 
             this.lblHelp.BackColor = System.Drawing.Color.Transparent;
+            this.lblHelp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblHelp.Location = new System.Drawing.Point(300, 0);
             this.lblHelp.Name = "lblHelp";
             this.lblHelp.Size = new System.Drawing.Size(60, 32);
@@ -109,6 +115,7 @@
             // lblGamer
             // 
             this.lblGamer.BackColor = System.Drawing.Color.Transparent;
+            this.lblGamer.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblGamer.Location = new System.Drawing.Point(0, 32);
             this.lblGamer.Name = "lblGamer";
             this.lblGamer.Size = new System.Drawing.Size(180, 32);
@@ -119,6 +126,7 @@
             // lblNpc
             // 
             this.lblNpc.BackColor = System.Drawing.Color.Transparent;
+            this.lblNpc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblNpc.Location = new System.Drawing.Point(180, 32);
             this.lblNpc.Name = "lblNpc";
             this.lblNpc.Size = new System.Drawing.Size(180, 32);
@@ -130,6 +138,7 @@
             // 
             this.lblPagePosition.BackColor = System.Drawing.Color.Transparent;
             this.lblPagePosition.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblPagePosition.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblPagePosition.Location = new System.Drawing.Point(150, 6);
             this.lblPagePosition.Name = "lblPagePosition";
             this.lblPagePosition.Size = new System.Drawing.Size(59, 32);
@@ -140,6 +149,7 @@
             // PnlContent
             // 
             this.PnlContent.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.PnlContent.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.PnlContent.Location = new System.Drawing.Point(0, 65);
             this.PnlContent.Name = "PnlContent";
             this.PnlContent.Size = new System.Drawing.Size(360, 316);
@@ -149,6 +159,7 @@
             // 
             this.lblNext.BackColor = System.Drawing.Color.Transparent;
             this.lblNext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblNext.Location = new System.Drawing.Point(215, 6);
             this.lblNext.Name = "lblNext";
             this.lblNext.Size = new System.Drawing.Size(32, 32);
@@ -160,6 +171,7 @@
             // 
             this.lblLast.BackColor = System.Drawing.Color.Transparent;
             this.lblLast.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblLast.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblLast.Location = new System.Drawing.Point(112, 6);
             this.lblLast.Name = "lblLast";
             this.lblLast.Size = new System.Drawing.Size(32, 32);
@@ -178,6 +190,7 @@
             this.PnlTitle.Controls.Add(this.lblHelp);
             this.PnlTitle.Controls.Add(this.lblGamer);
             this.PnlTitle.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PnlTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.PnlTitle.Location = new System.Drawing.Point(0, 0);
             this.PnlTitle.Name = "PnlTitle";
             this.PnlTitle.Size = new System.Drawing.Size(360, 65);
@@ -189,12 +202,13 @@
             this.PnlPage.Controls.Add(this.lblPagePosition);
             this.PnlPage.Controls.Add(this.lblNext);
             this.PnlPage.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.PnlPage.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.PnlPage.Location = new System.Drawing.Point(0, 381);
             this.PnlPage.Name = "PnlPage";
             this.PnlPage.Size = new System.Drawing.Size(360, 44);
             this.PnlPage.TabIndex = 13;
             // 
-            // GamerListCtrl
+            // GamerList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

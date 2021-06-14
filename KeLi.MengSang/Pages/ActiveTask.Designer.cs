@@ -42,6 +42,7 @@
             // 
             this.lblLast.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblLast.BackColor = System.Drawing.Color.Transparent;
+            this.lblLast.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblLast.Location = new System.Drawing.Point(-2, -2);
             this.lblLast.Name = "lblLast";
             this.lblLast.Size = new System.Drawing.Size(50, 50);
@@ -53,6 +54,7 @@
             // 
             this.lblAnniversary.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAnniversary.BackColor = System.Drawing.Color.Transparent;
+            this.lblAnniversary.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblAnniversary.Location = new System.Drawing.Point(-2, 48);
             this.lblAnniversary.Name = "lblAnniversary";
             this.lblAnniversary.Size = new System.Drawing.Size(50, 50);
@@ -64,6 +66,7 @@
             // 
             this.lblGameParty.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblGameParty.BackColor = System.Drawing.Color.Transparent;
+            this.lblGameParty.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblGameParty.Location = new System.Drawing.Point(-2, 98);
             this.lblGameParty.Name = "lblGameParty";
             this.lblGameParty.Size = new System.Drawing.Size(50, 50);
@@ -75,6 +78,7 @@
             // 
             this.lblRecharge.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblRecharge.BackColor = System.Drawing.Color.Transparent;
+            this.lblRecharge.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblRecharge.Location = new System.Drawing.Point(-2, 148);
             this.lblRecharge.Name = "lblRecharge";
             this.lblRecharge.Size = new System.Drawing.Size(50, 50);
@@ -86,6 +90,7 @@
             // 
             this.lblCopyTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCopyTask.BackColor = System.Drawing.Color.Transparent;
+            this.lblCopyTask.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblCopyTask.Location = new System.Drawing.Point(-2, 198);
             this.lblCopyTask.Name = "lblCopyTask";
             this.lblCopyTask.Size = new System.Drawing.Size(50, 50);
@@ -97,6 +102,7 @@
             // 
             this.lblTreasureRoom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTreasureRoom.BackColor = System.Drawing.Color.Transparent;
+            this.lblTreasureRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblTreasureRoom.Location = new System.Drawing.Point(-2, 248);
             this.lblTreasureRoom.Name = "lblTreasureRoom";
             this.lblTreasureRoom.Size = new System.Drawing.Size(50, 50);
@@ -108,6 +114,7 @@
             // 
             this.lblReturnReward.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblReturnReward.BackColor = System.Drawing.Color.Transparent;
+            this.lblReturnReward.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblReturnReward.Location = new System.Drawing.Point(-2, 298);
             this.lblReturnReward.Name = "lblReturnReward";
             this.lblReturnReward.Size = new System.Drawing.Size(50, 50);
@@ -119,6 +126,7 @@
             // 
             this.lblNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNext.BackColor = System.Drawing.Color.Transparent;
+            this.lblNext.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblNext.Location = new System.Drawing.Point(-2, 348);
             this.lblNext.Name = "lblNext";
             this.lblNext.Size = new System.Drawing.Size(50, 50);
@@ -126,7 +134,7 @@
             this.lblNext.Text = "v";
             this.lblNext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ActiveTaskCtrl
+            // ActiveTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

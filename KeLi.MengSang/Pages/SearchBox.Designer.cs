@@ -36,6 +36,7 @@
             // 
             this.lblCmd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCmd.BackColor = System.Drawing.Color.Transparent;
+            this.lblCmd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.lblCmd.Location = new System.Drawing.Point(95, 0);
             this.lblCmd.Name = "lblCmd";
             this.lblCmd.Size = new System.Drawing.Size(29, 29);
@@ -50,14 +51,14 @@
             this.TxtInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(31)))), ((int)(((byte)(21)))));
             this.TxtInput.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtInput.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TxtInput.ForeColor = System.Drawing.SystemColors.Control;
+            this.TxtInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
             this.TxtInput.Location = new System.Drawing.Point(0, 0);
             this.TxtInput.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.TxtInput.Name = "TxtInput";
             this.TxtInput.Size = new System.Drawing.Size(124, 29);
             this.TxtInput.TabIndex = 10;
             // 
-            // SearchBoxCtrl
+            // SearchBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
