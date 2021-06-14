@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
 
-using KeLi.HulaiSang.Forms;
-
 namespace KeLi.HulaiSang
 {
     internal static class Program
@@ -12,7 +10,7 @@ namespace KeLi.HulaiSang
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HeroListFrm());
+            Application.Run(new MainFrm());
         }
     }
 }

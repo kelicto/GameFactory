@@ -29,47 +29,24 @@ namespace KeLi.HulaiSang
         /// </summary>
         private void InitializeComponent()
         {
-            this.levelPage1 = new KeLi.HulaiSang.Pages.LevelInfo();
-            this.activeTask1 = new KeLi.MengSang.Pages.ActiveTask();
-            this.mainMenu1 = new KeLi.MengSang.Pages.MainMenu();
-            this.chatMessage1 = new KeLi.MengSang.Pages.ChatMessage();
             this.resourcePage1 = new KeLi.HulaiSang.Pages.ResourceInfo();
+            this.chatMessage1 = new KeLi.MengSang.Pages.ChatMessage();
+            this.mainMenu1 = new KeLi.MengSang.Pages.MainMenu();
+            this.activeTask1 = new KeLi.MengSang.Pages.ActiveTask();
+            this.levelPage1 = new KeLi.HulaiSang.Pages.LevelInfo();
             this.SuspendLayout();
             // 
-            // levelPage1
+            // resourcePage1
             // 
-            this.levelPage1.BackColor = System.Drawing.Color.Transparent;
-            this.levelPage1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.levelPage1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.levelPage1.Location = new System.Drawing.Point(0, 0);
-            this.levelPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.levelPage1.Name = "levelPage1";
-            this.levelPage1.Size = new System.Drawing.Size(272, 144);
-            this.levelPage1.TabIndex = 0;
-            // 
-            // activeTask1
-            // 
-            this.activeTask1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.activeTask1.BackColor = System.Drawing.Color.Transparent;
-            this.activeTask1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.activeTask1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.activeTask1.Location = new System.Drawing.Point(1150, 120);
-            this.activeTask1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.activeTask1.Name = "activeTask1";
-            this.activeTask1.Size = new System.Drawing.Size(50, 300);
-            this.activeTask1.TabIndex = 5;
-            // 
-            // mainMenu1
-            // 
-            this.mainMenu1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.mainMenu1.BackColor = System.Drawing.Color.Transparent;
-            this.mainMenu1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.mainMenu1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.mainMenu1.Location = new System.Drawing.Point(850, 500);
-            this.mainMenu1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.mainMenu1.Name = "mainMenu1";
-            this.mainMenu1.Size = new System.Drawing.Size(350, 100);
-            this.mainMenu1.TabIndex = 6;
+            this.resourcePage1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.resourcePage1.BackColor = System.Drawing.Color.Transparent;
+            this.resourcePage1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.resourcePage1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.resourcePage1.Location = new System.Drawing.Point(520, 0);
+            this.resourcePage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.resourcePage1.Name = "resourcePage1";
+            this.resourcePage1.Size = new System.Drawing.Size(300, 22);
+            this.resourcePage1.TabIndex = 8;
             // 
             // chatMessage1
             // 
@@ -84,22 +61,46 @@ namespace KeLi.HulaiSang
             this.chatMessage1.Size = new System.Drawing.Size(360, 150);
             this.chatMessage1.TabIndex = 7;
             // 
-            // resourcePage1
+            // mainMenu1
             // 
-            this.resourcePage1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.resourcePage1.BackColor = System.Drawing.Color.Transparent;
-            this.resourcePage1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.resourcePage1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.resourcePage1.Location = new System.Drawing.Point(520, 0);
-            this.resourcePage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.resourcePage1.Name = "resourcePage1";
-            this.resourcePage1.Size = new System.Drawing.Size(300, 22);
-            this.resourcePage1.TabIndex = 8;
+            this.mainMenu1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.mainMenu1.BackColor = System.Drawing.Color.Transparent;
+            this.mainMenu1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.mainMenu1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.mainMenu1.Location = new System.Drawing.Point(850, 500);
+            this.mainMenu1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.mainMenu1.Name = "mainMenu1";
+            this.mainMenu1.Size = new System.Drawing.Size(350, 100);
+            this.mainMenu1.TabIndex = 6;
+            // 
+            // activeTask1
+            // 
+            this.activeTask1.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.activeTask1.BackColor = System.Drawing.Color.Transparent;
+            this.activeTask1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.activeTask1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.activeTask1.Location = new System.Drawing.Point(1150, 120);
+            this.activeTask1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.activeTask1.Name = "activeTask1";
+            this.activeTask1.Size = new System.Drawing.Size(50, 300);
+            this.activeTask1.TabIndex = 5;
+            // 
+            // levelPage1
+            // 
+            this.levelPage1.BackColor = System.Drawing.Color.Transparent;
+            this.levelPage1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.levelPage1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.levelPage1.Location = new System.Drawing.Point(0, 0);
+            this.levelPage1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.levelPage1.Name = "levelPage1";
+            this.levelPage1.Size = new System.Drawing.Size(272, 144);
+            this.levelPage1.TabIndex = 0;
             // 
             // MainFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1200, 600);
             this.Controls.Add(this.resourcePage1);
             this.Controls.Add(this.chatMessage1);
