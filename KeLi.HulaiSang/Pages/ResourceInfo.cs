@@ -2,9 +2,9 @@
 
 namespace KeLi.HulaiSang.Pages
 {
-    public partial class ResourcePage : ShadowControl
+    public partial class ResourceInfo : ShadowControl
     {
-        public ResourcePage()
+        public ResourceInfo()
         {
             InitializeComponent();
         }

@@ -1,10 +1,10 @@
 ﻿using KeLi.GameFactory.Components;
 
-namespace KeLi.HulaiSang.Pages
+namespace KeLi.HulaiSang.Forms
 {
-    public partial class GamerPage : ShadowControl
+    public partial class HeroListFrm : ShadowForm
     {
-        public GamerPage()
+        public HeroListFrm()
         {
             InitializeComponent();
         }

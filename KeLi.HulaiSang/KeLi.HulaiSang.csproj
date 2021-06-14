@@ -47,34 +47,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\HeroListFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HeroListFrm.Designer.cs">
+      <DependentUpon>HeroListFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hero\HeroInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Hero\HeroInfo.Designer.cs">
+      <DependentUpon>HeroInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainFrm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainFrm.Designer.cs">
       <DependentUpon>MainFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\GamerPage.cs">
+    <Compile Include="Pages\ActiveTask.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\GamerPage.Designer.cs">
-      <DependentUpon>GamerPage.cs</DependentUpon>
+    <Compile Include="Pages\ActiveTask.Designer.cs">
+      <DependentUpon>ActiveTask.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\MainTaskPage.cs">
+    <Compile Include="Pages\ChatMessage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\MainTaskPage.Designer.cs">
-      <DependentUpon>MainTaskPage.cs</DependentUpon>
+    <Compile Include="Pages\ChatMessage.Designer.cs">
+      <DependentUpon>ChatMessage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ResourcePage.cs">
+    <Compile Include="Pages\LevelInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\ResourcePage.Designer.cs">
-      <DependentUpon>ResourcePage.cs</DependentUpon>
+    <Compile Include="Pages\LevelInfo.Designer.cs">
+      <DependentUpon>LevelInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MainMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ResourceInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\ResourceInfo.Designer.cs">
+      <DependentUpon>ResourceInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\HeroListFrm.resx">
+      <DependentUpon>HeroListFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hero\HeroInfo.resx">
+      <DependentUpon>HeroInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainFrm.resx">
       <DependentUpon>MainFrm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ActiveTask.resx">
+      <DependentUpon>ActiveTask.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ChatMessage.resx">
+      <DependentUpon>ChatMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\LevelInfo.resx">
+      <DependentUpon>LevelInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\ResourceInfo.resx">
+      <DependentUpon>ResourceInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -106,7 +152,46 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Header.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LvBu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BiQiangJiRuo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DouZhuanXingYi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FanKeWeiZhu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QiGuanChangHong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XueZhaiXueChang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YiYiDaiLao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZhanShenZhiNu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BaWang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LongYa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YuLei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZhuiFeng.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

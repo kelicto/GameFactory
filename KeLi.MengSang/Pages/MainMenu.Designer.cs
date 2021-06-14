@@ -32,7 +32,7 @@
             this.lblTask = new System.Windows.Forms.Label();
             this.lblCollection = new System.Windows.Forms.Label();
             this.lblSociety = new System.Windows.Forms.Label();
-            this.lblFeat = new System.Windows.Forms.Label();
+            this.lblBag = new System.Windows.Forms.Label();
             this.lblAchievement = new System.Windows.Forms.Label();
             this.lblFriend = new System.Windows.Forms.Label();
             this.lblShop = new System.Windows.Forms.Label();
@@ -86,17 +86,17 @@
             this.lblSociety.Text = "社会";
             this.lblSociety.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lblFeat
+            // lblBag
             // 
-            this.lblFeat.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblFeat.BackColor = System.Drawing.Color.Transparent;
-            this.lblFeat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
-            this.lblFeat.Location = new System.Drawing.Point(200, 50);
-            this.lblFeat.Name = "lblFeat";
-            this.lblFeat.Size = new System.Drawing.Size(50, 50);
-            this.lblFeat.TabIndex = 17;
-            this.lblFeat.Text = "功勋";
-            this.lblFeat.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBag.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblBag.BackColor = System.Drawing.Color.Transparent;
+            this.lblBag.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
+            this.lblBag.Location = new System.Drawing.Point(200, 50);
+            this.lblBag.Name = "lblBag";
+            this.lblBag.Size = new System.Drawing.Size(50, 50);
+            this.lblBag.TabIndex = 17;
+            this.lblBag.Text = "背包";
+            this.lblBag.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblAchievement
             // 
@@ -142,7 +142,7 @@
             this.Controls.Add(this.lblShop);
             this.Controls.Add(this.lblFriend);
             this.Controls.Add(this.lblAchievement);
-            this.Controls.Add(this.lblFeat);
+            this.Controls.Add(this.lblBag);
             this.Controls.Add(this.lblSociety);
             this.Controls.Add(this.lblCollection);
             this.Controls.Add(this.lblTask);
@@ -159,7 +159,7 @@
         private System.Windows.Forms.Label lblTask;
         private System.Windows.Forms.Label lblCollection;
         private System.Windows.Forms.Label lblSociety;
-        private System.Windows.Forms.Label lblFeat;
+        private System.Windows.Forms.Label lblBag;
         private System.Windows.Forms.Label lblAchievement;
         private System.Windows.Forms.Label lblFriend;
         private System.Windows.Forms.Label lblShop;
