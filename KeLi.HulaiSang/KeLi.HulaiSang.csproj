@@ -47,80 +47,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\HeroListFrm.cs">
+    <Compile Include="Forms\HeroListForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\HeroListFrm.Designer.cs">
-      <DependentUpon>HeroListFrm.cs</DependentUpon>
+    <Compile Include="Forms\HeroListForm.Designer.cs">
+      <DependentUpon>HeroListForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hero\HeroInfo.cs">
+    <Compile Include="Hero\HeroInfoControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Hero\HeroInfo.Designer.cs">
-      <DependentUpon>HeroInfo.cs</DependentUpon>
+    <Compile Include="Hero\HeroInfoControl.Designer.cs">
+      <DependentUpon>HeroInfoControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainFrm.cs">
+    <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainFrm.Designer.cs">
-      <DependentUpon>MainFrm.cs</DependentUpon>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ActiveTask.cs">
+    <Compile Include="Pages\ActiveTaskControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\ActiveTask.Designer.cs">
-      <DependentUpon>ActiveTask.cs</DependentUpon>
+    <Compile Include="Pages\ActiveTaskControl.Designer.cs">
+      <DependentUpon>ActiveTaskControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ChatMessage.cs">
+    <Compile Include="Pages\ChatMessageControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\ChatMessage.Designer.cs">
-      <DependentUpon>ChatMessage.cs</DependentUpon>
+    <Compile Include="Pages\ChatMessageControl.Designer.cs">
+      <DependentUpon>ChatMessageControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\LevelInfo.cs">
+    <Compile Include="Pages\LevelInfoControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\LevelInfo.Designer.cs">
-      <DependentUpon>LevelInfo.cs</DependentUpon>
+    <Compile Include="Pages\LevelInfoControl.Designer.cs">
+      <DependentUpon>LevelInfoControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\MainMenu.cs">
+    <Compile Include="Pages\MainMenuControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\MainMenu.Designer.cs">
-      <DependentUpon>MainMenu.cs</DependentUpon>
+    <Compile Include="Pages\MainMenuControl.Designer.cs">
+      <DependentUpon>MainMenuControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\ResourceInfo.cs">
+    <Compile Include="Pages\ResourceInfoControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Pages\ResourceInfo.Designer.cs">
-      <DependentUpon>ResourceInfo.cs</DependentUpon>
+    <Compile Include="Pages\ResourceInfoControl.Designer.cs">
+      <DependentUpon>ResourceInfoControl.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\HeroListFrm.resx">
-      <DependentUpon>HeroListFrm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\HeroListForm.resx">
+      <DependentUpon>HeroListForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Hero\HeroInfo.resx">
-      <DependentUpon>HeroInfo.cs</DependentUpon>
+    <EmbeddedResource Include="Hero\HeroInfoControl.resx">
+      <DependentUpon>HeroInfoControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainFrm.resx">
-      <DependentUpon>MainFrm.cs</DependentUpon>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\ActiveTask.resx">
-      <DependentUpon>ActiveTask.cs</DependentUpon>
+    <EmbeddedResource Include="Pages\ActiveTaskControl.resx">
+      <DependentUpon>ActiveTaskControl.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\ChatMessage.resx">
-      <DependentUpon>ChatMessage.cs</DependentUpon>
+    <EmbeddedResource Include="Pages\ChatMessageControl.resx">
+      <DependentUpon>ChatMessageControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\LevelInfo.resx">
-      <DependentUpon>LevelInfo.cs</DependentUpon>
+    <EmbeddedResource Include="Pages\LevelInfoControl.resx">
+      <DependentUpon>LevelInfoControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\MainMenu.resx">
-      <DependentUpon>MainMenu.cs</DependentUpon>
+    <EmbeddedResource Include="Pages\MainMenuControl.resx">
+      <DependentUpon>MainMenuControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\ResourceInfo.resx">
-      <DependentUpon>ResourceInfo.cs</DependentUpon>
+    <EmbeddedResource Include="Pages\ResourceInfoControl.resx">
+      <DependentUpon>ResourceInfoControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,12 +144,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\KeLi.GameFactory.Components\KeLi.GameFactory.Components.csproj">
-      <Project>{14a87ebc-ab6b-4b9d-a848-45a195c0747f}</Project>
-      <Name>KeLi.GameFactory.Components</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Header.png" />
@@ -192,6 +186,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ZhuiFeng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KeLi.GameFactory.UI\KeLi.GameFactory.UI.csproj">
+      <Project>{14a87ebc-ab6b-4b9d-a848-45a195c0747f}</Project>
+      <Name>KeLi.GameFactory.UI</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

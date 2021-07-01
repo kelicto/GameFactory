@@ -1,4 +1,4 @@
-﻿using KeLi.GameFactory.Components;
+﻿using KeLi.GameFactory.UI;
 
 namespace KeLi.DoomBloodWar
 {

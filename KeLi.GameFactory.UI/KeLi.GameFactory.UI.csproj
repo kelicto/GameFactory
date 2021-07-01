@@ -4,14 +4,13 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{70BDC3A2-881B-4EE1-BCF4-AB58F860E8AE}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>KeLi.DoomBloodWar</RootNamespace>
-    <AssemblyName>KeLi.DoomBloodWar</AssemblyName>
+    <ProjectGuid>{14A87EBC-AB6B-4B9D-A848-45A195C0747F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>KeLi.GameFactory.UI</RootNamespace>
+    <AssemblyName>KeLi.GameFactory.UI</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,14 +48,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Utils\LocationUtil.cs" />
+    <Compile Include="ShadowControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShadowControl.Designer.cs">
+      <DependentUpon>ShadowControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShadowForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="ShadowForm.Designer.cs">
+      <DependentUpon>ShadowForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\FormUtil.cs" />
+    <Compile Include="Utils\User32Importer.cs" />
+    <EmbeddedResource Include="ShadowControl.resx">
+      <DependentUpon>ShadowControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -64,6 +77,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ShadowForm.resx">
+      <DependentUpon>ShadowForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -74,14 +90,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\KeLi.GameFactory.UI\KeLi.GameFactory.UI.csproj">
-      <Project>{14a87ebc-ab6b-4b9d-a848-45a195c0747f}</Project>
-      <Name>KeLi.GameFactory.UI</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
