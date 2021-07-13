@@ -3,9 +3,9 @@ using KeLi.HulaiSang.Properties;
 
 namespace KeLi.HulaiSang.Hero
 {
-    public partial class HeroInfoControl : ShadowControl
+    public partial class HeroControl : ShadowControl
     {
-        public HeroInfoControl()
+        public HeroControl()
         {
             InitializeComponent();
 

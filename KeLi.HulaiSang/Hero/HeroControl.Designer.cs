@@ -1,7 +1,7 @@
 ﻿
 namespace KeLi.HulaiSang.Hero
 {
-    partial class HeroInfoControl
+    partial class HeroControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -90,7 +90,6 @@ namespace KeLi.HulaiSang.Hero
             // lblLevelProgress
             // 
             this.lblLevelProgress.BackColor = System.Drawing.Color.Transparent;
-            this.lblLevelProgress.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblLevelProgress.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F);
             this.lblLevelProgress.ForeColor = System.Drawing.Color.White;
             this.lblLevelProgress.Location = new System.Drawing.Point(91, 186);
@@ -103,9 +102,9 @@ namespace KeLi.HulaiSang.Hero
             // lblLevel
             // 
             this.lblLevel.BackColor = System.Drawing.Color.Transparent;
-            this.lblLevel.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblLevel.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblLevel.ForeColor = System.Drawing.Color.White;
-            this.lblLevel.Location = new System.Drawing.Point(35, 181);
+            this.lblLevel.Location = new System.Drawing.Point(0, 0);
             this.lblLevel.Name = "lblLevel";
             this.lblLevel.Size = new System.Drawing.Size(50, 32);
             this.lblLevel.TabIndex = 24;
@@ -116,7 +115,6 @@ namespace KeLi.HulaiSang.Hero
             // 
             this.lblGongValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblGongValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblGongValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblGongValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblGongValue.ForeColor = System.Drawing.Color.Yellow;
             this.lblGongValue.Location = new System.Drawing.Point(70, 269);
@@ -156,7 +154,6 @@ namespace KeLi.HulaiSang.Hero
             // 
             this.lblSuDuValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSuDuValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblSuDuValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblSuDuValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblSuDuValue.ForeColor = System.Drawing.Color.Red;
             this.lblSuDuValue.Location = new System.Drawing.Point(70, 294);
@@ -170,7 +167,6 @@ namespace KeLi.HulaiSang.Hero
             // 
             this.lblXueValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblXueValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblXueValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblXueValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblXueValue.ForeColor = System.Drawing.Color.Red;
             this.lblXueValue.Location = new System.Drawing.Point(163, 293);
@@ -197,7 +193,6 @@ namespace KeLi.HulaiSang.Hero
             // 
             this.lblFangValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFangValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblFangValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblFangValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblFangValue.ForeColor = System.Drawing.Color.Purple;
             this.lblFangValue.Location = new System.Drawing.Point(163, 268);
@@ -237,7 +232,6 @@ namespace KeLi.HulaiSang.Hero
             // 
             this.lblTiValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTiValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblTiValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblTiValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblTiValue.ForeColor = System.Drawing.Color.White;
             this.lblTiValue.Location = new System.Drawing.Point(69, 330);
@@ -264,7 +258,6 @@ namespace KeLi.HulaiSang.Hero
             // 
             this.lblBingValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBingValue.BackColor = System.Drawing.Color.Transparent;
-            this.lblBingValue.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblBingValue.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblBingValue.ForeColor = System.Drawing.Color.White;
             this.lblBingValue.Location = new System.Drawing.Point(163, 330);
@@ -472,11 +465,11 @@ namespace KeLi.HulaiSang.Hero
             this.pbZB4.TabIndex = 20;
             this.pbZB4.TabStop = false;
             // 
-            // HeroInfo
+            // HeroControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Teal;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Controls.Add(this.lblView);
             this.Controls.Add(this.lblBingValue);
@@ -510,7 +503,7 @@ namespace KeLi.HulaiSang.Hero
             this.Controls.Add(this.pbZB1);
             this.Controls.Add(this.pbJN1);
             this.Controls.Add(this.pbHeader);
-            this.Name = "HeroInfo";
+            this.Name = "HeroControl";
             this.Size = new System.Drawing.Size(298, 548);
             ((System.ComponentModel.ISupportInitialize)(this.pbHeader)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbJN1)).EndInit();

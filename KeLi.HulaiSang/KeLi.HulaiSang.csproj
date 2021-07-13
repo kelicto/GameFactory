@@ -53,11 +53,11 @@
     <Compile Include="Forms\HeroListForm.Designer.cs">
       <DependentUpon>HeroListForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hero\HeroInfoControl.cs">
+    <Compile Include="Hero\HeroControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Hero\HeroInfoControl.Designer.cs">
-      <DependentUpon>HeroInfoControl.cs</DependentUpon>
+    <Compile Include="Hero\HeroControl.Designer.cs">
+      <DependentUpon>HeroControl.cs</DependentUpon>
     </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
@@ -100,8 +100,8 @@
     <EmbeddedResource Include="Forms\HeroListForm.resx">
       <DependentUpon>HeroListForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Hero\HeroInfoControl.resx">
-      <DependentUpon>HeroInfoControl.cs</DependentUpon>
+    <EmbeddedResource Include="Hero\HeroControl.resx">
+      <DependentUpon>HeroControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

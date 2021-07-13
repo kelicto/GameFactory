@@ -31,9 +31,9 @@ namespace KeLi.HulaiSang.Forms
         {
             this.label16 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.heroInfo1 = new KeLi.HulaiSang.Hero.HeroInfoControl();
-            this.heroInfo2 = new KeLi.HulaiSang.Hero.HeroInfoControl();
-            this.heroInfo3 = new KeLi.HulaiSang.Hero.HeroInfoControl();
+            this.heroInfo1 = new KeLi.HulaiSang.Hero.HeroControl();
+            this.heroInfo2 = new KeLi.HulaiSang.Hero.HeroControl();
+            this.heroInfo3 = new KeLi.HulaiSang.Hero.HeroControl();
             this.SuspendLayout();
             // 
             // label16
@@ -62,7 +62,7 @@ namespace KeLi.HulaiSang.Forms
             // 
             // heroInfo1
             // 
-            this.heroInfo1.BackColor = System.Drawing.Color.Teal;
+            this.heroInfo1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.heroInfo1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.heroInfo1.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.heroInfo1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
@@ -74,7 +74,7 @@ namespace KeLi.HulaiSang.Forms
             // 
             // heroInfo2
             // 
-            this.heroInfo2.BackColor = System.Drawing.Color.Teal;
+            this.heroInfo2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.heroInfo2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.heroInfo2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.heroInfo2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
@@ -86,7 +86,7 @@ namespace KeLi.HulaiSang.Forms
             // 
             // heroInfo3
             // 
-            this.heroInfo3.BackColor = System.Drawing.Color.Teal;
+            this.heroInfo3.BackColor = System.Drawing.Color.CornflowerBlue;
             this.heroInfo3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.heroInfo3.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.heroInfo3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(202)))), ((int)(((byte)(176)))));
@@ -96,7 +96,7 @@ namespace KeLi.HulaiSang.Forms
             this.heroInfo3.Size = new System.Drawing.Size(298, 548);
             this.heroInfo3.TabIndex = 23;
             // 
-            // HeroListFrm
+            // HeroListForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -107,7 +107,7 @@ namespace KeLi.HulaiSang.Forms
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label16);
             this.Location = new System.Drawing.Point(0, 0);
-            this.Name = "HeroListFrm";
+            this.Name = "HeroListForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HeroListFrm";
             this.ResumeLayout(false);
@@ -117,8 +117,8 @@ namespace KeLi.HulaiSang.Forms
         #endregion
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label1;
-        private Hero.HeroInfoControl heroInfo1;
-        private Hero.HeroInfoControl heroInfo2;
-        private Hero.HeroInfoControl heroInfo3;
+        private Hero.HeroControl heroInfo1;
+        private Hero.HeroControl heroInfo2;
+        private Hero.HeroControl heroInfo3;
     }
 }
