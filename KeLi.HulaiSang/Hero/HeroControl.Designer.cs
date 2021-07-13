@@ -335,7 +335,7 @@ namespace KeLi.HulaiSang.Hero
             // lblChengHao
             // 
             this.lblChengHao.BackColor = System.Drawing.Color.Transparent;
-            this.lblChengHao.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lblChengHao.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lblChengHao.ForeColor = System.Drawing.Color.Red;
             this.lblChengHao.Location = new System.Drawing.Point(108, 4);
             this.lblChengHao.Name = "lblChengHao";
